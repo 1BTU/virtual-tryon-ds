@@ -1,0 +1,8 @@
+2023-08-21 13:49:13,719 - Data: {'new_parameter': 'new_value', 'parameter1': 'new_value1', 'parameter2': 'new_value2'}
+2023-08-21 13:49:47,741 - Data: {'new_parameter': 'new_value', 'parameter1': 'new_value1', 'parameter2': 'new_value2'}
+2023-08-21 13:50:15,095 - Data: {'new_parameter': 'new_value', 'parameter1': 'new_value1', 'parameter2': 'new_value2'}
+2023-08-21 13:50:49,837 - Data: {'new_parameter': 'new_value', 'parameter1': 'new_value1', 'parameter2': 'new_value2'}
+2023-08-21 13:51:02,517 - Data: {'new_parameter': 'new_value', 'parameter1': 'new_value1', 'parameter2': 'new_value2', 'new_parameter4': 'new_value'}
+2023-08-21 13:51:25,226 - Data: {'new_parameter': 'new_value', 'new_parameter4': 'new_value', 'parameter1': 'new_value1', 'parameter2': 'new_value2', 'paramete的r1': 'new_value1'}
+2023-08-21 13:51:52,378 - Data: {'new_parameter': 'new_value', 'new_parameter4': 'new_value', 'parameter1': 'new_value1', 'parameter2': 'new_value2', 'paramete的r1': 'new_value1'}
+2023-08-21 13:52:06,707 - Data: {'new_parameter': 'new_value', 'new_parameter4': 'new_valuewer', 'parameter1': 'new_value1', 'parameter2': 'new_value2', 'paramete的r1': 'new_value1'}

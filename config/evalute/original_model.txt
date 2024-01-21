@@ -1,0 +1,1 @@
+/home/xxfs/document/ai/fuchuang/DAFlow/checkpoint/original_model/model.pt,1
