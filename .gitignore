@@ -3,7 +3,6 @@ results/
 *.pyc
 logs
 *.pdf
-*.pth
 *.tar
 *.jpg
 *.png
