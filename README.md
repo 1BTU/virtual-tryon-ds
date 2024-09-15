@@ -50,3 +50,5 @@ python never_parse_ds_train_SDANet_viton.py -b 2 --lr 0.00002 --ratio 0.25
 ## **感谢**
 
 我们的代码参考了[DAFlow](https://github.com/OFA-Sys/DAFlow?tab=readme-ov-file)中的多级联网络和[PF-AFN](https://github.com/geyuying/PF-AFN)知识蒸馏技术。感谢他们的精彩工作。
+## License
+此代码的使用仅限于非商业研究和教育目的。
