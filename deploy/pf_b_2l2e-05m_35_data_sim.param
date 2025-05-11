@@ -1,0 +1,954 @@
+7767517
+952 1309
+Input            input_person             0 1 input_person
+Split            splitncnn_input0         1 2 input_person input_person_splitncnn_0 input_person_splitncnn_1
+Input            input_clothes            0 1 input_clothes
+Split            splitncnn_input1         1 2 input_clothes input_clothes_splitncnn_0 input_clothes_splitncnn_1
+MemoryData       /dafnet/Constant_1_output_0 0 1 /dafnet/Constant_1_output_0 0=1
+Split            splitncnn_0              1 12 /dafnet/Constant_1_output_0 /dafnet/Constant_1_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_2 /dafnet/Constant_1_output_0_splitncnn_3 /dafnet/Constant_1_output_0_splitncnn_4 /dafnet/Constant_1_output_0_splitncnn_5 /dafnet/Constant_1_output_0_splitncnn_6 /dafnet/Constant_1_output_0_splitncnn_7 /dafnet/Constant_1_output_0_splitncnn_8 /dafnet/Constant_1_output_0_splitncnn_9 /dafnet/Constant_1_output_0_splitncnn_10 /dafnet/Constant_1_output_0_splitncnn_11
+MemoryData       /dafnet/Constant_22_output_0 0 1 /dafnet/Constant_22_output_0 0=1
+Split            splitncnn_1              1 40 /dafnet/Constant_22_output_0 /dafnet/Constant_22_output_0_splitncnn_0 /dafnet/Constant_22_output_0_splitncnn_1 /dafnet/Constant_22_output_0_splitncnn_2 /dafnet/Constant_22_output_0_splitncnn_3 /dafnet/Constant_22_output_0_splitncnn_4 /dafnet/Constant_22_output_0_splitncnn_5 /dafnet/Constant_22_output_0_splitncnn_6 /dafnet/Constant_22_output_0_splitncnn_7 /dafnet/Constant_22_output_0_splitncnn_8 /dafnet/Constant_22_output_0_splitncnn_9 /dafnet/Constant_22_output_0_splitncnn_10 /dafnet/Constant_22_output_0_splitncnn_11 /dafnet/Constant_22_output_0_splitncnn_12 /dafnet/Constant_22_output_0_splitncnn_13 /dafnet/Constant_22_output_0_splitncnn_14 /dafnet/Constant_22_output_0_splitncnn_15 /dafnet/Constant_22_output_0_splitncnn_16 /dafnet/Constant_22_output_0_splitncnn_17 /dafnet/Constant_22_output_0_splitncnn_18 /dafnet/Constant_22_output_0_splitncnn_19 /dafnet/Constant_22_output_0_splitncnn_20 /dafnet/Constant_22_output_0_splitncnn_21 /dafnet/Constant_22_output_0_splitncnn_22 /dafnet/Constant_22_output_0_splitncnn_23 /dafnet/Constant_22_output_0_splitncnn_24 /dafnet/Constant_22_output_0_splitncnn_25 /dafnet/Constant_22_output_0_splitncnn_26 /dafnet/Constant_22_output_0_splitncnn_27 /dafnet/Constant_22_output_0_splitncnn_28 /dafnet/Constant_22_output_0_splitncnn_29 /dafnet/Constant_22_output_0_splitncnn_30 /dafnet/Constant_22_output_0_splitncnn_31 /dafnet/Constant_22_output_0_splitncnn_32 /dafnet/Constant_22_output_0_splitncnn_33 /dafnet/Constant_22_output_0_splitncnn_34 /dafnet/Constant_22_output_0_splitncnn_35 /dafnet/Constant_22_output_0_splitncnn_36 /dafnet/Constant_22_output_0_splitncnn_37 /dafnet/Constant_22_output_0_splitncnn_38 /dafnet/Constant_22_output_0_splitncnn_39
+MemoryData       /dafnet/Constant_24_output_0 0 1 /dafnet/Constant_24_output_0 0=1
+Split            splitncnn_2              1 20 /dafnet/Constant_24_output_0 /dafnet/Constant_24_output_0_splitncnn_0 /dafnet/Constant_24_output_0_splitncnn_1 /dafnet/Constant_24_output_0_splitncnn_2 /dafnet/Constant_24_output_0_splitncnn_3 /dafnet/Constant_24_output_0_splitncnn_4 /dafnet/Constant_24_output_0_splitncnn_5 /dafnet/Constant_24_output_0_splitncnn_6 /dafnet/Constant_24_output_0_splitncnn_7 /dafnet/Constant_24_output_0_splitncnn_8 /dafnet/Constant_24_output_0_splitncnn_9 /dafnet/Constant_24_output_0_splitncnn_10 /dafnet/Constant_24_output_0_splitncnn_11 /dafnet/Constant_24_output_0_splitncnn_12 /dafnet/Constant_24_output_0_splitncnn_13 /dafnet/Constant_24_output_0_splitncnn_14 /dafnet/Constant_24_output_0_splitncnn_15 /dafnet/Constant_24_output_0_splitncnn_16 /dafnet/Constant_24_output_0_splitncnn_17 /dafnet/Constant_24_output_0_splitncnn_18 /dafnet/Constant_24_output_0_splitncnn_19
+MemoryData       /dafnet/Constant_25_output_0 0 1 /dafnet/Constant_25_output_0 0=5
+Split            splitncnn_3              1 18 /dafnet/Constant_25_output_0 /dafnet/Constant_25_output_0_splitncnn_0 /dafnet/Constant_25_output_0_splitncnn_1 /dafnet/Constant_25_output_0_splitncnn_2 /dafnet/Constant_25_output_0_splitncnn_3 /dafnet/Constant_25_output_0_splitncnn_4 /dafnet/Constant_25_output_0_splitncnn_5 /dafnet/Constant_25_output_0_splitncnn_6 /dafnet/Constant_25_output_0_splitncnn_7 /dafnet/Constant_25_output_0_splitncnn_8 /dafnet/Constant_25_output_0_splitncnn_9 /dafnet/Constant_25_output_0_splitncnn_10 /dafnet/Constant_25_output_0_splitncnn_11 /dafnet/Constant_25_output_0_splitncnn_12 /dafnet/Constant_25_output_0_splitncnn_13 /dafnet/Constant_25_output_0_splitncnn_14 /dafnet/Constant_25_output_0_splitncnn_15 /dafnet/Constant_25_output_0_splitncnn_16 /dafnet/Constant_25_output_0_splitncnn_17
+MemoryData       /dafnet/Constant_34_output_0 0 1 /dafnet/Constant_34_output_0 0=5
+Split            splitncnn_4              1 12 /dafnet/Constant_34_output_0 /dafnet/Constant_34_output_0_splitncnn_0 /dafnet/Constant_34_output_0_splitncnn_1 /dafnet/Constant_34_output_0_splitncnn_2 /dafnet/Constant_34_output_0_splitncnn_3 /dafnet/Constant_34_output_0_splitncnn_4 /dafnet/Constant_34_output_0_splitncnn_5 /dafnet/Constant_34_output_0_splitncnn_6 /dafnet/Constant_34_output_0_splitncnn_7 /dafnet/Constant_34_output_0_splitncnn_8 /dafnet/Constant_34_output_0_splitncnn_9 /dafnet/Constant_34_output_0_splitncnn_10 /dafnet/Constant_34_output_0_splitncnn_11
+MemoryData       /dafnet/Constant_43_output_0 0 1 /dafnet/Constant_43_output_0 0=6
+Split            splitncnn_5              1 18 /dafnet/Constant_43_output_0 /dafnet/Constant_43_output_0_splitncnn_0 /dafnet/Constant_43_output_0_splitncnn_1 /dafnet/Constant_43_output_0_splitncnn_2 /dafnet/Constant_43_output_0_splitncnn_3 /dafnet/Constant_43_output_0_splitncnn_4 /dafnet/Constant_43_output_0_splitncnn_5 /dafnet/Constant_43_output_0_splitncnn_6 /dafnet/Constant_43_output_0_splitncnn_7 /dafnet/Constant_43_output_0_splitncnn_8 /dafnet/Constant_43_output_0_splitncnn_9 /dafnet/Constant_43_output_0_splitncnn_10 /dafnet/Constant_43_output_0_splitncnn_11 /dafnet/Constant_43_output_0_splitncnn_12 /dafnet/Constant_43_output_0_splitncnn_13 /dafnet/Constant_43_output_0_splitncnn_14 /dafnet/Constant_43_output_0_splitncnn_15 /dafnet/Constant_43_output_0_splitncnn_16 /dafnet/Constant_43_output_0_splitncnn_17
+MemoryData       /dafnet/Constant_762_output_0 0 1 /dafnet/Constant_762_output_0 0=5
+Split            splitncnn_6              1 2 /dafnet/Constant_762_output_0 /dafnet/Constant_762_output_0_splitncnn_0 /dafnet/Constant_762_output_0_splitncnn_1
+MemoryData       /dafnet/Constant_780_output_0 0 1 /dafnet/Constant_780_output_0 0=6
+Split            splitncnn_7              1 2 /dafnet/Constant_780_output_0 /dafnet/Constant_780_output_0_splitncnn_0 /dafnet/Constant_780_output_0_splitncnn_1
+MemoryData       /dafnet/Unsqueeze_1_output_0 0 1 /dafnet/Unsqueeze_1_output_0 0=6 1=8
+Split            splitncnn_8              1 4 /dafnet/Unsqueeze_1_output_0 /dafnet/Unsqueeze_1_output_0_splitncnn_0 /dafnet/Unsqueeze_1_output_0_splitncnn_1 /dafnet/Unsqueeze_1_output_0_splitncnn_2 /dafnet/Unsqueeze_1_output_0_splitncnn_3
+MemoryData       /dafnet/Unsqueeze_24_output_0 0 1 /dafnet/Unsqueeze_24_output_0 0=12 1=16
+Split            splitncnn_9              1 4 /dafnet/Unsqueeze_24_output_0 /dafnet/Unsqueeze_24_output_0_splitncnn_0 /dafnet/Unsqueeze_24_output_0_splitncnn_1 /dafnet/Unsqueeze_24_output_0_splitncnn_2 /dafnet/Unsqueeze_24_output_0_splitncnn_3
+MemoryData       /dafnet/Unsqueeze_25_output_0 0 1 /dafnet/Unsqueeze_25_output_0 0=12 1=16
+Split            splitncnn_10             1 4 /dafnet/Unsqueeze_25_output_0 /dafnet/Unsqueeze_25_output_0_splitncnn_0 /dafnet/Unsqueeze_25_output_0_splitncnn_1 /dafnet/Unsqueeze_25_output_0_splitncnn_2 /dafnet/Unsqueeze_25_output_0_splitncnn_3
+MemoryData       /dafnet/Unsqueeze_46_output_0 0 1 /dafnet/Unsqueeze_46_output_0 0=24 1=32
+Split            splitncnn_11             1 4 /dafnet/Unsqueeze_46_output_0 /dafnet/Unsqueeze_46_output_0_splitncnn_0 /dafnet/Unsqueeze_46_output_0_splitncnn_1 /dafnet/Unsqueeze_46_output_0_splitncnn_2 /dafnet/Unsqueeze_46_output_0_splitncnn_3
+MemoryData       /dafnet/Unsqueeze_47_output_0 0 1 /dafnet/Unsqueeze_47_output_0 0=24 1=32
+Split            splitncnn_12             1 4 /dafnet/Unsqueeze_47_output_0 /dafnet/Unsqueeze_47_output_0_splitncnn_0 /dafnet/Unsqueeze_47_output_0_splitncnn_1 /dafnet/Unsqueeze_47_output_0_splitncnn_2 /dafnet/Unsqueeze_47_output_0_splitncnn_3
+MemoryData       /dafnet/Unsqueeze_68_output_0 0 1 /dafnet/Unsqueeze_68_output_0 0=48 1=64
+Split            splitncnn_13             1 4 /dafnet/Unsqueeze_68_output_0 /dafnet/Unsqueeze_68_output_0_splitncnn_0 /dafnet/Unsqueeze_68_output_0_splitncnn_1 /dafnet/Unsqueeze_68_output_0_splitncnn_2 /dafnet/Unsqueeze_68_output_0_splitncnn_3
+MemoryData       /dafnet/Unsqueeze_69_output_0 0 1 /dafnet/Unsqueeze_69_output_0 0=48 1=64
+Split            splitncnn_14             1 4 /dafnet/Unsqueeze_69_output_0 /dafnet/Unsqueeze_69_output_0_splitncnn_0 /dafnet/Unsqueeze_69_output_0_splitncnn_1 /dafnet/Unsqueeze_69_output_0_splitncnn_2 /dafnet/Unsqueeze_69_output_0_splitncnn_3
+MemoryData       /dafnet/Unsqueeze_90_output_0 0 1 /dafnet/Unsqueeze_90_output_0 0=96 1=128
+Split            splitncnn_15             1 4 /dafnet/Unsqueeze_90_output_0 /dafnet/Unsqueeze_90_output_0_splitncnn_0 /dafnet/Unsqueeze_90_output_0_splitncnn_1 /dafnet/Unsqueeze_90_output_0_splitncnn_2 /dafnet/Unsqueeze_90_output_0_splitncnn_3
+MemoryData       /dafnet/Unsqueeze_91_output_0 0 1 /dafnet/Unsqueeze_91_output_0 0=96 1=128
+Split            splitncnn_16             1 4 /dafnet/Unsqueeze_91_output_0 /dafnet/Unsqueeze_91_output_0_splitncnn_0 /dafnet/Unsqueeze_91_output_0_splitncnn_1 /dafnet/Unsqueeze_91_output_0_splitncnn_2 /dafnet/Unsqueeze_91_output_0_splitncnn_3
+MemoryData       /dafnet/Unsqueeze_output_0 0 1 /dafnet/Unsqueeze_output_0 0=6 1=8
+Split            splitncnn_17             1 4 /dafnet/Unsqueeze_output_0 /dafnet/Unsqueeze_output_0_splitncnn_0 /dafnet/Unsqueeze_output_0_splitncnn_1 /dafnet/Unsqueeze_output_0_splitncnn_2 /dafnet/Unsqueeze_output_0_splitncnn_3
+BatchNorm        /reference_features/encoders.0/encoders.0.0/block/block.0/BatchNormalization 1 1 input_clothes_splitncnn_1 /reference_features/encoders.0/encoders.0.0/block/block.0/BatchNormalization_output_0 0=3
+ReLU             /reference_features/encoders.0/encoders.0.0/block/block.1/Relu 1 1 /reference_features/encoders.0/encoders.0.0/block/block.0/BatchNormalization_output_0 /reference_features/encoders.0/encoders.0.0/block/block.1/Relu_output_0
+Convolution      /reference_features/encoders.0/encoders.0.0/block/block.2/Conv 1 1 /reference_features/encoders.0/encoders.0.0/block/block.1/Relu_output_0 /reference_features/encoders.0/encoders.0.0/block/block.2/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=0 6=864
+Split            splitncnn_18             1 2 /reference_features/encoders.0/encoders.0.0/block/block.2/Conv_output_0 /reference_features/encoders.0/encoders.0.0/block/block.2/Conv_output_0_splitncnn_0 /reference_features/encoders.0/encoders.0.0/block/block.2/Conv_output_0_splitncnn_1
+BatchNorm        /reference_features/encoders.0/encoders.0.1/block/block.0/BatchNormalization 1 1 /reference_features/encoders.0/encoders.0.0/block/block.2/Conv_output_0_splitncnn_1 /reference_features/encoders.0/encoders.0.1/block/block.0/BatchNormalization_output_0 0=32
+ReLU             /reference_features/encoders.0/encoders.0.1/block/block.1/Relu 1 1 /reference_features/encoders.0/encoders.0.1/block/block.0/BatchNormalization_output_0 /reference_features/encoders.0/encoders.0.1/block/block.1/Relu_output_0
+Convolution      /reference_features/encoders.0/encoders.0.1/block/block.2/Conv 1 1 /reference_features/encoders.0/encoders.0.1/block/block.1/Relu_output_0 /reference_features/encoders.0/encoders.0.1/block/block.2/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=0 6=9216
+BinaryOp         /reference_features/encoders.0/encoders.0.1/Add 2 1 /reference_features/encoders.0/encoders.0.1/block/block.2/Conv_output_0 /reference_features/encoders.0/encoders.0.0/block/block.2/Conv_output_0_splitncnn_0 /reference_features/encoders.0/encoders.0.1/Add_output_0 0=0
+Split            splitncnn_19             1 2 /reference_features/encoders.0/encoders.0.1/Add_output_0 /reference_features/encoders.0/encoders.0.1/Add_output_0_splitncnn_0 /reference_features/encoders.0/encoders.0.1/Add_output_0_splitncnn_1
+BatchNorm        /reference_features/encoders.1/encoders.1.0/block/block.0/BatchNormalization 1 1 /reference_features/encoders.0/encoders.0.1/Add_output_0_splitncnn_1 /reference_features/encoders.1/encoders.1.0/block/block.0/BatchNormalization_output_0 0=32
+ReLU             /reference_features/encoders.1/encoders.1.0/block/block.1/Relu 1 1 /reference_features/encoders.1/encoders.1.0/block/block.0/BatchNormalization_output_0 /reference_features/encoders.1/encoders.1.0/block/block.1/Relu_output_0
+Convolution      /reference_features/encoders.1/encoders.1.0/block/block.2/Conv 1 1 /reference_features/encoders.1/encoders.1.0/block/block.1/Relu_output_0 /reference_features/encoders.1/encoders.1.0/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=0 6=18432
+Split            splitncnn_20             1 2 /reference_features/encoders.1/encoders.1.0/block/block.2/Conv_output_0 /reference_features/encoders.1/encoders.1.0/block/block.2/Conv_output_0_splitncnn_0 /reference_features/encoders.1/encoders.1.0/block/block.2/Conv_output_0_splitncnn_1
+BatchNorm        /reference_features/encoders.1/encoders.1.1/block/block.0/BatchNormalization 1 1 /reference_features/encoders.1/encoders.1.0/block/block.2/Conv_output_0_splitncnn_1 /reference_features/encoders.1/encoders.1.1/block/block.0/BatchNormalization_output_0 0=64
+ReLU             /reference_features/encoders.1/encoders.1.1/block/block.1/Relu 1 1 /reference_features/encoders.1/encoders.1.1/block/block.0/BatchNormalization_output_0 /reference_features/encoders.1/encoders.1.1/block/block.1/Relu_output_0
+Convolution      /reference_features/encoders.1/encoders.1.1/block/block.2/Conv 1 1 /reference_features/encoders.1/encoders.1.1/block/block.1/Relu_output_0 /reference_features/encoders.1/encoders.1.1/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=0 6=36864
+BinaryOp         /reference_features/encoders.1/encoders.1.1/Add 2 1 /reference_features/encoders.1/encoders.1.1/block/block.2/Conv_output_0 /reference_features/encoders.1/encoders.1.0/block/block.2/Conv_output_0_splitncnn_0 /reference_features/encoders.1/encoders.1.1/Add_output_0 0=0
+Split            splitncnn_21             1 2 /reference_features/encoders.1/encoders.1.1/Add_output_0 /reference_features/encoders.1/encoders.1.1/Add_output_0_splitncnn_0 /reference_features/encoders.1/encoders.1.1/Add_output_0_splitncnn_1
+BatchNorm        /reference_features/encoders.2/encoders.2.0/block/block.0/BatchNormalization 1 1 /reference_features/encoders.1/encoders.1.1/Add_output_0_splitncnn_1 /reference_features/encoders.2/encoders.2.0/block/block.0/BatchNormalization_output_0 0=64
+ReLU             /reference_features/encoders.2/encoders.2.0/block/block.1/Relu 1 1 /reference_features/encoders.2/encoders.2.0/block/block.0/BatchNormalization_output_0 /reference_features/encoders.2/encoders.2.0/block/block.1/Relu_output_0
+Convolution      /reference_features/encoders.2/encoders.2.0/block/block.2/Conv 1 1 /reference_features/encoders.2/encoders.2.0/block/block.1/Relu_output_0 /reference_features/encoders.2/encoders.2.0/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=0 6=36864
+Split            splitncnn_22             1 2 /reference_features/encoders.2/encoders.2.0/block/block.2/Conv_output_0 /reference_features/encoders.2/encoders.2.0/block/block.2/Conv_output_0_splitncnn_0 /reference_features/encoders.2/encoders.2.0/block/block.2/Conv_output_0_splitncnn_1
+BatchNorm        /reference_features/encoders.2/encoders.2.1/block/block.0/BatchNormalization 1 1 /reference_features/encoders.2/encoders.2.0/block/block.2/Conv_output_0_splitncnn_1 /reference_features/encoders.2/encoders.2.1/block/block.0/BatchNormalization_output_0 0=64
+ReLU             /reference_features/encoders.2/encoders.2.1/block/block.1/Relu 1 1 /reference_features/encoders.2/encoders.2.1/block/block.0/BatchNormalization_output_0 /reference_features/encoders.2/encoders.2.1/block/block.1/Relu_output_0
+Convolution      /reference_features/encoders.2/encoders.2.1/block/block.2/Conv 1 1 /reference_features/encoders.2/encoders.2.1/block/block.1/Relu_output_0 /reference_features/encoders.2/encoders.2.1/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=0 6=36864
+BinaryOp         /reference_features/encoders.2/encoders.2.1/Add 2 1 /reference_features/encoders.2/encoders.2.1/block/block.2/Conv_output_0 /reference_features/encoders.2/encoders.2.0/block/block.2/Conv_output_0_splitncnn_0 /reference_features/encoders.2/encoders.2.1/Add_output_0 0=0
+Split            splitncnn_23             1 2 /reference_features/encoders.2/encoders.2.1/Add_output_0 /reference_features/encoders.2/encoders.2.1/Add_output_0_splitncnn_0 /reference_features/encoders.2/encoders.2.1/Add_output_0_splitncnn_1
+BatchNorm        /reference_features/encoders.3/encoders.3.0/block/block.0/BatchNormalization 1 1 /reference_features/encoders.2/encoders.2.1/Add_output_0_splitncnn_1 /reference_features/encoders.3/encoders.3.0/block/block.0/BatchNormalization_output_0 0=64
+ReLU             /reference_features/encoders.3/encoders.3.0/block/block.1/Relu 1 1 /reference_features/encoders.3/encoders.3.0/block/block.0/BatchNormalization_output_0 /reference_features/encoders.3/encoders.3.0/block/block.1/Relu_output_0
+Convolution      /reference_features/encoders.3/encoders.3.0/block/block.2/Conv 1 1 /reference_features/encoders.3/encoders.3.0/block/block.1/Relu_output_0 /reference_features/encoders.3/encoders.3.0/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=0 6=36864
+Split            splitncnn_24             1 2 /reference_features/encoders.3/encoders.3.0/block/block.2/Conv_output_0 /reference_features/encoders.3/encoders.3.0/block/block.2/Conv_output_0_splitncnn_0 /reference_features/encoders.3/encoders.3.0/block/block.2/Conv_output_0_splitncnn_1
+BatchNorm        /reference_features/encoders.3/encoders.3.1/block/block.0/BatchNormalization 1 1 /reference_features/encoders.3/encoders.3.0/block/block.2/Conv_output_0_splitncnn_1 /reference_features/encoders.3/encoders.3.1/block/block.0/BatchNormalization_output_0 0=64
+ReLU             /reference_features/encoders.3/encoders.3.1/block/block.1/Relu 1 1 /reference_features/encoders.3/encoders.3.1/block/block.0/BatchNormalization_output_0 /reference_features/encoders.3/encoders.3.1/block/block.1/Relu_output_0
+Convolution      /reference_features/encoders.3/encoders.3.1/block/block.2/Conv 1 1 /reference_features/encoders.3/encoders.3.1/block/block.1/Relu_output_0 /reference_features/encoders.3/encoders.3.1/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=0 6=36864
+BinaryOp         /reference_features/encoders.3/encoders.3.1/Add 2 1 /reference_features/encoders.3/encoders.3.1/block/block.2/Conv_output_0 /reference_features/encoders.3/encoders.3.0/block/block.2/Conv_output_0_splitncnn_0 /reference_features/encoders.3/encoders.3.1/Add_output_0 0=0
+Split            splitncnn_25             1 2 /reference_features/encoders.3/encoders.3.1/Add_output_0 /reference_features/encoders.3/encoders.3.1/Add_output_0_splitncnn_0 /reference_features/encoders.3/encoders.3.1/Add_output_0_splitncnn_1
+BatchNorm        /reference_features/encoders.4/encoders.4.0/block/block.0/BatchNormalization 1 1 /reference_features/encoders.3/encoders.3.1/Add_output_0_splitncnn_1 /reference_features/encoders.4/encoders.4.0/block/block.0/BatchNormalization_output_0 0=64
+ReLU             /reference_features/encoders.4/encoders.4.0/block/block.1/Relu 1 1 /reference_features/encoders.4/encoders.4.0/block/block.0/BatchNormalization_output_0 /reference_features/encoders.4/encoders.4.0/block/block.1/Relu_output_0
+Convolution      /reference_features/encoders.4/encoders.4.0/block/block.2/Conv 1 1 /reference_features/encoders.4/encoders.4.0/block/block.1/Relu_output_0 /reference_features/encoders.4/encoders.4.0/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=0 6=36864
+Split            splitncnn_26             1 2 /reference_features/encoders.4/encoders.4.0/block/block.2/Conv_output_0 /reference_features/encoders.4/encoders.4.0/block/block.2/Conv_output_0_splitncnn_0 /reference_features/encoders.4/encoders.4.0/block/block.2/Conv_output_0_splitncnn_1
+BatchNorm        /reference_features/encoders.4/encoders.4.1/block/block.0/BatchNormalization 1 1 /reference_features/encoders.4/encoders.4.0/block/block.2/Conv_output_0_splitncnn_1 /reference_features/encoders.4/encoders.4.1/block/block.0/BatchNormalization_output_0 0=64
+ReLU             /reference_features/encoders.4/encoders.4.1/block/block.1/Relu 1 1 /reference_features/encoders.4/encoders.4.1/block/block.0/BatchNormalization_output_0 /reference_features/encoders.4/encoders.4.1/block/block.1/Relu_output_0
+Convolution      /reference_features/encoders.4/encoders.4.1/block/block.2/Conv 1 1 /reference_features/encoders.4/encoders.4.1/block/block.1/Relu_output_0 /reference_features/encoders.4/encoders.4.1/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=0 6=36864
+BinaryOp         /reference_features/encoders.4/encoders.4.1/Add 2 1 /reference_features/encoders.4/encoders.4.1/block/block.2/Conv_output_0 /reference_features/encoders.4/encoders.4.0/block/block.2/Conv_output_0_splitncnn_0 /reference_features/encoders.4/encoders.4.1/Add_output_0 0=0
+Convolution      /reference_FPN/adaptive.0/Conv 1 1 /reference_features/encoders.4/encoders.4.1/Add_output_0 /reference_FPN/adaptive.0/Conv_output_0 0=256 1=1 11=1 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Convolution      /reference_FPN/smooth.0/Conv 1 1 /reference_FPN/adaptive.0/Conv_output_0 /reference_FPN/smooth.0/Conv_output_0 0=256 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=589824
+Split            splitncnn_27             1 4 /reference_FPN/smooth.0/Conv_output_0 /reference_FPN/smooth.0/Conv_output_0_splitncnn_0 /reference_FPN/smooth.0/Conv_output_0_splitncnn_1 /reference_FPN/smooth.0/Conv_output_0_splitncnn_2 /reference_FPN/smooth.0/Conv_output_0_splitncnn_3
+Convolution      /reference_FPN/adaptive.1/Conv 1 1 /reference_features/encoders.3/encoders.3.1/Add_output_0_splitncnn_0 /reference_FPN/adaptive.1/Conv_output_0 0=256 1=1 11=1 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Interp           /reference_FPN/Resize    1 1 /reference_FPN/smooth.0/Conv_output_0_splitncnn_3 /reference_FPN/Resize_output_0 0=1 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+BinaryOp         /reference_FPN/Add       2 1 /reference_FPN/adaptive.1/Conv_output_0 /reference_FPN/Resize_output_0 /reference_FPN/Add_output_0 0=0
+Convolution      /reference_FPN/smooth.1/Conv 1 1 /reference_FPN/Add_output_0 /reference_FPN/smooth.1/Conv_output_0 0=256 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=589824
+Split            splitncnn_28             1 3 /reference_FPN/smooth.1/Conv_output_0 /reference_FPN/smooth.1/Conv_output_0_splitncnn_0 /reference_FPN/smooth.1/Conv_output_0_splitncnn_1 /reference_FPN/smooth.1/Conv_output_0_splitncnn_2
+Convolution      /reference_FPN/adaptive.2/Conv 1 1 /reference_features/encoders.2/encoders.2.1/Add_output_0_splitncnn_0 /reference_FPN/adaptive.2/Conv_output_0 0=256 1=1 11=1 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Interp           /reference_FPN/Resize_1  1 1 /reference_FPN/smooth.1/Conv_output_0_splitncnn_2 /reference_FPN/Resize_1_output_0 0=1 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+BinaryOp         /reference_FPN/Add_1     2 1 /reference_FPN/adaptive.2/Conv_output_0 /reference_FPN/Resize_1_output_0 /reference_FPN/Add_1_output_0 0=0
+Convolution      /reference_FPN/smooth.2/Conv 1 1 /reference_FPN/Add_1_output_0 /reference_FPN/smooth.2/Conv_output_0 0=256 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=589824
+Split            splitncnn_29             1 3 /reference_FPN/smooth.2/Conv_output_0 /reference_FPN/smooth.2/Conv_output_0_splitncnn_0 /reference_FPN/smooth.2/Conv_output_0_splitncnn_1 /reference_FPN/smooth.2/Conv_output_0_splitncnn_2
+Convolution      /reference_FPN/adaptive.3/Conv 1 1 /reference_features/encoders.1/encoders.1.1/Add_output_0_splitncnn_0 /reference_FPN/adaptive.3/Conv_output_0 0=256 1=1 11=1 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Interp           /reference_FPN/Resize_2  1 1 /reference_FPN/smooth.2/Conv_output_0_splitncnn_2 /reference_FPN/Resize_2_output_0 0=1 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+BinaryOp         /reference_FPN/Add_2     2 1 /reference_FPN/adaptive.3/Conv_output_0 /reference_FPN/Resize_2_output_0 /reference_FPN/Add_2_output_0 0=0
+Convolution      /reference_FPN/smooth.3/Conv 1 1 /reference_FPN/Add_2_output_0 /reference_FPN/smooth.3/Conv_output_0 0=256 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=589824
+Split            splitncnn_30             1 3 /reference_FPN/smooth.3/Conv_output_0 /reference_FPN/smooth.3/Conv_output_0_splitncnn_0 /reference_FPN/smooth.3/Conv_output_0_splitncnn_1 /reference_FPN/smooth.3/Conv_output_0_splitncnn_2
+Convolution      /reference_FPN/adaptive.4/Conv 1 1 /reference_features/encoders.0/encoders.0.1/Add_output_0_splitncnn_0 /reference_FPN/adaptive.4/Conv_output_0 0=256 1=1 11=1 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=8192
+Interp           /reference_FPN/Resize_3  1 1 /reference_FPN/smooth.3/Conv_output_0_splitncnn_2 /reference_FPN/Resize_3_output_0 0=1 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+BinaryOp         /reference_FPN/Add_3     2 1 /reference_FPN/adaptive.4/Conv_output_0 /reference_FPN/Resize_3_output_0 /reference_FPN/Add_3_output_0 0=0
+Convolution      /reference_FPN/smooth.4/Conv 1 1 /reference_FPN/Add_3_output_0 /reference_FPN/smooth.4/Conv_output_0 0=256 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=589824
+Split            splitncnn_31             1 2 /reference_FPN/smooth.4/Conv_output_0 /reference_FPN/smooth.4/Conv_output_0_splitncnn_0 /reference_FPN/smooth.4/Conv_output_0_splitncnn_1
+BatchNorm        /source_features/encoders.0/encoders.0.0/block/block.0/BatchNormalization 1 1 input_person_splitncnn_1 /source_features/encoders.0/encoders.0.0/block/block.0/BatchNormalization_output_0 0=3
+ReLU             /source_features/encoders.0/encoders.0.0/block/block.1/Relu 1 1 /source_features/encoders.0/encoders.0.0/block/block.0/BatchNormalization_output_0 /source_features/encoders.0/encoders.0.0/block/block.1/Relu_output_0
+Convolution      /source_features/encoders.0/encoders.0.0/block/block.2/Conv 1 1 /source_features/encoders.0/encoders.0.0/block/block.1/Relu_output_0 /source_features/encoders.0/encoders.0.0/block/block.2/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=0 6=864
+Split            splitncnn_32             1 2 /source_features/encoders.0/encoders.0.0/block/block.2/Conv_output_0 /source_features/encoders.0/encoders.0.0/block/block.2/Conv_output_0_splitncnn_0 /source_features/encoders.0/encoders.0.0/block/block.2/Conv_output_0_splitncnn_1
+BatchNorm        /source_features/encoders.0/encoders.0.1/block/block.0/BatchNormalization 1 1 /source_features/encoders.0/encoders.0.0/block/block.2/Conv_output_0_splitncnn_1 /source_features/encoders.0/encoders.0.1/block/block.0/BatchNormalization_output_0 0=32
+ReLU             /source_features/encoders.0/encoders.0.1/block/block.1/Relu 1 1 /source_features/encoders.0/encoders.0.1/block/block.0/BatchNormalization_output_0 /source_features/encoders.0/encoders.0.1/block/block.1/Relu_output_0
+Convolution      /source_features/encoders.0/encoders.0.1/block/block.2/Conv 1 1 /source_features/encoders.0/encoders.0.1/block/block.1/Relu_output_0 /source_features/encoders.0/encoders.0.1/block/block.2/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=0 6=9216
+BinaryOp         /source_features/encoders.0/encoders.0.1/Add 2 1 /source_features/encoders.0/encoders.0.1/block/block.2/Conv_output_0 /source_features/encoders.0/encoders.0.0/block/block.2/Conv_output_0_splitncnn_0 /source_features/encoders.0/encoders.0.1/Add_output_0 0=0
+Split            splitncnn_33             1 2 /source_features/encoders.0/encoders.0.1/Add_output_0 /source_features/encoders.0/encoders.0.1/Add_output_0_splitncnn_0 /source_features/encoders.0/encoders.0.1/Add_output_0_splitncnn_1
+BatchNorm        /source_features/encoders.1/encoders.1.0/block/block.0/BatchNormalization 1 1 /source_features/encoders.0/encoders.0.1/Add_output_0_splitncnn_1 /source_features/encoders.1/encoders.1.0/block/block.0/BatchNormalization_output_0 0=32
+ReLU             /source_features/encoders.1/encoders.1.0/block/block.1/Relu 1 1 /source_features/encoders.1/encoders.1.0/block/block.0/BatchNormalization_output_0 /source_features/encoders.1/encoders.1.0/block/block.1/Relu_output_0
+Convolution      /source_features/encoders.1/encoders.1.0/block/block.2/Conv 1 1 /source_features/encoders.1/encoders.1.0/block/block.1/Relu_output_0 /source_features/encoders.1/encoders.1.0/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=0 6=18432
+Split            splitncnn_34             1 2 /source_features/encoders.1/encoders.1.0/block/block.2/Conv_output_0 /source_features/encoders.1/encoders.1.0/block/block.2/Conv_output_0_splitncnn_0 /source_features/encoders.1/encoders.1.0/block/block.2/Conv_output_0_splitncnn_1
+BatchNorm        /source_features/encoders.1/encoders.1.1/block/block.0/BatchNormalization 1 1 /source_features/encoders.1/encoders.1.0/block/block.2/Conv_output_0_splitncnn_1 /source_features/encoders.1/encoders.1.1/block/block.0/BatchNormalization_output_0 0=64
+ReLU             /source_features/encoders.1/encoders.1.1/block/block.1/Relu 1 1 /source_features/encoders.1/encoders.1.1/block/block.0/BatchNormalization_output_0 /source_features/encoders.1/encoders.1.1/block/block.1/Relu_output_0
+Convolution      /source_features/encoders.1/encoders.1.1/block/block.2/Conv 1 1 /source_features/encoders.1/encoders.1.1/block/block.1/Relu_output_0 /source_features/encoders.1/encoders.1.1/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=0 6=36864
+BinaryOp         /source_features/encoders.1/encoders.1.1/Add 2 1 /source_features/encoders.1/encoders.1.1/block/block.2/Conv_output_0 /source_features/encoders.1/encoders.1.0/block/block.2/Conv_output_0_splitncnn_0 /source_features/encoders.1/encoders.1.1/Add_output_0 0=0
+Split            splitncnn_35             1 2 /source_features/encoders.1/encoders.1.1/Add_output_0 /source_features/encoders.1/encoders.1.1/Add_output_0_splitncnn_0 /source_features/encoders.1/encoders.1.1/Add_output_0_splitncnn_1
+BatchNorm        /source_features/encoders.2/encoders.2.0/block/block.0/BatchNormalization 1 1 /source_features/encoders.1/encoders.1.1/Add_output_0_splitncnn_1 /source_features/encoders.2/encoders.2.0/block/block.0/BatchNormalization_output_0 0=64
+ReLU             /source_features/encoders.2/encoders.2.0/block/block.1/Relu 1 1 /source_features/encoders.2/encoders.2.0/block/block.0/BatchNormalization_output_0 /source_features/encoders.2/encoders.2.0/block/block.1/Relu_output_0
+Convolution      /source_features/encoders.2/encoders.2.0/block/block.2/Conv 1 1 /source_features/encoders.2/encoders.2.0/block/block.1/Relu_output_0 /source_features/encoders.2/encoders.2.0/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=0 6=36864
+Split            splitncnn_36             1 2 /source_features/encoders.2/encoders.2.0/block/block.2/Conv_output_0 /source_features/encoders.2/encoders.2.0/block/block.2/Conv_output_0_splitncnn_0 /source_features/encoders.2/encoders.2.0/block/block.2/Conv_output_0_splitncnn_1
+BatchNorm        /source_features/encoders.2/encoders.2.1/block/block.0/BatchNormalization 1 1 /source_features/encoders.2/encoders.2.0/block/block.2/Conv_output_0_splitncnn_1 /source_features/encoders.2/encoders.2.1/block/block.0/BatchNormalization_output_0 0=64
+ReLU             /source_features/encoders.2/encoders.2.1/block/block.1/Relu 1 1 /source_features/encoders.2/encoders.2.1/block/block.0/BatchNormalization_output_0 /source_features/encoders.2/encoders.2.1/block/block.1/Relu_output_0
+Convolution      /source_features/encoders.2/encoders.2.1/block/block.2/Conv 1 1 /source_features/encoders.2/encoders.2.1/block/block.1/Relu_output_0 /source_features/encoders.2/encoders.2.1/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=0 6=36864
+BinaryOp         /source_features/encoders.2/encoders.2.1/Add 2 1 /source_features/encoders.2/encoders.2.1/block/block.2/Conv_output_0 /source_features/encoders.2/encoders.2.0/block/block.2/Conv_output_0_splitncnn_0 /source_features/encoders.2/encoders.2.1/Add_output_0 0=0
+Split            splitncnn_37             1 2 /source_features/encoders.2/encoders.2.1/Add_output_0 /source_features/encoders.2/encoders.2.1/Add_output_0_splitncnn_0 /source_features/encoders.2/encoders.2.1/Add_output_0_splitncnn_1
+BatchNorm        /source_features/encoders.3/encoders.3.0/block/block.0/BatchNormalization 1 1 /source_features/encoders.2/encoders.2.1/Add_output_0_splitncnn_1 /source_features/encoders.3/encoders.3.0/block/block.0/BatchNormalization_output_0 0=64
+ReLU             /source_features/encoders.3/encoders.3.0/block/block.1/Relu 1 1 /source_features/encoders.3/encoders.3.0/block/block.0/BatchNormalization_output_0 /source_features/encoders.3/encoders.3.0/block/block.1/Relu_output_0
+Convolution      /source_features/encoders.3/encoders.3.0/block/block.2/Conv 1 1 /source_features/encoders.3/encoders.3.0/block/block.1/Relu_output_0 /source_features/encoders.3/encoders.3.0/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=0 6=36864
+Split            splitncnn_38             1 2 /source_features/encoders.3/encoders.3.0/block/block.2/Conv_output_0 /source_features/encoders.3/encoders.3.0/block/block.2/Conv_output_0_splitncnn_0 /source_features/encoders.3/encoders.3.0/block/block.2/Conv_output_0_splitncnn_1
+BatchNorm        /source_features/encoders.3/encoders.3.1/block/block.0/BatchNormalization 1 1 /source_features/encoders.3/encoders.3.0/block/block.2/Conv_output_0_splitncnn_1 /source_features/encoders.3/encoders.3.1/block/block.0/BatchNormalization_output_0 0=64
+ReLU             /source_features/encoders.3/encoders.3.1/block/block.1/Relu 1 1 /source_features/encoders.3/encoders.3.1/block/block.0/BatchNormalization_output_0 /source_features/encoders.3/encoders.3.1/block/block.1/Relu_output_0
+Convolution      /source_features/encoders.3/encoders.3.1/block/block.2/Conv 1 1 /source_features/encoders.3/encoders.3.1/block/block.1/Relu_output_0 /source_features/encoders.3/encoders.3.1/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=0 6=36864
+BinaryOp         /source_features/encoders.3/encoders.3.1/Add 2 1 /source_features/encoders.3/encoders.3.1/block/block.2/Conv_output_0 /source_features/encoders.3/encoders.3.0/block/block.2/Conv_output_0_splitncnn_0 /source_features/encoders.3/encoders.3.1/Add_output_0 0=0
+Split            splitncnn_39             1 2 /source_features/encoders.3/encoders.3.1/Add_output_0 /source_features/encoders.3/encoders.3.1/Add_output_0_splitncnn_0 /source_features/encoders.3/encoders.3.1/Add_output_0_splitncnn_1
+BatchNorm        /source_features/encoders.4/encoders.4.0/block/block.0/BatchNormalization 1 1 /source_features/encoders.3/encoders.3.1/Add_output_0_splitncnn_1 /source_features/encoders.4/encoders.4.0/block/block.0/BatchNormalization_output_0 0=64
+ReLU             /source_features/encoders.4/encoders.4.0/block/block.1/Relu 1 1 /source_features/encoders.4/encoders.4.0/block/block.0/BatchNormalization_output_0 /source_features/encoders.4/encoders.4.0/block/block.1/Relu_output_0
+Convolution      /source_features/encoders.4/encoders.4.0/block/block.2/Conv 1 1 /source_features/encoders.4/encoders.4.0/block/block.1/Relu_output_0 /source_features/encoders.4/encoders.4.0/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=2 13=2 4=1 14=1 15=1 16=1 5=0 6=36864
+Split            splitncnn_40             1 2 /source_features/encoders.4/encoders.4.0/block/block.2/Conv_output_0 /source_features/encoders.4/encoders.4.0/block/block.2/Conv_output_0_splitncnn_0 /source_features/encoders.4/encoders.4.0/block/block.2/Conv_output_0_splitncnn_1
+BatchNorm        /source_features/encoders.4/encoders.4.1/block/block.0/BatchNormalization 1 1 /source_features/encoders.4/encoders.4.0/block/block.2/Conv_output_0_splitncnn_1 /source_features/encoders.4/encoders.4.1/block/block.0/BatchNormalization_output_0 0=64
+ReLU             /source_features/encoders.4/encoders.4.1/block/block.1/Relu 1 1 /source_features/encoders.4/encoders.4.1/block/block.0/BatchNormalization_output_0 /source_features/encoders.4/encoders.4.1/block/block.1/Relu_output_0
+Convolution      /source_features/encoders.4/encoders.4.1/block/block.2/Conv 1 1 /source_features/encoders.4/encoders.4.1/block/block.1/Relu_output_0 /source_features/encoders.4/encoders.4.1/block/block.2/Conv_output_0 0=64 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=0 6=36864
+BinaryOp         /source_features/encoders.4/encoders.4.1/Add 2 1 /source_features/encoders.4/encoders.4.1/block/block.2/Conv_output_0 /source_features/encoders.4/encoders.4.0/block/block.2/Conv_output_0_splitncnn_0 /source_features/encoders.4/encoders.4.1/Add_output_0 0=0
+Convolution      /source_FPN/adaptive.0/Conv 1 1 /source_features/encoders.4/encoders.4.1/Add_output_0 /source_FPN/adaptive.0/Conv_output_0 0=256 1=1 11=1 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Convolution      /source_FPN/smooth.0/Conv 1 1 /source_FPN/adaptive.0/Conv_output_0 /source_FPN/smooth.0/Conv_output_0 0=256 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=589824
+Split            splitncnn_41             1 3 /source_FPN/smooth.0/Conv_output_0 /source_FPN/smooth.0/Conv_output_0_splitncnn_0 /source_FPN/smooth.0/Conv_output_0_splitncnn_1 /source_FPN/smooth.0/Conv_output_0_splitncnn_2
+Convolution      /source_FPN/adaptive.1/Conv 1 1 /source_features/encoders.3/encoders.3.1/Add_output_0_splitncnn_0 /source_FPN/adaptive.1/Conv_output_0 0=256 1=1 11=1 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Interp           /source_FPN/Resize       1 1 /source_FPN/smooth.0/Conv_output_0_splitncnn_2 /source_FPN/Resize_output_0 0=1 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+BinaryOp         /source_FPN/Add          2 1 /source_FPN/adaptive.1/Conv_output_0 /source_FPN/Resize_output_0 /source_FPN/Add_output_0 0=0
+Convolution      /source_FPN/smooth.1/Conv 1 1 /source_FPN/Add_output_0 /source_FPN/smooth.1/Conv_output_0 0=256 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=589824
+Split            splitncnn_42             1 2 /source_FPN/smooth.1/Conv_output_0 /source_FPN/smooth.1/Conv_output_0_splitncnn_0 /source_FPN/smooth.1/Conv_output_0_splitncnn_1
+Convolution      /source_FPN/adaptive.2/Conv 1 1 /source_features/encoders.2/encoders.2.1/Add_output_0_splitncnn_0 /source_FPN/adaptive.2/Conv_output_0 0=256 1=1 11=1 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Interp           /source_FPN/Resize_1     1 1 /source_FPN/smooth.1/Conv_output_0_splitncnn_1 /source_FPN/Resize_1_output_0 0=1 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+BinaryOp         /source_FPN/Add_1        2 1 /source_FPN/adaptive.2/Conv_output_0 /source_FPN/Resize_1_output_0 /source_FPN/Add_1_output_0 0=0
+Convolution      /source_FPN/smooth.2/Conv 1 1 /source_FPN/Add_1_output_0 /source_FPN/smooth.2/Conv_output_0 0=256 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=589824
+Split            splitncnn_43             1 2 /source_FPN/smooth.2/Conv_output_0 /source_FPN/smooth.2/Conv_output_0_splitncnn_0 /source_FPN/smooth.2/Conv_output_0_splitncnn_1
+Convolution      /source_FPN/adaptive.3/Conv 1 1 /source_features/encoders.1/encoders.1.1/Add_output_0_splitncnn_0 /source_FPN/adaptive.3/Conv_output_0 0=256 1=1 11=1 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=16384
+Interp           /source_FPN/Resize_2     1 1 /source_FPN/smooth.2/Conv_output_0_splitncnn_1 /source_FPN/Resize_2_output_0 0=1 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+BinaryOp         /source_FPN/Add_2        2 1 /source_FPN/adaptive.3/Conv_output_0 /source_FPN/Resize_2_output_0 /source_FPN/Add_2_output_0 0=0
+Convolution      /source_FPN/smooth.3/Conv 1 1 /source_FPN/Add_2_output_0 /source_FPN/smooth.3/Conv_output_0 0=256 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=589824
+Split            splitncnn_44             1 2 /source_FPN/smooth.3/Conv_output_0 /source_FPN/smooth.3/Conv_output_0_splitncnn_0 /source_FPN/smooth.3/Conv_output_0_splitncnn_1
+Convolution      /source_FPN/adaptive.4/Conv 1 1 /source_features/encoders.0/encoders.0.1/Add_output_0_splitncnn_0 /source_FPN/adaptive.4/Conv_output_0 0=256 1=1 11=1 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=8192
+Interp           /source_FPN/Resize_3     1 1 /source_FPN/smooth.3/Conv_output_0_splitncnn_1 /source_FPN/Resize_3_output_0 0=1 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+BinaryOp         /source_FPN/Add_3        2 1 /source_FPN/adaptive.4/Conv_output_0 /source_FPN/Resize_3_output_0 /source_FPN/Add_3_output_0 0=0
+Convolution      /source_FPN/smooth.4/Conv 1 1 /source_FPN/Add_3_output_0 /source_FPN/smooth.4/Conv_output_0 0=256 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=589824
+Concat           /dafnet/Concat           2 1 /source_FPN/smooth.0/Conv_output_0_splitncnn_1 /reference_FPN/smooth.0/Conv_output_0_splitncnn_2 /dafnet/Concat_output_0 0=0
+Convolution      /dafnet/Cross_MFEs.0/layers/layers.0/Conv 1 1 /dafnet/Concat_output_0 /dafnet/Cross_MFEs.0/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Cross_MFEs.0/layers/layers.1/LeakyRelu 1 1 /dafnet/Cross_MFEs.0/layers/layers.0/Conv_output_0 /dafnet/Cross_MFEs.0/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Cross_MFEs.0/layers/layers.2/Conv 1 1 /dafnet/Cross_MFEs.0/layers/layers.1/LeakyRelu_output_0 /dafnet/Cross_MFEs.0/layers/layers.2/Conv_output_0 0=18 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=5184
+Split            splitncnn_45             1 2 /dafnet/Cross_MFEs.0/layers/layers.2/Conv_output_0 /dafnet/Cross_MFEs.0/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Cross_MFEs.0/layers/layers.2/Conv_output_0_splitncnn_1
+Crop             /dafnet/Slice            3 1 /dafnet/Cross_MFEs.0/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_11 /dafnet/Constant_1_output_0_splitncnn_10 /dafnet/Slice_output_0 -23309=1,12 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax          1 1 /dafnet/Slice_output_0 /dafnet/Softmax_output_0 0=0 1=1
+Crop             /dafnet/Slice_1          3 1 /dafnet/Cross_MFEs.0/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_9 /dafnet/Constant_1_output_0_splitncnn_8 /dafnet/Slice_1_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape          1 1 /dafnet/Slice_1_output_0 /dafnet/Reshape_output_0 0=6 1=8 2=2
+Split            splitncnn_46             1 2 /dafnet/Reshape_output_0 /dafnet/Reshape_output_0_splitncnn_0 /dafnet/Reshape_output_0_splitncnn_1
+Crop             /dafnet/Gather           1 1 /dafnet/Reshape_output_0_splitncnn_1 /dafnet/Gather_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add              2 1 /dafnet/Unsqueeze_output_0_splitncnn_3 /dafnet/Gather_output_0 /dafnet/Add_output_0 0=0
+Crop             /dafnet/Gather_1         1 1 /dafnet/Reshape_output_0_splitncnn_0 /dafnet/Gather_1_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_1            2 1 /dafnet/Unsqueeze_1_output_0_splitncnn_3 /dafnet/Gather_1_output_0 /dafnet/Add_1_output_0 0=0
+BinaryOp         /dafnet/Div              1 1 /dafnet/Add_output_0 /dafnet/Div_output_0 0=3 1=1 2=2.500000e+00
+BinaryOp         /dafnet/Sub              1 1 /dafnet/Div_output_0 /dafnet/Sub_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_1            1 1 /dafnet/Add_1_output_0 /dafnet/Div_1_output_0 0=3 1=1 2=3.500000e+00
+BinaryOp         /dafnet/Sub_1            1 1 /dafnet/Div_1_output_0 /dafnet/Sub_1_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_2      2 1 /dafnet/Sub_output_0 /dafnet/Constant_22_output_0_splitncnn_39 /dafnet/Unsqueeze_2_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_3      2 1 /dafnet/Sub_1_output_0 /dafnet/Constant_22_output_0_splitncnn_38 /dafnet/Unsqueeze_3_output_0 -23303=0
+Concat           /dafnet/Concat_1         2 1 /dafnet/Unsqueeze_2_output_0 /dafnet/Unsqueeze_3_output_0 /dafnet/Concat_1_output_0 0=-1
+Split            splitncnn_47             1 2 /dafnet/Concat_1_output_0 /dafnet/Concat_1_output_0_splitncnn_0 /dafnet/Concat_1_output_0_splitncnn_1
+Permute          /dafnet/Transpose        1 1 /dafnet/Concat_1_output_0_splitncnn_1 /dafnet/Transpose_output_0 0=4
+ExpandDims       /dafnet/Unsqueeze_4      2 1 /dafnet/Softmax_output_0 /dafnet/Constant_24_output_0_splitncnn_19 /dafnet/Unsqueeze_4_output_0 -23303=0
+Tile             /dafnet/Tile             2 1 /dafnet/Unsqueeze_4_output_0 /dafnet/Constant_25_output_0_splitncnn_17 /dafnet/Tile_output_0
+Reshape          /dafnet/Reshape_1        1 1 /dafnet/Tile_output_0 /dafnet/Reshape_1_output_0 0=6 1=8 2=-1
+ExpandDims       /dafnet/Unsqueeze_5      2 1 /source_FPN/smooth.0/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_7 /dafnet/Unsqueeze_5_output_0 -23303=0
+Tile             /dafnet/Tile_1           2 1 /dafnet/Unsqueeze_5_output_0 /dafnet/Constant_34_output_0_splitncnn_11 /dafnet/Tile_1_output_0
+Reshape          /dafnet/Reshape_2        1 1 /dafnet/Tile_1_output_0 /dafnet/Reshape_2_output_0 0=6 1=8 2=256
+GridSample       /dafnet/GridSample       2 1 /dafnet/Reshape_2_output_0 /dafnet/Concat_1_output_0_splitncnn_0 /dafnet/GridSample_output_0
+Reshape          /dafnet/Reshape_3        1 1 /dafnet/GridSample_output_0 /dafnet/Reshape_3_output_0 0=6 1=8 2=-1
+BinaryOp         /dafnet/Mul              2 1 /dafnet/Reshape_3_output_0 /dafnet/Reshape_1_output_0 /dafnet/Mul_output_0 0=2
+Slice            /dafnet/Split            2 6 /dafnet/Mul_output_0 /dafnet/Constant_43_output_0_splitncnn_17 /dafnet/Split_output_0 /dafnet/Split_output_1 /dafnet/Split_output_2 /dafnet/Split_output_3 /dafnet/Split_output_4 /dafnet/Split_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_2            2 1 /dafnet/Split_output_0 /dafnet/Split_output_1 /dafnet/Add_2_output_0 0=0
+BinaryOp         /dafnet/Add_3            2 1 /dafnet/Add_2_output_0 /dafnet/Split_output_2 /dafnet/Add_3_output_0 0=0
+BinaryOp         /dafnet/Add_4            2 1 /dafnet/Add_3_output_0 /dafnet/Split_output_3 /dafnet/Add_4_output_0 0=0
+BinaryOp         /dafnet/Add_5            2 1 /dafnet/Add_4_output_0 /dafnet/Split_output_4 /dafnet/Add_5_output_0 0=0
+BinaryOp         /dafnet/Add_6            2 1 /dafnet/Add_5_output_0 /dafnet/Split_output_5 /dafnet/Add_6_output_0 0=0
+Split            splitncnn_48             1 2 /dafnet/Add_6_output_0 /dafnet/Add_6_output_0_splitncnn_0 /dafnet/Add_6_output_0_splitncnn_1
+Concat           /dafnet/Concat_4         2 1 /dafnet/Add_6_output_0_splitncnn_1 /reference_FPN/smooth.0/Conv_output_0_splitncnn_1 /dafnet/Concat_4_output_0 0=0
+Convolution      /dafnet/Self_MFEs.0/layers/layers.0/Conv 1 1 /dafnet/Concat_4_output_0 /dafnet/Self_MFEs.0/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Self_MFEs.0/layers/layers.1/LeakyRelu 1 1 /dafnet/Self_MFEs.0/layers/layers.0/Conv_output_0 /dafnet/Self_MFEs.0/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Self_MFEs.0/layers/layers.2/Conv 1 1 /dafnet/Self_MFEs.0/layers/layers.1/LeakyRelu_output_0 /dafnet/Self_MFEs.0/layers/layers.2/Conv_output_0 0=18 1=7 11=7 2=1 12=1 3=1 13=1 4=3 14=3 15=3 16=3 5=1 6=28224
+Split            splitncnn_49             1 2 /dafnet/Self_MFEs.0/layers/layers.2/Conv_output_0 /dafnet/Self_MFEs.0/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Self_MFEs.0/layers/layers.2/Conv_output_0_splitncnn_1
+Crop             /dafnet/Slice_6          3 1 /dafnet/Self_MFEs.0/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_6 /dafnet/Constant_1_output_0_splitncnn_5 /dafnet/Slice_6_output_0 -23309=1,12 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax_1        1 1 /dafnet/Slice_6_output_0 /dafnet/Softmax_1_output_0 0=0 1=1
+Crop             /dafnet/Slice_7          3 1 /dafnet/Self_MFEs.0/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_4 /dafnet/Constant_1_output_0_splitncnn_3 /dafnet/Slice_7_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape_4        1 1 /dafnet/Slice_7_output_0 /dafnet/Reshape_4_output_0 0=6 1=8 2=2
+Split            splitncnn_50             1 2 /dafnet/Reshape_4_output_0 /dafnet/Reshape_4_output_0_splitncnn_0 /dafnet/Reshape_4_output_0_splitncnn_1
+Crop             /dafnet/Gather_2         1 1 /dafnet/Reshape_4_output_0_splitncnn_1 /dafnet/Gather_2_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_7            2 1 /dafnet/Unsqueeze_output_0_splitncnn_2 /dafnet/Gather_2_output_0 /dafnet/Add_7_output_0 0=0
+Crop             /dafnet/Gather_3         1 1 /dafnet/Reshape_4_output_0_splitncnn_0 /dafnet/Gather_3_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_8            2 1 /dafnet/Unsqueeze_1_output_0_splitncnn_2 /dafnet/Gather_3_output_0 /dafnet/Add_8_output_0 0=0
+BinaryOp         /dafnet/Div_2            1 1 /dafnet/Add_7_output_0 /dafnet/Div_2_output_0 0=3 1=1 2=2.500000e+00
+BinaryOp         /dafnet/Sub_2            1 1 /dafnet/Div_2_output_0 /dafnet/Sub_2_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_3            1 1 /dafnet/Add_8_output_0 /dafnet/Div_3_output_0 0=3 1=1 2=3.500000e+00
+BinaryOp         /dafnet/Sub_3            1 1 /dafnet/Div_3_output_0 /dafnet/Sub_3_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_8      2 1 /dafnet/Sub_2_output_0 /dafnet/Constant_22_output_0_splitncnn_37 /dafnet/Unsqueeze_8_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_9      2 1 /dafnet/Sub_3_output_0 /dafnet/Constant_22_output_0_splitncnn_36 /dafnet/Unsqueeze_9_output_0 -23303=0
+Concat           /dafnet/Concat_5         2 1 /dafnet/Unsqueeze_8_output_0 /dafnet/Unsqueeze_9_output_0 /dafnet/Concat_5_output_0 0=-1
+Split            splitncnn_51             1 2 /dafnet/Concat_5_output_0 /dafnet/Concat_5_output_0_splitncnn_0 /dafnet/Concat_5_output_0_splitncnn_1
+Permute          /dafnet/Transpose_1      1 1 /dafnet/Concat_5_output_0_splitncnn_1 /dafnet/Transpose_1_output_0 0=4
+ExpandDims       /dafnet/Unsqueeze_10     2 1 /dafnet/Softmax_1_output_0 /dafnet/Constant_24_output_0_splitncnn_18 /dafnet/Unsqueeze_10_output_0 -23303=0
+Tile             /dafnet/Tile_2           2 1 /dafnet/Unsqueeze_10_output_0 /dafnet/Constant_25_output_0_splitncnn_16 /dafnet/Tile_2_output_0
+Reshape          /dafnet/Reshape_5        1 1 /dafnet/Tile_2_output_0 /dafnet/Reshape_5_output_0 0=6 1=8 2=-1
+ExpandDims       /dafnet/Unsqueeze_11     2 1 /reference_FPN/smooth.0/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_2 /dafnet/Unsqueeze_11_output_0 -23303=0
+Tile             /dafnet/Tile_3           2 1 /dafnet/Unsqueeze_11_output_0 /dafnet/Constant_34_output_0_splitncnn_10 /dafnet/Tile_3_output_0
+Reshape          /dafnet/Reshape_6        1 1 /dafnet/Tile_3_output_0 /dafnet/Reshape_6_output_0 0=6 1=8 2=256
+GridSample       /dafnet/GridSample_1     2 1 /dafnet/Reshape_6_output_0 /dafnet/Concat_5_output_0_splitncnn_0 /dafnet/GridSample_1_output_0
+Reshape          /dafnet/Reshape_7        1 1 /dafnet/GridSample_1_output_0 /dafnet/Reshape_7_output_0 0=6 1=8 2=-1
+BinaryOp         /dafnet/Mul_1            2 1 /dafnet/Reshape_7_output_0 /dafnet/Reshape_5_output_0 /dafnet/Mul_1_output_0 0=2
+Slice            /dafnet/Split_1          2 6 /dafnet/Mul_1_output_0 /dafnet/Constant_43_output_0_splitncnn_16 /dafnet/Split_1_output_0 /dafnet/Split_1_output_1 /dafnet/Split_1_output_2 /dafnet/Split_1_output_3 /dafnet/Split_1_output_4 /dafnet/Split_1_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_9            2 1 /dafnet/Split_1_output_0 /dafnet/Split_1_output_1 /dafnet/Add_9_output_0 0=0
+BinaryOp         /dafnet/Add_10           2 1 /dafnet/Add_9_output_0 /dafnet/Split_1_output_2 /dafnet/Add_10_output_0 0=0
+BinaryOp         /dafnet/Add_11           2 1 /dafnet/Add_10_output_0 /dafnet/Split_1_output_3 /dafnet/Add_11_output_0 0=0
+BinaryOp         /dafnet/Add_12           2 1 /dafnet/Add_11_output_0 /dafnet/Split_1_output_4 /dafnet/Add_12_output_0 0=0
+BinaryOp         /dafnet/Add_13           2 1 /dafnet/Add_12_output_0 /dafnet/Split_1_output_5 /dafnet/Add_13_output_0 0=0
+Concat           /dafnet/Concat_8         2 1 /dafnet/Add_6_output_0_splitncnn_0 /dafnet/Add_13_output_0 /dafnet/Concat_8_output_0 0=0
+Convolution      /dafnet/Refine_MFEs.0/layers/layers.0/Conv 1 1 /dafnet/Concat_8_output_0 /dafnet/Refine_MFEs.0/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Refine_MFEs.0/layers/layers.1/LeakyRelu 1 1 /dafnet/Refine_MFEs.0/layers/layers.0/Conv_output_0 /dafnet/Refine_MFEs.0/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Refine_MFEs.0/layers/layers.2/Conv 1 1 /dafnet/Refine_MFEs.0/layers/layers.1/LeakyRelu_output_0 /dafnet/Refine_MFEs.0/layers/layers.2/Conv_output_0 0=36 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=10368
+Split            splitncnn_52             1 3 /dafnet/Refine_MFEs.0/layers/layers.2/Conv_output_0 /dafnet/Refine_MFEs.0/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Refine_MFEs.0/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Refine_MFEs.0/layers/layers.2/Conv_output_0_splitncnn_2
+Crop             /dafnet/Slice_12         3 1 /dafnet/Refine_MFEs.0/layers/layers.2/Conv_output_0_splitncnn_2 /dafnet/Constant_1_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_0 /dafnet/Slice_12_output_0 -23309=1,24 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax_2        1 1 /dafnet/Slice_12_output_0 /dafnet/Softmax_2_output_0 0=0 1=1
+Split            splitncnn_53             1 2 /dafnet/Softmax_2_output_0 /dafnet/Softmax_2_output_0_splitncnn_0 /dafnet/Softmax_2_output_0_splitncnn_1
+Crop             /dafnet/Slice_13         3 1 /dafnet/Refine_MFEs.0/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-1 /dafnet/Constant_1_output_0_splitncnn_-2 /dafnet/Slice_13_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape_8        1 1 /dafnet/Slice_13_output_0 /dafnet/Reshape_8_output_0 0=6 1=8 2=2
+Split            splitncnn_54             1 2 /dafnet/Reshape_8_output_0 /dafnet/Reshape_8_output_0_splitncnn_0 /dafnet/Reshape_8_output_0_splitncnn_1
+Crop             /dafnet/Gather_4         1 1 /dafnet/Reshape_8_output_0_splitncnn_1 /dafnet/Gather_4_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_14           2 1 /dafnet/Unsqueeze_output_0_splitncnn_1 /dafnet/Gather_4_output_0 /dafnet/Add_14_output_0 0=0
+Crop             /dafnet/Gather_5         1 1 /dafnet/Reshape_8_output_0_splitncnn_0 /dafnet/Gather_5_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_15           2 1 /dafnet/Unsqueeze_1_output_0_splitncnn_1 /dafnet/Gather_5_output_0 /dafnet/Add_15_output_0 0=0
+BinaryOp         /dafnet/Div_4            1 1 /dafnet/Add_14_output_0 /dafnet/Div_4_output_0 0=3 1=1 2=2.500000e+00
+BinaryOp         /dafnet/Sub_4            1 1 /dafnet/Div_4_output_0 /dafnet/Sub_4_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_5            1 1 /dafnet/Add_15_output_0 /dafnet/Div_5_output_0 0=3 1=1 2=3.500000e+00
+BinaryOp         /dafnet/Sub_5            1 1 /dafnet/Div_5_output_0 /dafnet/Sub_5_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_14     2 1 /dafnet/Sub_4_output_0 /dafnet/Constant_22_output_0_splitncnn_35 /dafnet/Unsqueeze_14_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_15     2 1 /dafnet/Sub_5_output_0 /dafnet/Constant_22_output_0_splitncnn_34 /dafnet/Unsqueeze_15_output_0 -23303=0
+Concat           /dafnet/Concat_9         2 1 /dafnet/Unsqueeze_14_output_0 /dafnet/Unsqueeze_15_output_0 /dafnet/Concat_9_output_0 0=-1
+Crop             /dafnet/Slice_14         3 1 /dafnet/Refine_MFEs.0/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-3 /dafnet/Constant_1_output_0_splitncnn_-4 /dafnet/Slice_14_output_0 -23309=1,12 -23310=1,24 -23311=1,0
+Reshape          /dafnet/Reshape_9        1 1 /dafnet/Slice_14_output_0 /dafnet/Reshape_9_output_0 0=6 1=8 2=2
+Split            splitncnn_55             1 2 /dafnet/Reshape_9_output_0 /dafnet/Reshape_9_output_0_splitncnn_0 /dafnet/Reshape_9_output_0_splitncnn_1
+Crop             /dafnet/Gather_6         1 1 /dafnet/Reshape_9_output_0_splitncnn_1 /dafnet/Gather_6_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_16           2 1 /dafnet/Unsqueeze_output_0_splitncnn_0 /dafnet/Gather_6_output_0 /dafnet/Add_16_output_0 0=0
+Crop             /dafnet/Gather_7         1 1 /dafnet/Reshape_9_output_0_splitncnn_0 /dafnet/Gather_7_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_17           2 1 /dafnet/Unsqueeze_1_output_0_splitncnn_0 /dafnet/Gather_7_output_0 /dafnet/Add_17_output_0 0=0
+BinaryOp         /dafnet/Div_6            1 1 /dafnet/Add_16_output_0 /dafnet/Div_6_output_0 0=3 1=1 2=2.500000e+00
+BinaryOp         /dafnet/Sub_6            1 1 /dafnet/Div_6_output_0 /dafnet/Sub_6_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_7            1 1 /dafnet/Add_17_output_0 /dafnet/Div_7_output_0 0=3 1=1 2=3.500000e+00
+BinaryOp         /dafnet/Sub_7            1 1 /dafnet/Div_7_output_0 /dafnet/Sub_7_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_18     2 1 /dafnet/Sub_6_output_0 /dafnet/Constant_22_output_0_splitncnn_33 /dafnet/Unsqueeze_18_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_19     2 1 /dafnet/Sub_7_output_0 /dafnet/Constant_22_output_0_splitncnn_32 /dafnet/Unsqueeze_19_output_0 -23303=0
+Concat           /dafnet/Concat_10        2 1 /dafnet/Unsqueeze_18_output_0 /dafnet/Unsqueeze_19_output_0 /dafnet/Concat_10_output_0 0=-1
+GridSample       /dafnet/GridSample_2     2 1 /dafnet/Transpose_output_0 /dafnet/Concat_9_output_0 /dafnet/GridSample_2_output_0
+GridSample       /dafnet/GridSample_3     2 1 /dafnet/Transpose_1_output_0 /dafnet/Concat_10_output_0 /dafnet/GridSample_3_output_0
+Interp           /dafnet/Resize           1 1 /dafnet/GridSample_2_output_0 /dafnet/Resize_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Split            splitncnn_56             1 2 /dafnet/Resize_output_0 /dafnet/Resize_output_0_splitncnn_0 /dafnet/Resize_output_0_splitncnn_1
+Interp           /dafnet/Resize_1         1 1 /dafnet/GridSample_3_output_0 /dafnet/Resize_1_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Split            splitncnn_57             1 2 /dafnet/Resize_1_output_0 /dafnet/Resize_1_output_0_splitncnn_0 /dafnet/Resize_1_output_0_splitncnn_1
+Crop             /dafnet/Slice_15         3 1 /dafnet/Softmax_2_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-5 /dafnet/Constant_1_output_0_splitncnn_-6 /dafnet/Slice_15_output_0 -23309=1,0 -23310=1,6 -23311=1,0
+Interp           /dafnet/Resize_2         1 1 /dafnet/Slice_15_output_0 /dafnet/Resize_2_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Crop             /dafnet/Slice_16         3 1 /dafnet/Softmax_2_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-7 /dafnet/Constant_1_output_0_splitncnn_-8 /dafnet/Slice_16_output_0 -23309=1,6 -23310=1,2147483647 -23311=1,0
+Interp           /dafnet/Resize_3         1 1 /dafnet/Slice_16_output_0 /dafnet/Resize_3_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+ExpandDims       /dafnet/Unsqueeze_20     2 1 /dafnet/Resize_3_output_0 /dafnet/Constant_24_output_0_splitncnn_17 /dafnet/Unsqueeze_20_output_0 -23303=0
+Tile             /dafnet/Tile_4           2 1 /dafnet/Unsqueeze_20_output_0 /dafnet/Constant_25_output_0_splitncnn_15 /dafnet/Tile_4_output_0
+Reshape          /dafnet/Reshape_10       1 1 /dafnet/Tile_4_output_0 /dafnet/Reshape_10_output_0 0=12 1=16 2=-1
+ExpandDims       /dafnet/Unsqueeze_21     2 1 /source_FPN/smooth.1/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-9 /dafnet/Unsqueeze_21_output_0 -23303=0
+Tile             /dafnet/Tile_5           2 1 /dafnet/Unsqueeze_21_output_0 /dafnet/Constant_34_output_0_splitncnn_9 /dafnet/Tile_5_output_0
+Reshape          /dafnet/Reshape_11       1 1 /dafnet/Tile_5_output_0 /dafnet/Reshape_11_output_0 0=12 1=16 2=256
+Split            splitncnn_58             1 2 /dafnet/Reshape_11_output_0 /dafnet/Reshape_11_output_0_splitncnn_0 /dafnet/Reshape_11_output_0_splitncnn_1
+Permute          /dafnet/Transpose_2      1 1 /dafnet/Resize_output_0_splitncnn_1 /dafnet/Transpose_2_output_0 0=3
+GridSample       /dafnet/GridSample_4     2 1 /dafnet/Reshape_11_output_0_splitncnn_1 /dafnet/Transpose_2_output_0 /dafnet/GridSample_4_output_0
+Reshape          /dafnet/Reshape_12       1 1 /dafnet/GridSample_4_output_0 /dafnet/Reshape_12_output_0 0=12 1=16 2=-1
+BinaryOp         /dafnet/Mul_2            2 1 /dafnet/Reshape_12_output_0 /dafnet/Reshape_10_output_0 /dafnet/Mul_2_output_0 0=2
+Slice            /dafnet/Split_2          2 6 /dafnet/Mul_2_output_0 /dafnet/Constant_43_output_0_splitncnn_15 /dafnet/Split_2_output_0 /dafnet/Split_2_output_1 /dafnet/Split_2_output_2 /dafnet/Split_2_output_3 /dafnet/Split_2_output_4 /dafnet/Split_2_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_19           2 1 /dafnet/Split_2_output_0 /dafnet/Split_2_output_1 /dafnet/Add_19_output_0 0=0
+BinaryOp         /dafnet/Add_20           2 1 /dafnet/Add_19_output_0 /dafnet/Split_2_output_2 /dafnet/Add_20_output_0 0=0
+BinaryOp         /dafnet/Add_21           2 1 /dafnet/Add_20_output_0 /dafnet/Split_2_output_3 /dafnet/Add_21_output_0 0=0
+BinaryOp         /dafnet/Add_22           2 1 /dafnet/Add_21_output_0 /dafnet/Split_2_output_4 /dafnet/Add_22_output_0 0=0
+BinaryOp         /dafnet/Add_23           2 1 /dafnet/Add_22_output_0 /dafnet/Split_2_output_5 /dafnet/Add_23_output_0 0=0
+ExpandDims       /dafnet/Unsqueeze_22     2 1 /dafnet/Resize_2_output_0 /dafnet/Constant_24_output_0_splitncnn_16 /dafnet/Unsqueeze_22_output_0 -23303=0
+Tile             /dafnet/Tile_6           2 1 /dafnet/Unsqueeze_22_output_0 /dafnet/Constant_25_output_0_splitncnn_14 /dafnet/Tile_6_output_0
+Reshape          /dafnet/Reshape_13       1 1 /dafnet/Tile_6_output_0 /dafnet/Reshape_13_output_0 0=12 1=16 2=-1
+ExpandDims       /dafnet/Unsqueeze_23     2 1 /reference_FPN/smooth.1/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-10 /dafnet/Unsqueeze_23_output_0 -23303=0
+Tile             /dafnet/Tile_7           2 1 /dafnet/Unsqueeze_23_output_0 /dafnet/Constant_34_output_0_splitncnn_8 /dafnet/Tile_7_output_0
+Reshape          /dafnet/Reshape_14       1 1 /dafnet/Tile_7_output_0 /dafnet/Reshape_14_output_0 0=12 1=16 2=256
+Split            splitncnn_59             1 2 /dafnet/Reshape_14_output_0 /dafnet/Reshape_14_output_0_splitncnn_0 /dafnet/Reshape_14_output_0_splitncnn_1
+Permute          /dafnet/Transpose_3      1 1 /dafnet/Resize_1_output_0_splitncnn_1 /dafnet/Transpose_3_output_0 0=3
+GridSample       /dafnet/GridSample_5     2 1 /dafnet/Reshape_14_output_0_splitncnn_1 /dafnet/Transpose_3_output_0 /dafnet/GridSample_5_output_0
+Reshape          /dafnet/Reshape_15       1 1 /dafnet/GridSample_5_output_0 /dafnet/Reshape_15_output_0 0=12 1=16 2=-1
+BinaryOp         /dafnet/Mul_3            2 1 /dafnet/Reshape_15_output_0 /dafnet/Reshape_13_output_0 /dafnet/Mul_3_output_0 0=2
+Slice            /dafnet/Split_3          2 6 /dafnet/Mul_3_output_0 /dafnet/Constant_43_output_0_splitncnn_14 /dafnet/Split_3_output_0 /dafnet/Split_3_output_1 /dafnet/Split_3_output_2 /dafnet/Split_3_output_3 /dafnet/Split_3_output_4 /dafnet/Split_3_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_25           2 1 /dafnet/Split_3_output_0 /dafnet/Split_3_output_1 /dafnet/Add_25_output_0 0=0
+BinaryOp         /dafnet/Add_26           2 1 /dafnet/Add_25_output_0 /dafnet/Split_3_output_2 /dafnet/Add_26_output_0 0=0
+BinaryOp         /dafnet/Add_27           2 1 /dafnet/Add_26_output_0 /dafnet/Split_3_output_3 /dafnet/Add_27_output_0 0=0
+BinaryOp         /dafnet/Add_28           2 1 /dafnet/Add_27_output_0 /dafnet/Split_3_output_4 /dafnet/Add_28_output_0 0=0
+BinaryOp         /dafnet/Add_29           2 1 /dafnet/Add_28_output_0 /dafnet/Split_3_output_5 /dafnet/Add_29_output_0 0=0
+Concat           /dafnet/Concat_15        2 1 /dafnet/Add_23_output_0 /reference_FPN/smooth.1/Conv_output_0_splitncnn_0 /dafnet/Concat_15_output_0 0=0
+Convolution      /dafnet/Cross_MFEs.1/layers/layers.0/Conv 1 1 /dafnet/Concat_15_output_0 /dafnet/Cross_MFEs.1/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Cross_MFEs.1/layers/layers.1/LeakyRelu 1 1 /dafnet/Cross_MFEs.1/layers/layers.0/Conv_output_0 /dafnet/Cross_MFEs.1/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Cross_MFEs.1/layers/layers.2/Conv 1 1 /dafnet/Cross_MFEs.1/layers/layers.1/LeakyRelu_output_0 /dafnet/Cross_MFEs.1/layers/layers.2/Conv_output_0 0=18 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=5184
+Split            splitncnn_60             1 2 /dafnet/Cross_MFEs.1/layers/layers.2/Conv_output_0 /dafnet/Cross_MFEs.1/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Cross_MFEs.1/layers/layers.2/Conv_output_0_splitncnn_1
+Crop             /dafnet/Slice_25         3 1 /dafnet/Cross_MFEs.1/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-11 /dafnet/Constant_1_output_0_splitncnn_-12 /dafnet/Slice_25_output_0 -23309=1,12 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax_3        1 1 /dafnet/Slice_25_output_0 /dafnet/Softmax_3_output_0 0=0 1=1
+Crop             /dafnet/Slice_26         3 1 /dafnet/Cross_MFEs.1/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-13 /dafnet/Constant_1_output_0_splitncnn_-14 /dafnet/Slice_26_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape_16       1 1 /dafnet/Slice_26_output_0 /dafnet/Reshape_16_output_0 0=12 1=16 2=2
+Split            splitncnn_61             1 2 /dafnet/Reshape_16_output_0 /dafnet/Reshape_16_output_0_splitncnn_0 /dafnet/Reshape_16_output_0_splitncnn_1
+Crop             /dafnet/Gather_8         1 1 /dafnet/Reshape_16_output_0_splitncnn_1 /dafnet/Gather_8_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_30           2 1 /dafnet/Unsqueeze_24_output_0_splitncnn_3 /dafnet/Gather_8_output_0 /dafnet/Add_30_output_0 0=0
+Crop             /dafnet/Gather_9         1 1 /dafnet/Reshape_16_output_0_splitncnn_0 /dafnet/Gather_9_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_31           2 1 /dafnet/Unsqueeze_25_output_0_splitncnn_3 /dafnet/Gather_9_output_0 /dafnet/Add_31_output_0 0=0
+BinaryOp         /dafnet/Div_8            1 1 /dafnet/Add_30_output_0 /dafnet/Div_8_output_0 0=3 1=1 2=5.500000e+00
+BinaryOp         /dafnet/Sub_8            1 1 /dafnet/Div_8_output_0 /dafnet/Sub_8_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_9            1 1 /dafnet/Add_31_output_0 /dafnet/Div_9_output_0 0=3 1=1 2=7.500000e+00
+BinaryOp         /dafnet/Sub_9            1 1 /dafnet/Div_9_output_0 /dafnet/Sub_9_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_26     2 1 /dafnet/Sub_8_output_0 /dafnet/Constant_22_output_0_splitncnn_31 /dafnet/Unsqueeze_26_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_27     2 1 /dafnet/Sub_9_output_0 /dafnet/Constant_22_output_0_splitncnn_30 /dafnet/Unsqueeze_27_output_0 -23303=0
+Concat           /dafnet/Concat_16        2 1 /dafnet/Unsqueeze_26_output_0 /dafnet/Unsqueeze_27_output_0 /dafnet/Concat_16_output_0 0=-1
+GridSample       /dafnet/GridSample_6     2 1 /dafnet/Resize_output_0_splitncnn_0 /dafnet/Concat_16_output_0 /dafnet/GridSample_6_output_0
+Split            splitncnn_62             1 2 /dafnet/GridSample_6_output_0 /dafnet/GridSample_6_output_0_splitncnn_0 /dafnet/GridSample_6_output_0_splitncnn_1
+ExpandDims       /dafnet/Unsqueeze_28     2 1 /dafnet/Softmax_3_output_0 /dafnet/Constant_24_output_0_splitncnn_15 /dafnet/Unsqueeze_28_output_0 -23303=0
+Tile             /dafnet/Tile_8           2 1 /dafnet/Unsqueeze_28_output_0 /dafnet/Constant_25_output_0_splitncnn_13 /dafnet/Tile_8_output_0
+Reshape          /dafnet/Reshape_17       1 1 /dafnet/Tile_8_output_0 /dafnet/Reshape_17_output_0 0=12 1=16 2=-1
+Permute          /dafnet/Transpose_4      1 1 /dafnet/GridSample_6_output_0_splitncnn_1 /dafnet/Transpose_4_output_0 0=3
+GridSample       /dafnet/GridSample_7     2 1 /dafnet/Reshape_11_output_0_splitncnn_0 /dafnet/Transpose_4_output_0 /dafnet/GridSample_7_output_0
+Reshape          /dafnet/Reshape_18       1 1 /dafnet/GridSample_7_output_0 /dafnet/Reshape_18_output_0 0=12 1=16 2=-1
+BinaryOp         /dafnet/Mul_4            2 1 /dafnet/Reshape_18_output_0 /dafnet/Reshape_17_output_0 /dafnet/Mul_4_output_0 0=2
+Slice            /dafnet/Split_4          2 6 /dafnet/Mul_4_output_0 /dafnet/Constant_43_output_0_splitncnn_13 /dafnet/Split_4_output_0 /dafnet/Split_4_output_1 /dafnet/Split_4_output_2 /dafnet/Split_4_output_3 /dafnet/Split_4_output_4 /dafnet/Split_4_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_33           2 1 /dafnet/Split_4_output_0 /dafnet/Split_4_output_1 /dafnet/Add_33_output_0 0=0
+BinaryOp         /dafnet/Add_34           2 1 /dafnet/Add_33_output_0 /dafnet/Split_4_output_2 /dafnet/Add_34_output_0 0=0
+BinaryOp         /dafnet/Add_35           2 1 /dafnet/Add_34_output_0 /dafnet/Split_4_output_3 /dafnet/Add_35_output_0 0=0
+BinaryOp         /dafnet/Add_36           2 1 /dafnet/Add_35_output_0 /dafnet/Split_4_output_4 /dafnet/Add_36_output_0 0=0
+BinaryOp         /dafnet/Add_37           2 1 /dafnet/Add_36_output_0 /dafnet/Split_4_output_5 /dafnet/Add_37_output_0 0=0
+Split            splitncnn_63             1 2 /dafnet/Add_37_output_0 /dafnet/Add_37_output_0_splitncnn_0 /dafnet/Add_37_output_0_splitncnn_1
+Concat           /dafnet/Concat_18        2 1 /dafnet/Add_37_output_0_splitncnn_1 /dafnet/Add_29_output_0 /dafnet/Concat_18_output_0 0=0
+Convolution      /dafnet/Self_MFEs.1/layers/layers.0/Conv 1 1 /dafnet/Concat_18_output_0 /dafnet/Self_MFEs.1/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Self_MFEs.1/layers/layers.1/LeakyRelu 1 1 /dafnet/Self_MFEs.1/layers/layers.0/Conv_output_0 /dafnet/Self_MFEs.1/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Self_MFEs.1/layers/layers.2/Conv 1 1 /dafnet/Self_MFEs.1/layers/layers.1/LeakyRelu_output_0 /dafnet/Self_MFEs.1/layers/layers.2/Conv_output_0 0=18 1=7 11=7 2=1 12=1 3=1 13=1 4=3 14=3 15=3 16=3 5=1 6=28224
+Split            splitncnn_64             1 2 /dafnet/Self_MFEs.1/layers/layers.2/Conv_output_0 /dafnet/Self_MFEs.1/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Self_MFEs.1/layers/layers.2/Conv_output_0_splitncnn_1
+Crop             /dafnet/Slice_29         3 1 /dafnet/Self_MFEs.1/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-15 /dafnet/Constant_1_output_0_splitncnn_-16 /dafnet/Slice_29_output_0 -23309=1,12 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax_4        1 1 /dafnet/Slice_29_output_0 /dafnet/Softmax_4_output_0 0=0 1=1
+Crop             /dafnet/Slice_30         3 1 /dafnet/Self_MFEs.1/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-17 /dafnet/Constant_1_output_0_splitncnn_-18 /dafnet/Slice_30_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape_19       1 1 /dafnet/Slice_30_output_0 /dafnet/Reshape_19_output_0 0=12 1=16 2=2
+Split            splitncnn_65             1 2 /dafnet/Reshape_19_output_0 /dafnet/Reshape_19_output_0_splitncnn_0 /dafnet/Reshape_19_output_0_splitncnn_1
+Crop             /dafnet/Gather_10        1 1 /dafnet/Reshape_19_output_0_splitncnn_1 /dafnet/Gather_10_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_38           2 1 /dafnet/Unsqueeze_24_output_0_splitncnn_2 /dafnet/Gather_10_output_0 /dafnet/Add_38_output_0 0=0
+Crop             /dafnet/Gather_11        1 1 /dafnet/Reshape_19_output_0_splitncnn_0 /dafnet/Gather_11_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_39           2 1 /dafnet/Unsqueeze_25_output_0_splitncnn_2 /dafnet/Gather_11_output_0 /dafnet/Add_39_output_0 0=0
+BinaryOp         /dafnet/Div_10           1 1 /dafnet/Add_38_output_0 /dafnet/Div_10_output_0 0=3 1=1 2=5.500000e+00
+BinaryOp         /dafnet/Sub_10           1 1 /dafnet/Div_10_output_0 /dafnet/Sub_10_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_11           1 1 /dafnet/Add_39_output_0 /dafnet/Div_11_output_0 0=3 1=1 2=7.500000e+00
+BinaryOp         /dafnet/Sub_11           1 1 /dafnet/Div_11_output_0 /dafnet/Sub_11_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_31     2 1 /dafnet/Sub_10_output_0 /dafnet/Constant_22_output_0_splitncnn_29 /dafnet/Unsqueeze_31_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_32     2 1 /dafnet/Sub_11_output_0 /dafnet/Constant_22_output_0_splitncnn_28 /dafnet/Unsqueeze_32_output_0 -23303=0
+Concat           /dafnet/Concat_19        2 1 /dafnet/Unsqueeze_31_output_0 /dafnet/Unsqueeze_32_output_0 /dafnet/Concat_19_output_0 0=-1
+GridSample       /dafnet/GridSample_8     2 1 /dafnet/Resize_1_output_0_splitncnn_0 /dafnet/Concat_19_output_0 /dafnet/GridSample_8_output_0
+Split            splitncnn_66             1 2 /dafnet/GridSample_8_output_0 /dafnet/GridSample_8_output_0_splitncnn_0 /dafnet/GridSample_8_output_0_splitncnn_1
+ExpandDims       /dafnet/Unsqueeze_33     2 1 /dafnet/Softmax_4_output_0 /dafnet/Constant_24_output_0_splitncnn_14 /dafnet/Unsqueeze_33_output_0 -23303=0
+Tile             /dafnet/Tile_9           2 1 /dafnet/Unsqueeze_33_output_0 /dafnet/Constant_25_output_0_splitncnn_12 /dafnet/Tile_9_output_0
+Reshape          /dafnet/Reshape_20       1 1 /dafnet/Tile_9_output_0 /dafnet/Reshape_20_output_0 0=12 1=16 2=-1
+Permute          /dafnet/Transpose_5      1 1 /dafnet/GridSample_8_output_0_splitncnn_1 /dafnet/Transpose_5_output_0 0=3
+GridSample       /dafnet/GridSample_9     2 1 /dafnet/Reshape_14_output_0_splitncnn_0 /dafnet/Transpose_5_output_0 /dafnet/GridSample_9_output_0
+Reshape          /dafnet/Reshape_21       1 1 /dafnet/GridSample_9_output_0 /dafnet/Reshape_21_output_0 0=12 1=16 2=-1
+BinaryOp         /dafnet/Mul_5            2 1 /dafnet/Reshape_21_output_0 /dafnet/Reshape_20_output_0 /dafnet/Mul_5_output_0 0=2
+Slice            /dafnet/Split_5          2 6 /dafnet/Mul_5_output_0 /dafnet/Constant_43_output_0_splitncnn_12 /dafnet/Split_5_output_0 /dafnet/Split_5_output_1 /dafnet/Split_5_output_2 /dafnet/Split_5_output_3 /dafnet/Split_5_output_4 /dafnet/Split_5_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_41           2 1 /dafnet/Split_5_output_0 /dafnet/Split_5_output_1 /dafnet/Add_41_output_0 0=0
+BinaryOp         /dafnet/Add_42           2 1 /dafnet/Add_41_output_0 /dafnet/Split_5_output_2 /dafnet/Add_42_output_0 0=0
+BinaryOp         /dafnet/Add_43           2 1 /dafnet/Add_42_output_0 /dafnet/Split_5_output_3 /dafnet/Add_43_output_0 0=0
+BinaryOp         /dafnet/Add_44           2 1 /dafnet/Add_43_output_0 /dafnet/Split_5_output_4 /dafnet/Add_44_output_0 0=0
+BinaryOp         /dafnet/Add_45           2 1 /dafnet/Add_44_output_0 /dafnet/Split_5_output_5 /dafnet/Add_45_output_0 0=0
+Concat           /dafnet/Concat_21        2 1 /dafnet/Add_37_output_0_splitncnn_0 /dafnet/Add_45_output_0 /dafnet/Concat_21_output_0 0=0
+Convolution      /dafnet/Refine_MFEs.1/layers/layers.0/Conv 1 1 /dafnet/Concat_21_output_0 /dafnet/Refine_MFEs.1/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Refine_MFEs.1/layers/layers.1/LeakyRelu 1 1 /dafnet/Refine_MFEs.1/layers/layers.0/Conv_output_0 /dafnet/Refine_MFEs.1/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Refine_MFEs.1/layers/layers.2/Conv 1 1 /dafnet/Refine_MFEs.1/layers/layers.1/LeakyRelu_output_0 /dafnet/Refine_MFEs.1/layers/layers.2/Conv_output_0 0=36 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=10368
+Split            splitncnn_67             1 3 /dafnet/Refine_MFEs.1/layers/layers.2/Conv_output_0 /dafnet/Refine_MFEs.1/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Refine_MFEs.1/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Refine_MFEs.1/layers/layers.2/Conv_output_0_splitncnn_2
+Crop             /dafnet/Slice_33         3 1 /dafnet/Refine_MFEs.1/layers/layers.2/Conv_output_0_splitncnn_2 /dafnet/Constant_1_output_0_splitncnn_-19 /dafnet/Constant_1_output_0_splitncnn_-20 /dafnet/Slice_33_output_0 -23309=1,24 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax_5        1 1 /dafnet/Slice_33_output_0 /dafnet/Softmax_5_output_0 0=0 1=1
+Split            splitncnn_68             1 2 /dafnet/Softmax_5_output_0 /dafnet/Softmax_5_output_0_splitncnn_0 /dafnet/Softmax_5_output_0_splitncnn_1
+Crop             /dafnet/Slice_34         3 1 /dafnet/Refine_MFEs.1/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-21 /dafnet/Constant_1_output_0_splitncnn_-22 /dafnet/Slice_34_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape_22       1 1 /dafnet/Slice_34_output_0 /dafnet/Reshape_22_output_0 0=12 1=16 2=2
+Split            splitncnn_69             1 2 /dafnet/Reshape_22_output_0 /dafnet/Reshape_22_output_0_splitncnn_0 /dafnet/Reshape_22_output_0_splitncnn_1
+Crop             /dafnet/Gather_12        1 1 /dafnet/Reshape_22_output_0_splitncnn_1 /dafnet/Gather_12_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_46           2 1 /dafnet/Unsqueeze_24_output_0_splitncnn_1 /dafnet/Gather_12_output_0 /dafnet/Add_46_output_0 0=0
+Crop             /dafnet/Gather_13        1 1 /dafnet/Reshape_22_output_0_splitncnn_0 /dafnet/Gather_13_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_47           2 1 /dafnet/Unsqueeze_25_output_0_splitncnn_1 /dafnet/Gather_13_output_0 /dafnet/Add_47_output_0 0=0
+BinaryOp         /dafnet/Div_12           1 1 /dafnet/Add_46_output_0 /dafnet/Div_12_output_0 0=3 1=1 2=5.500000e+00
+BinaryOp         /dafnet/Sub_12           1 1 /dafnet/Div_12_output_0 /dafnet/Sub_12_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_13           1 1 /dafnet/Add_47_output_0 /dafnet/Div_13_output_0 0=3 1=1 2=7.500000e+00
+BinaryOp         /dafnet/Sub_13           1 1 /dafnet/Div_13_output_0 /dafnet/Sub_13_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_36     2 1 /dafnet/Sub_12_output_0 /dafnet/Constant_22_output_0_splitncnn_27 /dafnet/Unsqueeze_36_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_37     2 1 /dafnet/Sub_13_output_0 /dafnet/Constant_22_output_0_splitncnn_26 /dafnet/Unsqueeze_37_output_0 -23303=0
+Concat           /dafnet/Concat_22        2 1 /dafnet/Unsqueeze_36_output_0 /dafnet/Unsqueeze_37_output_0 /dafnet/Concat_22_output_0 0=-1
+Crop             /dafnet/Slice_35         3 1 /dafnet/Refine_MFEs.1/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-23 /dafnet/Constant_1_output_0_splitncnn_-24 /dafnet/Slice_35_output_0 -23309=1,12 -23310=1,24 -23311=1,0
+Reshape          /dafnet/Reshape_23       1 1 /dafnet/Slice_35_output_0 /dafnet/Reshape_23_output_0 0=12 1=16 2=2
+Split            splitncnn_70             1 2 /dafnet/Reshape_23_output_0 /dafnet/Reshape_23_output_0_splitncnn_0 /dafnet/Reshape_23_output_0_splitncnn_1
+Crop             /dafnet/Gather_14        1 1 /dafnet/Reshape_23_output_0_splitncnn_1 /dafnet/Gather_14_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_48           2 1 /dafnet/Unsqueeze_24_output_0_splitncnn_0 /dafnet/Gather_14_output_0 /dafnet/Add_48_output_0 0=0
+Crop             /dafnet/Gather_15        1 1 /dafnet/Reshape_23_output_0_splitncnn_0 /dafnet/Gather_15_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_49           2 1 /dafnet/Unsqueeze_25_output_0_splitncnn_0 /dafnet/Gather_15_output_0 /dafnet/Add_49_output_0 0=0
+BinaryOp         /dafnet/Div_14           1 1 /dafnet/Add_48_output_0 /dafnet/Div_14_output_0 0=3 1=1 2=5.500000e+00
+BinaryOp         /dafnet/Sub_14           1 1 /dafnet/Div_14_output_0 /dafnet/Sub_14_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_15           1 1 /dafnet/Add_49_output_0 /dafnet/Div_15_output_0 0=3 1=1 2=7.500000e+00
+BinaryOp         /dafnet/Sub_15           1 1 /dafnet/Div_15_output_0 /dafnet/Sub_15_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_40     2 1 /dafnet/Sub_14_output_0 /dafnet/Constant_22_output_0_splitncnn_25 /dafnet/Unsqueeze_40_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_41     2 1 /dafnet/Sub_15_output_0 /dafnet/Constant_22_output_0_splitncnn_24 /dafnet/Unsqueeze_41_output_0 -23303=0
+Concat           /dafnet/Concat_23        2 1 /dafnet/Unsqueeze_40_output_0 /dafnet/Unsqueeze_41_output_0 /dafnet/Concat_23_output_0 0=-1
+GridSample       /dafnet/GridSample_10    2 1 /dafnet/GridSample_6_output_0_splitncnn_0 /dafnet/Concat_22_output_0 /dafnet/GridSample_10_output_0
+GridSample       /dafnet/GridSample_11    2 1 /dafnet/GridSample_8_output_0_splitncnn_0 /dafnet/Concat_23_output_0 /dafnet/GridSample_11_output_0
+Interp           /dafnet/Resize_4         1 1 /dafnet/GridSample_10_output_0 /dafnet/Resize_4_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Split            splitncnn_71             1 2 /dafnet/Resize_4_output_0 /dafnet/Resize_4_output_0_splitncnn_0 /dafnet/Resize_4_output_0_splitncnn_1
+Interp           /dafnet/Resize_5         1 1 /dafnet/GridSample_11_output_0 /dafnet/Resize_5_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Split            splitncnn_72             1 2 /dafnet/Resize_5_output_0 /dafnet/Resize_5_output_0_splitncnn_0 /dafnet/Resize_5_output_0_splitncnn_1
+Crop             /dafnet/Slice_36         3 1 /dafnet/Softmax_5_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-25 /dafnet/Constant_1_output_0_splitncnn_-26 /dafnet/Slice_36_output_0 -23309=1,0 -23310=1,6 -23311=1,0
+Interp           /dafnet/Resize_6         1 1 /dafnet/Slice_36_output_0 /dafnet/Resize_6_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Crop             /dafnet/Slice_37         3 1 /dafnet/Softmax_5_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-27 /dafnet/Constant_1_output_0_splitncnn_-28 /dafnet/Slice_37_output_0 -23309=1,6 -23310=1,2147483647 -23311=1,0
+Interp           /dafnet/Resize_7         1 1 /dafnet/Slice_37_output_0 /dafnet/Resize_7_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+ExpandDims       /dafnet/Unsqueeze_42     2 1 /dafnet/Resize_7_output_0 /dafnet/Constant_24_output_0_splitncnn_13 /dafnet/Unsqueeze_42_output_0 -23303=0
+Tile             /dafnet/Tile_10          2 1 /dafnet/Unsqueeze_42_output_0 /dafnet/Constant_25_output_0_splitncnn_11 /dafnet/Tile_10_output_0
+Reshape          /dafnet/Reshape_24       1 1 /dafnet/Tile_10_output_0 /dafnet/Reshape_24_output_0 0=24 1=32 2=-1
+ExpandDims       /dafnet/Unsqueeze_43     2 1 /source_FPN/smooth.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-29 /dafnet/Unsqueeze_43_output_0 -23303=0
+Tile             /dafnet/Tile_11          2 1 /dafnet/Unsqueeze_43_output_0 /dafnet/Constant_34_output_0_splitncnn_7 /dafnet/Tile_11_output_0
+Reshape          /dafnet/Reshape_25       1 1 /dafnet/Tile_11_output_0 /dafnet/Reshape_25_output_0 0=24 1=32 2=256
+Split            splitncnn_73             1 2 /dafnet/Reshape_25_output_0 /dafnet/Reshape_25_output_0_splitncnn_0 /dafnet/Reshape_25_output_0_splitncnn_1
+Permute          /dafnet/Transpose_6      1 1 /dafnet/Resize_4_output_0_splitncnn_1 /dafnet/Transpose_6_output_0 0=3
+GridSample       /dafnet/GridSample_12    2 1 /dafnet/Reshape_25_output_0_splitncnn_1 /dafnet/Transpose_6_output_0 /dafnet/GridSample_12_output_0
+Reshape          /dafnet/Reshape_26       1 1 /dafnet/GridSample_12_output_0 /dafnet/Reshape_26_output_0 0=24 1=32 2=-1
+BinaryOp         /dafnet/Mul_6            2 1 /dafnet/Reshape_26_output_0 /dafnet/Reshape_24_output_0 /dafnet/Mul_6_output_0 0=2
+Slice            /dafnet/Split_6          2 6 /dafnet/Mul_6_output_0 /dafnet/Constant_43_output_0_splitncnn_11 /dafnet/Split_6_output_0 /dafnet/Split_6_output_1 /dafnet/Split_6_output_2 /dafnet/Split_6_output_3 /dafnet/Split_6_output_4 /dafnet/Split_6_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_51           2 1 /dafnet/Split_6_output_0 /dafnet/Split_6_output_1 /dafnet/Add_51_output_0 0=0
+BinaryOp         /dafnet/Add_52           2 1 /dafnet/Add_51_output_0 /dafnet/Split_6_output_2 /dafnet/Add_52_output_0 0=0
+BinaryOp         /dafnet/Add_53           2 1 /dafnet/Add_52_output_0 /dafnet/Split_6_output_3 /dafnet/Add_53_output_0 0=0
+BinaryOp         /dafnet/Add_54           2 1 /dafnet/Add_53_output_0 /dafnet/Split_6_output_4 /dafnet/Add_54_output_0 0=0
+BinaryOp         /dafnet/Add_55           2 1 /dafnet/Add_54_output_0 /dafnet/Split_6_output_5 /dafnet/Add_55_output_0 0=0
+ExpandDims       /dafnet/Unsqueeze_44     2 1 /dafnet/Resize_6_output_0 /dafnet/Constant_24_output_0_splitncnn_12 /dafnet/Unsqueeze_44_output_0 -23303=0
+Tile             /dafnet/Tile_12          2 1 /dafnet/Unsqueeze_44_output_0 /dafnet/Constant_25_output_0_splitncnn_10 /dafnet/Tile_12_output_0
+Reshape          /dafnet/Reshape_27       1 1 /dafnet/Tile_12_output_0 /dafnet/Reshape_27_output_0 0=24 1=32 2=-1
+ExpandDims       /dafnet/Unsqueeze_45     2 1 /reference_FPN/smooth.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-30 /dafnet/Unsqueeze_45_output_0 -23303=0
+Tile             /dafnet/Tile_13          2 1 /dafnet/Unsqueeze_45_output_0 /dafnet/Constant_34_output_0_splitncnn_6 /dafnet/Tile_13_output_0
+Reshape          /dafnet/Reshape_28       1 1 /dafnet/Tile_13_output_0 /dafnet/Reshape_28_output_0 0=24 1=32 2=256
+Split            splitncnn_74             1 2 /dafnet/Reshape_28_output_0 /dafnet/Reshape_28_output_0_splitncnn_0 /dafnet/Reshape_28_output_0_splitncnn_1
+Permute          /dafnet/Transpose_7      1 1 /dafnet/Resize_5_output_0_splitncnn_1 /dafnet/Transpose_7_output_0 0=3
+GridSample       /dafnet/GridSample_13    2 1 /dafnet/Reshape_28_output_0_splitncnn_1 /dafnet/Transpose_7_output_0 /dafnet/GridSample_13_output_0
+Reshape          /dafnet/Reshape_29       1 1 /dafnet/GridSample_13_output_0 /dafnet/Reshape_29_output_0 0=24 1=32 2=-1
+BinaryOp         /dafnet/Mul_7            2 1 /dafnet/Reshape_29_output_0 /dafnet/Reshape_27_output_0 /dafnet/Mul_7_output_0 0=2
+Slice            /dafnet/Split_7          2 6 /dafnet/Mul_7_output_0 /dafnet/Constant_43_output_0_splitncnn_10 /dafnet/Split_7_output_0 /dafnet/Split_7_output_1 /dafnet/Split_7_output_2 /dafnet/Split_7_output_3 /dafnet/Split_7_output_4 /dafnet/Split_7_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_57           2 1 /dafnet/Split_7_output_0 /dafnet/Split_7_output_1 /dafnet/Add_57_output_0 0=0
+BinaryOp         /dafnet/Add_58           2 1 /dafnet/Add_57_output_0 /dafnet/Split_7_output_2 /dafnet/Add_58_output_0 0=0
+BinaryOp         /dafnet/Add_59           2 1 /dafnet/Add_58_output_0 /dafnet/Split_7_output_3 /dafnet/Add_59_output_0 0=0
+BinaryOp         /dafnet/Add_60           2 1 /dafnet/Add_59_output_0 /dafnet/Split_7_output_4 /dafnet/Add_60_output_0 0=0
+BinaryOp         /dafnet/Add_61           2 1 /dafnet/Add_60_output_0 /dafnet/Split_7_output_5 /dafnet/Add_61_output_0 0=0
+Concat           /dafnet/Concat_28        2 1 /dafnet/Add_55_output_0 /reference_FPN/smooth.2/Conv_output_0_splitncnn_0 /dafnet/Concat_28_output_0 0=0
+Convolution      /dafnet/Cross_MFEs.2/layers/layers.0/Conv 1 1 /dafnet/Concat_28_output_0 /dafnet/Cross_MFEs.2/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Cross_MFEs.2/layers/layers.1/LeakyRelu 1 1 /dafnet/Cross_MFEs.2/layers/layers.0/Conv_output_0 /dafnet/Cross_MFEs.2/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Cross_MFEs.2/layers/layers.2/Conv 1 1 /dafnet/Cross_MFEs.2/layers/layers.1/LeakyRelu_output_0 /dafnet/Cross_MFEs.2/layers/layers.2/Conv_output_0 0=18 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=5184
+Split            splitncnn_75             1 2 /dafnet/Cross_MFEs.2/layers/layers.2/Conv_output_0 /dafnet/Cross_MFEs.2/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Cross_MFEs.2/layers/layers.2/Conv_output_0_splitncnn_1
+Crop             /dafnet/Slice_46         3 1 /dafnet/Cross_MFEs.2/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-31 /dafnet/Constant_1_output_0_splitncnn_-32 /dafnet/Slice_46_output_0 -23309=1,12 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax_6        1 1 /dafnet/Slice_46_output_0 /dafnet/Softmax_6_output_0 0=0 1=1
+Crop             /dafnet/Slice_47         3 1 /dafnet/Cross_MFEs.2/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-33 /dafnet/Constant_1_output_0_splitncnn_-34 /dafnet/Slice_47_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape_30       1 1 /dafnet/Slice_47_output_0 /dafnet/Reshape_30_output_0 0=24 1=32 2=2
+Split            splitncnn_76             1 2 /dafnet/Reshape_30_output_0 /dafnet/Reshape_30_output_0_splitncnn_0 /dafnet/Reshape_30_output_0_splitncnn_1
+Crop             /dafnet/Gather_16        1 1 /dafnet/Reshape_30_output_0_splitncnn_1 /dafnet/Gather_16_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_62           2 1 /dafnet/Unsqueeze_46_output_0_splitncnn_3 /dafnet/Gather_16_output_0 /dafnet/Add_62_output_0 0=0
+Crop             /dafnet/Gather_17        1 1 /dafnet/Reshape_30_output_0_splitncnn_0 /dafnet/Gather_17_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_63           2 1 /dafnet/Unsqueeze_47_output_0_splitncnn_3 /dafnet/Gather_17_output_0 /dafnet/Add_63_output_0 0=0
+BinaryOp         /dafnet/Div_16           1 1 /dafnet/Add_62_output_0 /dafnet/Div_16_output_0 0=3 1=1 2=1.150000e+01
+BinaryOp         /dafnet/Sub_16           1 1 /dafnet/Div_16_output_0 /dafnet/Sub_16_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_17           1 1 /dafnet/Add_63_output_0 /dafnet/Div_17_output_0 0=3 1=1 2=1.550000e+01
+BinaryOp         /dafnet/Sub_17           1 1 /dafnet/Div_17_output_0 /dafnet/Sub_17_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_48     2 1 /dafnet/Sub_16_output_0 /dafnet/Constant_22_output_0_splitncnn_23 /dafnet/Unsqueeze_48_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_49     2 1 /dafnet/Sub_17_output_0 /dafnet/Constant_22_output_0_splitncnn_22 /dafnet/Unsqueeze_49_output_0 -23303=0
+Concat           /dafnet/Concat_29        2 1 /dafnet/Unsqueeze_48_output_0 /dafnet/Unsqueeze_49_output_0 /dafnet/Concat_29_output_0 0=-1
+GridSample       /dafnet/GridSample_14    2 1 /dafnet/Resize_4_output_0_splitncnn_0 /dafnet/Concat_29_output_0 /dafnet/GridSample_14_output_0
+Split            splitncnn_77             1 2 /dafnet/GridSample_14_output_0 /dafnet/GridSample_14_output_0_splitncnn_0 /dafnet/GridSample_14_output_0_splitncnn_1
+ExpandDims       /dafnet/Unsqueeze_50     2 1 /dafnet/Softmax_6_output_0 /dafnet/Constant_24_output_0_splitncnn_11 /dafnet/Unsqueeze_50_output_0 -23303=0
+Tile             /dafnet/Tile_14          2 1 /dafnet/Unsqueeze_50_output_0 /dafnet/Constant_25_output_0_splitncnn_9 /dafnet/Tile_14_output_0
+Reshape          /dafnet/Reshape_31       1 1 /dafnet/Tile_14_output_0 /dafnet/Reshape_31_output_0 0=24 1=32 2=-1
+Permute          /dafnet/Transpose_8      1 1 /dafnet/GridSample_14_output_0_splitncnn_1 /dafnet/Transpose_8_output_0 0=3
+GridSample       /dafnet/GridSample_15    2 1 /dafnet/Reshape_25_output_0_splitncnn_0 /dafnet/Transpose_8_output_0 /dafnet/GridSample_15_output_0
+Reshape          /dafnet/Reshape_32       1 1 /dafnet/GridSample_15_output_0 /dafnet/Reshape_32_output_0 0=24 1=32 2=-1
+BinaryOp         /dafnet/Mul_8            2 1 /dafnet/Reshape_32_output_0 /dafnet/Reshape_31_output_0 /dafnet/Mul_8_output_0 0=2
+Slice            /dafnet/Split_8          2 6 /dafnet/Mul_8_output_0 /dafnet/Constant_43_output_0_splitncnn_9 /dafnet/Split_8_output_0 /dafnet/Split_8_output_1 /dafnet/Split_8_output_2 /dafnet/Split_8_output_3 /dafnet/Split_8_output_4 /dafnet/Split_8_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_65           2 1 /dafnet/Split_8_output_0 /dafnet/Split_8_output_1 /dafnet/Add_65_output_0 0=0
+BinaryOp         /dafnet/Add_66           2 1 /dafnet/Add_65_output_0 /dafnet/Split_8_output_2 /dafnet/Add_66_output_0 0=0
+BinaryOp         /dafnet/Add_67           2 1 /dafnet/Add_66_output_0 /dafnet/Split_8_output_3 /dafnet/Add_67_output_0 0=0
+BinaryOp         /dafnet/Add_68           2 1 /dafnet/Add_67_output_0 /dafnet/Split_8_output_4 /dafnet/Add_68_output_0 0=0
+BinaryOp         /dafnet/Add_69           2 1 /dafnet/Add_68_output_0 /dafnet/Split_8_output_5 /dafnet/Add_69_output_0 0=0
+Split            splitncnn_78             1 2 /dafnet/Add_69_output_0 /dafnet/Add_69_output_0_splitncnn_0 /dafnet/Add_69_output_0_splitncnn_1
+Concat           /dafnet/Concat_31        2 1 /dafnet/Add_69_output_0_splitncnn_1 /dafnet/Add_61_output_0 /dafnet/Concat_31_output_0 0=0
+Convolution      /dafnet/Self_MFEs.2/layers/layers.0/Conv 1 1 /dafnet/Concat_31_output_0 /dafnet/Self_MFEs.2/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Self_MFEs.2/layers/layers.1/LeakyRelu 1 1 /dafnet/Self_MFEs.2/layers/layers.0/Conv_output_0 /dafnet/Self_MFEs.2/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Self_MFEs.2/layers/layers.2/Conv 1 1 /dafnet/Self_MFEs.2/layers/layers.1/LeakyRelu_output_0 /dafnet/Self_MFEs.2/layers/layers.2/Conv_output_0 0=18 1=7 11=7 2=1 12=1 3=1 13=1 4=3 14=3 15=3 16=3 5=1 6=28224
+Split            splitncnn_79             1 2 /dafnet/Self_MFEs.2/layers/layers.2/Conv_output_0 /dafnet/Self_MFEs.2/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Self_MFEs.2/layers/layers.2/Conv_output_0_splitncnn_1
+Crop             /dafnet/Slice_50         3 1 /dafnet/Self_MFEs.2/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-35 /dafnet/Constant_1_output_0_splitncnn_-36 /dafnet/Slice_50_output_0 -23309=1,12 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax_7        1 1 /dafnet/Slice_50_output_0 /dafnet/Softmax_7_output_0 0=0 1=1
+Crop             /dafnet/Slice_51         3 1 /dafnet/Self_MFEs.2/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-37 /dafnet/Constant_1_output_0_splitncnn_-38 /dafnet/Slice_51_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape_33       1 1 /dafnet/Slice_51_output_0 /dafnet/Reshape_33_output_0 0=24 1=32 2=2
+Split            splitncnn_80             1 2 /dafnet/Reshape_33_output_0 /dafnet/Reshape_33_output_0_splitncnn_0 /dafnet/Reshape_33_output_0_splitncnn_1
+Crop             /dafnet/Gather_18        1 1 /dafnet/Reshape_33_output_0_splitncnn_1 /dafnet/Gather_18_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_70           2 1 /dafnet/Unsqueeze_46_output_0_splitncnn_2 /dafnet/Gather_18_output_0 /dafnet/Add_70_output_0 0=0
+Crop             /dafnet/Gather_19        1 1 /dafnet/Reshape_33_output_0_splitncnn_0 /dafnet/Gather_19_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_71           2 1 /dafnet/Unsqueeze_47_output_0_splitncnn_2 /dafnet/Gather_19_output_0 /dafnet/Add_71_output_0 0=0
+BinaryOp         /dafnet/Div_18           1 1 /dafnet/Add_70_output_0 /dafnet/Div_18_output_0 0=3 1=1 2=1.150000e+01
+BinaryOp         /dafnet/Sub_18           1 1 /dafnet/Div_18_output_0 /dafnet/Sub_18_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_19           1 1 /dafnet/Add_71_output_0 /dafnet/Div_19_output_0 0=3 1=1 2=1.550000e+01
+BinaryOp         /dafnet/Sub_19           1 1 /dafnet/Div_19_output_0 /dafnet/Sub_19_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_53     2 1 /dafnet/Sub_18_output_0 /dafnet/Constant_22_output_0_splitncnn_21 /dafnet/Unsqueeze_53_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_54     2 1 /dafnet/Sub_19_output_0 /dafnet/Constant_22_output_0_splitncnn_20 /dafnet/Unsqueeze_54_output_0 -23303=0
+Concat           /dafnet/Concat_32        2 1 /dafnet/Unsqueeze_53_output_0 /dafnet/Unsqueeze_54_output_0 /dafnet/Concat_32_output_0 0=-1
+GridSample       /dafnet/GridSample_16    2 1 /dafnet/Resize_5_output_0_splitncnn_0 /dafnet/Concat_32_output_0 /dafnet/GridSample_16_output_0
+Split            splitncnn_81             1 2 /dafnet/GridSample_16_output_0 /dafnet/GridSample_16_output_0_splitncnn_0 /dafnet/GridSample_16_output_0_splitncnn_1
+ExpandDims       /dafnet/Unsqueeze_55     2 1 /dafnet/Softmax_7_output_0 /dafnet/Constant_24_output_0_splitncnn_10 /dafnet/Unsqueeze_55_output_0 -23303=0
+Tile             /dafnet/Tile_15          2 1 /dafnet/Unsqueeze_55_output_0 /dafnet/Constant_25_output_0_splitncnn_8 /dafnet/Tile_15_output_0
+Reshape          /dafnet/Reshape_34       1 1 /dafnet/Tile_15_output_0 /dafnet/Reshape_34_output_0 0=24 1=32 2=-1
+Permute          /dafnet/Transpose_9      1 1 /dafnet/GridSample_16_output_0_splitncnn_1 /dafnet/Transpose_9_output_0 0=3
+GridSample       /dafnet/GridSample_17    2 1 /dafnet/Reshape_28_output_0_splitncnn_0 /dafnet/Transpose_9_output_0 /dafnet/GridSample_17_output_0
+Reshape          /dafnet/Reshape_35       1 1 /dafnet/GridSample_17_output_0 /dafnet/Reshape_35_output_0 0=24 1=32 2=-1
+BinaryOp         /dafnet/Mul_9            2 1 /dafnet/Reshape_35_output_0 /dafnet/Reshape_34_output_0 /dafnet/Mul_9_output_0 0=2
+Slice            /dafnet/Split_9          2 6 /dafnet/Mul_9_output_0 /dafnet/Constant_43_output_0_splitncnn_8 /dafnet/Split_9_output_0 /dafnet/Split_9_output_1 /dafnet/Split_9_output_2 /dafnet/Split_9_output_3 /dafnet/Split_9_output_4 /dafnet/Split_9_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_73           2 1 /dafnet/Split_9_output_0 /dafnet/Split_9_output_1 /dafnet/Add_73_output_0 0=0
+BinaryOp         /dafnet/Add_74           2 1 /dafnet/Add_73_output_0 /dafnet/Split_9_output_2 /dafnet/Add_74_output_0 0=0
+BinaryOp         /dafnet/Add_75           2 1 /dafnet/Add_74_output_0 /dafnet/Split_9_output_3 /dafnet/Add_75_output_0 0=0
+BinaryOp         /dafnet/Add_76           2 1 /dafnet/Add_75_output_0 /dafnet/Split_9_output_4 /dafnet/Add_76_output_0 0=0
+BinaryOp         /dafnet/Add_77           2 1 /dafnet/Add_76_output_0 /dafnet/Split_9_output_5 /dafnet/Add_77_output_0 0=0
+Concat           /dafnet/Concat_34        2 1 /dafnet/Add_69_output_0_splitncnn_0 /dafnet/Add_77_output_0 /dafnet/Concat_34_output_0 0=0
+Convolution      /dafnet/Refine_MFEs.2/layers/layers.0/Conv 1 1 /dafnet/Concat_34_output_0 /dafnet/Refine_MFEs.2/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Refine_MFEs.2/layers/layers.1/LeakyRelu 1 1 /dafnet/Refine_MFEs.2/layers/layers.0/Conv_output_0 /dafnet/Refine_MFEs.2/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Refine_MFEs.2/layers/layers.2/Conv 1 1 /dafnet/Refine_MFEs.2/layers/layers.1/LeakyRelu_output_0 /dafnet/Refine_MFEs.2/layers/layers.2/Conv_output_0 0=36 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=10368
+Split            splitncnn_82             1 3 /dafnet/Refine_MFEs.2/layers/layers.2/Conv_output_0 /dafnet/Refine_MFEs.2/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Refine_MFEs.2/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Refine_MFEs.2/layers/layers.2/Conv_output_0_splitncnn_2
+Crop             /dafnet/Slice_54         3 1 /dafnet/Refine_MFEs.2/layers/layers.2/Conv_output_0_splitncnn_2 /dafnet/Constant_1_output_0_splitncnn_-39 /dafnet/Constant_1_output_0_splitncnn_-40 /dafnet/Slice_54_output_0 -23309=1,24 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax_8        1 1 /dafnet/Slice_54_output_0 /dafnet/Softmax_8_output_0 0=0 1=1
+Split            splitncnn_83             1 2 /dafnet/Softmax_8_output_0 /dafnet/Softmax_8_output_0_splitncnn_0 /dafnet/Softmax_8_output_0_splitncnn_1
+Crop             /dafnet/Slice_55         3 1 /dafnet/Refine_MFEs.2/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-41 /dafnet/Constant_1_output_0_splitncnn_-42 /dafnet/Slice_55_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape_36       1 1 /dafnet/Slice_55_output_0 /dafnet/Reshape_36_output_0 0=24 1=32 2=2
+Split            splitncnn_84             1 2 /dafnet/Reshape_36_output_0 /dafnet/Reshape_36_output_0_splitncnn_0 /dafnet/Reshape_36_output_0_splitncnn_1
+Crop             /dafnet/Gather_20        1 1 /dafnet/Reshape_36_output_0_splitncnn_1 /dafnet/Gather_20_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_78           2 1 /dafnet/Unsqueeze_46_output_0_splitncnn_1 /dafnet/Gather_20_output_0 /dafnet/Add_78_output_0 0=0
+Crop             /dafnet/Gather_21        1 1 /dafnet/Reshape_36_output_0_splitncnn_0 /dafnet/Gather_21_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_79           2 1 /dafnet/Unsqueeze_47_output_0_splitncnn_1 /dafnet/Gather_21_output_0 /dafnet/Add_79_output_0 0=0
+BinaryOp         /dafnet/Div_20           1 1 /dafnet/Add_78_output_0 /dafnet/Div_20_output_0 0=3 1=1 2=1.150000e+01
+BinaryOp         /dafnet/Sub_20           1 1 /dafnet/Div_20_output_0 /dafnet/Sub_20_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_21           1 1 /dafnet/Add_79_output_0 /dafnet/Div_21_output_0 0=3 1=1 2=1.550000e+01
+BinaryOp         /dafnet/Sub_21           1 1 /dafnet/Div_21_output_0 /dafnet/Sub_21_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_58     2 1 /dafnet/Sub_20_output_0 /dafnet/Constant_22_output_0_splitncnn_19 /dafnet/Unsqueeze_58_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_59     2 1 /dafnet/Sub_21_output_0 /dafnet/Constant_22_output_0_splitncnn_18 /dafnet/Unsqueeze_59_output_0 -23303=0
+Concat           /dafnet/Concat_35        2 1 /dafnet/Unsqueeze_58_output_0 /dafnet/Unsqueeze_59_output_0 /dafnet/Concat_35_output_0 0=-1
+Crop             /dafnet/Slice_56         3 1 /dafnet/Refine_MFEs.2/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-43 /dafnet/Constant_1_output_0_splitncnn_-44 /dafnet/Slice_56_output_0 -23309=1,12 -23310=1,24 -23311=1,0
+Reshape          /dafnet/Reshape_37       1 1 /dafnet/Slice_56_output_0 /dafnet/Reshape_37_output_0 0=24 1=32 2=2
+Split            splitncnn_85             1 2 /dafnet/Reshape_37_output_0 /dafnet/Reshape_37_output_0_splitncnn_0 /dafnet/Reshape_37_output_0_splitncnn_1
+Crop             /dafnet/Gather_22        1 1 /dafnet/Reshape_37_output_0_splitncnn_1 /dafnet/Gather_22_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_80           2 1 /dafnet/Unsqueeze_46_output_0_splitncnn_0 /dafnet/Gather_22_output_0 /dafnet/Add_80_output_0 0=0
+Crop             /dafnet/Gather_23        1 1 /dafnet/Reshape_37_output_0_splitncnn_0 /dafnet/Gather_23_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_81           2 1 /dafnet/Unsqueeze_47_output_0_splitncnn_0 /dafnet/Gather_23_output_0 /dafnet/Add_81_output_0 0=0
+BinaryOp         /dafnet/Div_22           1 1 /dafnet/Add_80_output_0 /dafnet/Div_22_output_0 0=3 1=1 2=1.150000e+01
+BinaryOp         /dafnet/Sub_22           1 1 /dafnet/Div_22_output_0 /dafnet/Sub_22_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_23           1 1 /dafnet/Add_81_output_0 /dafnet/Div_23_output_0 0=3 1=1 2=1.550000e+01
+BinaryOp         /dafnet/Sub_23           1 1 /dafnet/Div_23_output_0 /dafnet/Sub_23_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_62     2 1 /dafnet/Sub_22_output_0 /dafnet/Constant_22_output_0_splitncnn_17 /dafnet/Unsqueeze_62_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_63     2 1 /dafnet/Sub_23_output_0 /dafnet/Constant_22_output_0_splitncnn_16 /dafnet/Unsqueeze_63_output_0 -23303=0
+Concat           /dafnet/Concat_36        2 1 /dafnet/Unsqueeze_62_output_0 /dafnet/Unsqueeze_63_output_0 /dafnet/Concat_36_output_0 0=-1
+GridSample       /dafnet/GridSample_18    2 1 /dafnet/GridSample_14_output_0_splitncnn_0 /dafnet/Concat_35_output_0 /dafnet/GridSample_18_output_0
+GridSample       /dafnet/GridSample_19    2 1 /dafnet/GridSample_16_output_0_splitncnn_0 /dafnet/Concat_36_output_0 /dafnet/GridSample_19_output_0
+Interp           /dafnet/Resize_8         1 1 /dafnet/GridSample_18_output_0 /dafnet/Resize_8_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Split            splitncnn_86             1 2 /dafnet/Resize_8_output_0 /dafnet/Resize_8_output_0_splitncnn_0 /dafnet/Resize_8_output_0_splitncnn_1
+Interp           /dafnet/Resize_9         1 1 /dafnet/GridSample_19_output_0 /dafnet/Resize_9_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Split            splitncnn_87             1 2 /dafnet/Resize_9_output_0 /dafnet/Resize_9_output_0_splitncnn_0 /dafnet/Resize_9_output_0_splitncnn_1
+Crop             /dafnet/Slice_57         3 1 /dafnet/Softmax_8_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-45 /dafnet/Constant_1_output_0_splitncnn_-46 /dafnet/Slice_57_output_0 -23309=1,0 -23310=1,6 -23311=1,0
+Interp           /dafnet/Resize_10        1 1 /dafnet/Slice_57_output_0 /dafnet/Resize_10_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Crop             /dafnet/Slice_58         3 1 /dafnet/Softmax_8_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-47 /dafnet/Constant_1_output_0_splitncnn_-48 /dafnet/Slice_58_output_0 -23309=1,6 -23310=1,2147483647 -23311=1,0
+Interp           /dafnet/Resize_11        1 1 /dafnet/Slice_58_output_0 /dafnet/Resize_11_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+ExpandDims       /dafnet/Unsqueeze_64     2 1 /dafnet/Resize_11_output_0 /dafnet/Constant_24_output_0_splitncnn_9 /dafnet/Unsqueeze_64_output_0 -23303=0
+Tile             /dafnet/Tile_16          2 1 /dafnet/Unsqueeze_64_output_0 /dafnet/Constant_25_output_0_splitncnn_7 /dafnet/Tile_16_output_0
+Reshape          /dafnet/Reshape_38       1 1 /dafnet/Tile_16_output_0 /dafnet/Reshape_38_output_0 0=48 1=64 2=-1
+ExpandDims       /dafnet/Unsqueeze_65     2 1 /source_FPN/smooth.3/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-49 /dafnet/Unsqueeze_65_output_0 -23303=0
+Tile             /dafnet/Tile_17          2 1 /dafnet/Unsqueeze_65_output_0 /dafnet/Constant_34_output_0_splitncnn_5 /dafnet/Tile_17_output_0
+Reshape          /dafnet/Reshape_39       1 1 /dafnet/Tile_17_output_0 /dafnet/Reshape_39_output_0 0=48 1=64 2=256
+Split            splitncnn_88             1 2 /dafnet/Reshape_39_output_0 /dafnet/Reshape_39_output_0_splitncnn_0 /dafnet/Reshape_39_output_0_splitncnn_1
+Permute          /dafnet/Transpose_10     1 1 /dafnet/Resize_8_output_0_splitncnn_1 /dafnet/Transpose_10_output_0 0=3
+GridSample       /dafnet/GridSample_20    2 1 /dafnet/Reshape_39_output_0_splitncnn_1 /dafnet/Transpose_10_output_0 /dafnet/GridSample_20_output_0
+Reshape          /dafnet/Reshape_40       1 1 /dafnet/GridSample_20_output_0 /dafnet/Reshape_40_output_0 0=48 1=64 2=-1
+BinaryOp         /dafnet/Mul_10           2 1 /dafnet/Reshape_40_output_0 /dafnet/Reshape_38_output_0 /dafnet/Mul_10_output_0 0=2
+Slice            /dafnet/Split_10         2 6 /dafnet/Mul_10_output_0 /dafnet/Constant_43_output_0_splitncnn_7 /dafnet/Split_10_output_0 /dafnet/Split_10_output_1 /dafnet/Split_10_output_2 /dafnet/Split_10_output_3 /dafnet/Split_10_output_4 /dafnet/Split_10_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_83           2 1 /dafnet/Split_10_output_0 /dafnet/Split_10_output_1 /dafnet/Add_83_output_0 0=0
+BinaryOp         /dafnet/Add_84           2 1 /dafnet/Add_83_output_0 /dafnet/Split_10_output_2 /dafnet/Add_84_output_0 0=0
+BinaryOp         /dafnet/Add_85           2 1 /dafnet/Add_84_output_0 /dafnet/Split_10_output_3 /dafnet/Add_85_output_0 0=0
+BinaryOp         /dafnet/Add_86           2 1 /dafnet/Add_85_output_0 /dafnet/Split_10_output_4 /dafnet/Add_86_output_0 0=0
+BinaryOp         /dafnet/Add_87           2 1 /dafnet/Add_86_output_0 /dafnet/Split_10_output_5 /dafnet/Add_87_output_0 0=0
+ExpandDims       /dafnet/Unsqueeze_66     2 1 /dafnet/Resize_10_output_0 /dafnet/Constant_24_output_0_splitncnn_8 /dafnet/Unsqueeze_66_output_0 -23303=0
+Tile             /dafnet/Tile_18          2 1 /dafnet/Unsqueeze_66_output_0 /dafnet/Constant_25_output_0_splitncnn_6 /dafnet/Tile_18_output_0
+Reshape          /dafnet/Reshape_41       1 1 /dafnet/Tile_18_output_0 /dafnet/Reshape_41_output_0 0=48 1=64 2=-1
+ExpandDims       /dafnet/Unsqueeze_67     2 1 /reference_FPN/smooth.3/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-50 /dafnet/Unsqueeze_67_output_0 -23303=0
+Tile             /dafnet/Tile_19          2 1 /dafnet/Unsqueeze_67_output_0 /dafnet/Constant_34_output_0_splitncnn_4 /dafnet/Tile_19_output_0
+Reshape          /dafnet/Reshape_42       1 1 /dafnet/Tile_19_output_0 /dafnet/Reshape_42_output_0 0=48 1=64 2=256
+Split            splitncnn_89             1 2 /dafnet/Reshape_42_output_0 /dafnet/Reshape_42_output_0_splitncnn_0 /dafnet/Reshape_42_output_0_splitncnn_1
+Permute          /dafnet/Transpose_11     1 1 /dafnet/Resize_9_output_0_splitncnn_1 /dafnet/Transpose_11_output_0 0=3
+GridSample       /dafnet/GridSample_21    2 1 /dafnet/Reshape_42_output_0_splitncnn_1 /dafnet/Transpose_11_output_0 /dafnet/GridSample_21_output_0
+Reshape          /dafnet/Reshape_43       1 1 /dafnet/GridSample_21_output_0 /dafnet/Reshape_43_output_0 0=48 1=64 2=-1
+BinaryOp         /dafnet/Mul_11           2 1 /dafnet/Reshape_43_output_0 /dafnet/Reshape_41_output_0 /dafnet/Mul_11_output_0 0=2
+Slice            /dafnet/Split_11         2 6 /dafnet/Mul_11_output_0 /dafnet/Constant_43_output_0_splitncnn_6 /dafnet/Split_11_output_0 /dafnet/Split_11_output_1 /dafnet/Split_11_output_2 /dafnet/Split_11_output_3 /dafnet/Split_11_output_4 /dafnet/Split_11_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_89           2 1 /dafnet/Split_11_output_0 /dafnet/Split_11_output_1 /dafnet/Add_89_output_0 0=0
+BinaryOp         /dafnet/Add_90           2 1 /dafnet/Add_89_output_0 /dafnet/Split_11_output_2 /dafnet/Add_90_output_0 0=0
+BinaryOp         /dafnet/Add_91           2 1 /dafnet/Add_90_output_0 /dafnet/Split_11_output_3 /dafnet/Add_91_output_0 0=0
+BinaryOp         /dafnet/Add_92           2 1 /dafnet/Add_91_output_0 /dafnet/Split_11_output_4 /dafnet/Add_92_output_0 0=0
+BinaryOp         /dafnet/Add_93           2 1 /dafnet/Add_92_output_0 /dafnet/Split_11_output_5 /dafnet/Add_93_output_0 0=0
+Concat           /dafnet/Concat_41        2 1 /dafnet/Add_87_output_0 /reference_FPN/smooth.3/Conv_output_0_splitncnn_0 /dafnet/Concat_41_output_0 0=0
+Convolution      /dafnet/Cross_MFEs.3/layers/layers.0/Conv 1 1 /dafnet/Concat_41_output_0 /dafnet/Cross_MFEs.3/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Cross_MFEs.3/layers/layers.1/LeakyRelu 1 1 /dafnet/Cross_MFEs.3/layers/layers.0/Conv_output_0 /dafnet/Cross_MFEs.3/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Cross_MFEs.3/layers/layers.2/Conv 1 1 /dafnet/Cross_MFEs.3/layers/layers.1/LeakyRelu_output_0 /dafnet/Cross_MFEs.3/layers/layers.2/Conv_output_0 0=18 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=5184
+Split            splitncnn_90             1 2 /dafnet/Cross_MFEs.3/layers/layers.2/Conv_output_0 /dafnet/Cross_MFEs.3/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Cross_MFEs.3/layers/layers.2/Conv_output_0_splitncnn_1
+Crop             /dafnet/Slice_67         3 1 /dafnet/Cross_MFEs.3/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-51 /dafnet/Constant_1_output_0_splitncnn_-52 /dafnet/Slice_67_output_0 -23309=1,12 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax_9        1 1 /dafnet/Slice_67_output_0 /dafnet/Softmax_9_output_0 0=0 1=1
+Crop             /dafnet/Slice_68         3 1 /dafnet/Cross_MFEs.3/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-53 /dafnet/Constant_1_output_0_splitncnn_-54 /dafnet/Slice_68_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape_44       1 1 /dafnet/Slice_68_output_0 /dafnet/Reshape_44_output_0 0=48 1=64 2=2
+Split            splitncnn_91             1 2 /dafnet/Reshape_44_output_0 /dafnet/Reshape_44_output_0_splitncnn_0 /dafnet/Reshape_44_output_0_splitncnn_1
+Crop             /dafnet/Gather_24        1 1 /dafnet/Reshape_44_output_0_splitncnn_1 /dafnet/Gather_24_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_94           2 1 /dafnet/Unsqueeze_68_output_0_splitncnn_3 /dafnet/Gather_24_output_0 /dafnet/Add_94_output_0 0=0
+Crop             /dafnet/Gather_25        1 1 /dafnet/Reshape_44_output_0_splitncnn_0 /dafnet/Gather_25_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_95           2 1 /dafnet/Unsqueeze_69_output_0_splitncnn_3 /dafnet/Gather_25_output_0 /dafnet/Add_95_output_0 0=0
+BinaryOp         /dafnet/Div_24           1 1 /dafnet/Add_94_output_0 /dafnet/Div_24_output_0 0=3 1=1 2=2.350000e+01
+BinaryOp         /dafnet/Sub_24           1 1 /dafnet/Div_24_output_0 /dafnet/Sub_24_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_25           1 1 /dafnet/Add_95_output_0 /dafnet/Div_25_output_0 0=3 1=1 2=3.150000e+01
+BinaryOp         /dafnet/Sub_25           1 1 /dafnet/Div_25_output_0 /dafnet/Sub_25_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_70     2 1 /dafnet/Sub_24_output_0 /dafnet/Constant_22_output_0_splitncnn_15 /dafnet/Unsqueeze_70_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_71     2 1 /dafnet/Sub_25_output_0 /dafnet/Constant_22_output_0_splitncnn_14 /dafnet/Unsqueeze_71_output_0 -23303=0
+Concat           /dafnet/Concat_42        2 1 /dafnet/Unsqueeze_70_output_0 /dafnet/Unsqueeze_71_output_0 /dafnet/Concat_42_output_0 0=-1
+GridSample       /dafnet/GridSample_22    2 1 /dafnet/Resize_8_output_0_splitncnn_0 /dafnet/Concat_42_output_0 /dafnet/GridSample_22_output_0
+Split            splitncnn_92             1 2 /dafnet/GridSample_22_output_0 /dafnet/GridSample_22_output_0_splitncnn_0 /dafnet/GridSample_22_output_0_splitncnn_1
+ExpandDims       /dafnet/Unsqueeze_72     2 1 /dafnet/Softmax_9_output_0 /dafnet/Constant_24_output_0_splitncnn_7 /dafnet/Unsqueeze_72_output_0 -23303=0
+Tile             /dafnet/Tile_20          2 1 /dafnet/Unsqueeze_72_output_0 /dafnet/Constant_25_output_0_splitncnn_5 /dafnet/Tile_20_output_0
+Reshape          /dafnet/Reshape_45       1 1 /dafnet/Tile_20_output_0 /dafnet/Reshape_45_output_0 0=48 1=64 2=-1
+Permute          /dafnet/Transpose_12     1 1 /dafnet/GridSample_22_output_0_splitncnn_1 /dafnet/Transpose_12_output_0 0=3
+GridSample       /dafnet/GridSample_23    2 1 /dafnet/Reshape_39_output_0_splitncnn_0 /dafnet/Transpose_12_output_0 /dafnet/GridSample_23_output_0
+Reshape          /dafnet/Reshape_46       1 1 /dafnet/GridSample_23_output_0 /dafnet/Reshape_46_output_0 0=48 1=64 2=-1
+BinaryOp         /dafnet/Mul_12           2 1 /dafnet/Reshape_46_output_0 /dafnet/Reshape_45_output_0 /dafnet/Mul_12_output_0 0=2
+Slice            /dafnet/Split_12         2 6 /dafnet/Mul_12_output_0 /dafnet/Constant_43_output_0_splitncnn_5 /dafnet/Split_12_output_0 /dafnet/Split_12_output_1 /dafnet/Split_12_output_2 /dafnet/Split_12_output_3 /dafnet/Split_12_output_4 /dafnet/Split_12_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_97           2 1 /dafnet/Split_12_output_0 /dafnet/Split_12_output_1 /dafnet/Add_97_output_0 0=0
+BinaryOp         /dafnet/Add_98           2 1 /dafnet/Add_97_output_0 /dafnet/Split_12_output_2 /dafnet/Add_98_output_0 0=0
+BinaryOp         /dafnet/Add_99           2 1 /dafnet/Add_98_output_0 /dafnet/Split_12_output_3 /dafnet/Add_99_output_0 0=0
+BinaryOp         /dafnet/Add_100          2 1 /dafnet/Add_99_output_0 /dafnet/Split_12_output_4 /dafnet/Add_100_output_0 0=0
+BinaryOp         /dafnet/Add_101          2 1 /dafnet/Add_100_output_0 /dafnet/Split_12_output_5 /dafnet/Add_101_output_0 0=0
+Split            splitncnn_93             1 2 /dafnet/Add_101_output_0 /dafnet/Add_101_output_0_splitncnn_0 /dafnet/Add_101_output_0_splitncnn_1
+Concat           /dafnet/Concat_44        2 1 /dafnet/Add_101_output_0_splitncnn_1 /dafnet/Add_93_output_0 /dafnet/Concat_44_output_0 0=0
+Convolution      /dafnet/Self_MFEs.3/layers/layers.0/Conv 1 1 /dafnet/Concat_44_output_0 /dafnet/Self_MFEs.3/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Self_MFEs.3/layers/layers.1/LeakyRelu 1 1 /dafnet/Self_MFEs.3/layers/layers.0/Conv_output_0 /dafnet/Self_MFEs.3/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Self_MFEs.3/layers/layers.2/Conv 1 1 /dafnet/Self_MFEs.3/layers/layers.1/LeakyRelu_output_0 /dafnet/Self_MFEs.3/layers/layers.2/Conv_output_0 0=18 1=7 11=7 2=1 12=1 3=1 13=1 4=3 14=3 15=3 16=3 5=1 6=28224
+Split            splitncnn_94             1 2 /dafnet/Self_MFEs.3/layers/layers.2/Conv_output_0 /dafnet/Self_MFEs.3/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Self_MFEs.3/layers/layers.2/Conv_output_0_splitncnn_1
+Crop             /dafnet/Slice_71         3 1 /dafnet/Self_MFEs.3/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-55 /dafnet/Constant_1_output_0_splitncnn_-56 /dafnet/Slice_71_output_0 -23309=1,12 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax_10       1 1 /dafnet/Slice_71_output_0 /dafnet/Softmax_10_output_0 0=0 1=1
+Crop             /dafnet/Slice_72         3 1 /dafnet/Self_MFEs.3/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-57 /dafnet/Constant_1_output_0_splitncnn_-58 /dafnet/Slice_72_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape_47       1 1 /dafnet/Slice_72_output_0 /dafnet/Reshape_47_output_0 0=48 1=64 2=2
+Split            splitncnn_95             1 2 /dafnet/Reshape_47_output_0 /dafnet/Reshape_47_output_0_splitncnn_0 /dafnet/Reshape_47_output_0_splitncnn_1
+Crop             /dafnet/Gather_26        1 1 /dafnet/Reshape_47_output_0_splitncnn_1 /dafnet/Gather_26_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_102          2 1 /dafnet/Unsqueeze_68_output_0_splitncnn_2 /dafnet/Gather_26_output_0 /dafnet/Add_102_output_0 0=0
+Crop             /dafnet/Gather_27        1 1 /dafnet/Reshape_47_output_0_splitncnn_0 /dafnet/Gather_27_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_103          2 1 /dafnet/Unsqueeze_69_output_0_splitncnn_2 /dafnet/Gather_27_output_0 /dafnet/Add_103_output_0 0=0
+BinaryOp         /dafnet/Div_26           1 1 /dafnet/Add_102_output_0 /dafnet/Div_26_output_0 0=3 1=1 2=2.350000e+01
+BinaryOp         /dafnet/Sub_26           1 1 /dafnet/Div_26_output_0 /dafnet/Sub_26_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_27           1 1 /dafnet/Add_103_output_0 /dafnet/Div_27_output_0 0=3 1=1 2=3.150000e+01
+BinaryOp         /dafnet/Sub_27           1 1 /dafnet/Div_27_output_0 /dafnet/Sub_27_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_75     2 1 /dafnet/Sub_26_output_0 /dafnet/Constant_22_output_0_splitncnn_13 /dafnet/Unsqueeze_75_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_76     2 1 /dafnet/Sub_27_output_0 /dafnet/Constant_22_output_0_splitncnn_12 /dafnet/Unsqueeze_76_output_0 -23303=0
+Concat           /dafnet/Concat_45        2 1 /dafnet/Unsqueeze_75_output_0 /dafnet/Unsqueeze_76_output_0 /dafnet/Concat_45_output_0 0=-1
+GridSample       /dafnet/GridSample_24    2 1 /dafnet/Resize_9_output_0_splitncnn_0 /dafnet/Concat_45_output_0 /dafnet/GridSample_24_output_0
+Split            splitncnn_96             1 2 /dafnet/GridSample_24_output_0 /dafnet/GridSample_24_output_0_splitncnn_0 /dafnet/GridSample_24_output_0_splitncnn_1
+ExpandDims       /dafnet/Unsqueeze_77     2 1 /dafnet/Softmax_10_output_0 /dafnet/Constant_24_output_0_splitncnn_6 /dafnet/Unsqueeze_77_output_0 -23303=0
+Tile             /dafnet/Tile_21          2 1 /dafnet/Unsqueeze_77_output_0 /dafnet/Constant_25_output_0_splitncnn_4 /dafnet/Tile_21_output_0
+Reshape          /dafnet/Reshape_48       1 1 /dafnet/Tile_21_output_0 /dafnet/Reshape_48_output_0 0=48 1=64 2=-1
+Permute          /dafnet/Transpose_13     1 1 /dafnet/GridSample_24_output_0_splitncnn_1 /dafnet/Transpose_13_output_0 0=3
+GridSample       /dafnet/GridSample_25    2 1 /dafnet/Reshape_42_output_0_splitncnn_0 /dafnet/Transpose_13_output_0 /dafnet/GridSample_25_output_0
+Reshape          /dafnet/Reshape_49       1 1 /dafnet/GridSample_25_output_0 /dafnet/Reshape_49_output_0 0=48 1=64 2=-1
+BinaryOp         /dafnet/Mul_13           2 1 /dafnet/Reshape_49_output_0 /dafnet/Reshape_48_output_0 /dafnet/Mul_13_output_0 0=2
+Slice            /dafnet/Split_13         2 6 /dafnet/Mul_13_output_0 /dafnet/Constant_43_output_0_splitncnn_4 /dafnet/Split_13_output_0 /dafnet/Split_13_output_1 /dafnet/Split_13_output_2 /dafnet/Split_13_output_3 /dafnet/Split_13_output_4 /dafnet/Split_13_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_105          2 1 /dafnet/Split_13_output_0 /dafnet/Split_13_output_1 /dafnet/Add_105_output_0 0=0
+BinaryOp         /dafnet/Add_106          2 1 /dafnet/Add_105_output_0 /dafnet/Split_13_output_2 /dafnet/Add_106_output_0 0=0
+BinaryOp         /dafnet/Add_107          2 1 /dafnet/Add_106_output_0 /dafnet/Split_13_output_3 /dafnet/Add_107_output_0 0=0
+BinaryOp         /dafnet/Add_108          2 1 /dafnet/Add_107_output_0 /dafnet/Split_13_output_4 /dafnet/Add_108_output_0 0=0
+BinaryOp         /dafnet/Add_109          2 1 /dafnet/Add_108_output_0 /dafnet/Split_13_output_5 /dafnet/Add_109_output_0 0=0
+Concat           /dafnet/Concat_47        2 1 /dafnet/Add_101_output_0_splitncnn_0 /dafnet/Add_109_output_0 /dafnet/Concat_47_output_0 0=0
+Convolution      /dafnet/Refine_MFEs.3/layers/layers.0/Conv 1 1 /dafnet/Concat_47_output_0 /dafnet/Refine_MFEs.3/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Refine_MFEs.3/layers/layers.1/LeakyRelu 1 1 /dafnet/Refine_MFEs.3/layers/layers.0/Conv_output_0 /dafnet/Refine_MFEs.3/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Refine_MFEs.3/layers/layers.2/Conv 1 1 /dafnet/Refine_MFEs.3/layers/layers.1/LeakyRelu_output_0 /dafnet/Refine_MFEs.3/layers/layers.2/Conv_output_0 0=36 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=10368
+Split            splitncnn_97             1 3 /dafnet/Refine_MFEs.3/layers/layers.2/Conv_output_0 /dafnet/Refine_MFEs.3/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Refine_MFEs.3/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Refine_MFEs.3/layers/layers.2/Conv_output_0_splitncnn_2
+Crop             /dafnet/Slice_75         3 1 /dafnet/Refine_MFEs.3/layers/layers.2/Conv_output_0_splitncnn_2 /dafnet/Constant_1_output_0_splitncnn_-59 /dafnet/Constant_1_output_0_splitncnn_-60 /dafnet/Slice_75_output_0 -23309=1,24 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax_11       1 1 /dafnet/Slice_75_output_0 /dafnet/Softmax_11_output_0 0=0 1=1
+Split            splitncnn_98             1 2 /dafnet/Softmax_11_output_0 /dafnet/Softmax_11_output_0_splitncnn_0 /dafnet/Softmax_11_output_0_splitncnn_1
+Crop             /dafnet/Slice_76         3 1 /dafnet/Refine_MFEs.3/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-61 /dafnet/Constant_1_output_0_splitncnn_-62 /dafnet/Slice_76_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape_50       1 1 /dafnet/Slice_76_output_0 /dafnet/Reshape_50_output_0 0=48 1=64 2=2
+Split            splitncnn_99             1 2 /dafnet/Reshape_50_output_0 /dafnet/Reshape_50_output_0_splitncnn_0 /dafnet/Reshape_50_output_0_splitncnn_1
+Crop             /dafnet/Gather_28        1 1 /dafnet/Reshape_50_output_0_splitncnn_1 /dafnet/Gather_28_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_110          2 1 /dafnet/Unsqueeze_68_output_0_splitncnn_1 /dafnet/Gather_28_output_0 /dafnet/Add_110_output_0 0=0
+Crop             /dafnet/Gather_29        1 1 /dafnet/Reshape_50_output_0_splitncnn_0 /dafnet/Gather_29_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_111          2 1 /dafnet/Unsqueeze_69_output_0_splitncnn_1 /dafnet/Gather_29_output_0 /dafnet/Add_111_output_0 0=0
+BinaryOp         /dafnet/Div_28           1 1 /dafnet/Add_110_output_0 /dafnet/Div_28_output_0 0=3 1=1 2=2.350000e+01
+BinaryOp         /dafnet/Sub_28           1 1 /dafnet/Div_28_output_0 /dafnet/Sub_28_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_29           1 1 /dafnet/Add_111_output_0 /dafnet/Div_29_output_0 0=3 1=1 2=3.150000e+01
+BinaryOp         /dafnet/Sub_29           1 1 /dafnet/Div_29_output_0 /dafnet/Sub_29_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_80     2 1 /dafnet/Sub_28_output_0 /dafnet/Constant_22_output_0_splitncnn_11 /dafnet/Unsqueeze_80_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_81     2 1 /dafnet/Sub_29_output_0 /dafnet/Constant_22_output_0_splitncnn_10 /dafnet/Unsqueeze_81_output_0 -23303=0
+Concat           /dafnet/Concat_48        2 1 /dafnet/Unsqueeze_80_output_0 /dafnet/Unsqueeze_81_output_0 /dafnet/Concat_48_output_0 0=-1
+Crop             /dafnet/Slice_77         3 1 /dafnet/Refine_MFEs.3/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-63 /dafnet/Constant_1_output_0_splitncnn_-64 /dafnet/Slice_77_output_0 -23309=1,12 -23310=1,24 -23311=1,0
+Reshape          /dafnet/Reshape_51       1 1 /dafnet/Slice_77_output_0 /dafnet/Reshape_51_output_0 0=48 1=64 2=2
+Split            splitncnn_100            1 2 /dafnet/Reshape_51_output_0 /dafnet/Reshape_51_output_0_splitncnn_0 /dafnet/Reshape_51_output_0_splitncnn_1
+Crop             /dafnet/Gather_30        1 1 /dafnet/Reshape_51_output_0_splitncnn_1 /dafnet/Gather_30_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_112          2 1 /dafnet/Unsqueeze_68_output_0_splitncnn_0 /dafnet/Gather_30_output_0 /dafnet/Add_112_output_0 0=0
+Crop             /dafnet/Gather_31        1 1 /dafnet/Reshape_51_output_0_splitncnn_0 /dafnet/Gather_31_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_113          2 1 /dafnet/Unsqueeze_69_output_0_splitncnn_0 /dafnet/Gather_31_output_0 /dafnet/Add_113_output_0 0=0
+BinaryOp         /dafnet/Div_30           1 1 /dafnet/Add_112_output_0 /dafnet/Div_30_output_0 0=3 1=1 2=2.350000e+01
+BinaryOp         /dafnet/Sub_30           1 1 /dafnet/Div_30_output_0 /dafnet/Sub_30_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_31           1 1 /dafnet/Add_113_output_0 /dafnet/Div_31_output_0 0=3 1=1 2=3.150000e+01
+BinaryOp         /dafnet/Sub_31           1 1 /dafnet/Div_31_output_0 /dafnet/Sub_31_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_84     2 1 /dafnet/Sub_30_output_0 /dafnet/Constant_22_output_0_splitncnn_9 /dafnet/Unsqueeze_84_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_85     2 1 /dafnet/Sub_31_output_0 /dafnet/Constant_22_output_0_splitncnn_8 /dafnet/Unsqueeze_85_output_0 -23303=0
+Concat           /dafnet/Concat_49        2 1 /dafnet/Unsqueeze_84_output_0 /dafnet/Unsqueeze_85_output_0 /dafnet/Concat_49_output_0 0=-1
+GridSample       /dafnet/GridSample_26    2 1 /dafnet/GridSample_22_output_0_splitncnn_0 /dafnet/Concat_48_output_0 /dafnet/GridSample_26_output_0
+GridSample       /dafnet/GridSample_27    2 1 /dafnet/GridSample_24_output_0_splitncnn_0 /dafnet/Concat_49_output_0 /dafnet/GridSample_27_output_0
+Interp           /dafnet/Resize_12        1 1 /dafnet/GridSample_26_output_0 /dafnet/Resize_12_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Split            splitncnn_101            1 2 /dafnet/Resize_12_output_0 /dafnet/Resize_12_output_0_splitncnn_0 /dafnet/Resize_12_output_0_splitncnn_1
+Interp           /dafnet/Resize_13        1 1 /dafnet/GridSample_27_output_0 /dafnet/Resize_13_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Split            splitncnn_102            1 2 /dafnet/Resize_13_output_0 /dafnet/Resize_13_output_0_splitncnn_0 /dafnet/Resize_13_output_0_splitncnn_1
+Crop             /dafnet/Slice_78         3 1 /dafnet/Softmax_11_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-65 /dafnet/Constant_1_output_0_splitncnn_-66 /dafnet/Slice_78_output_0 -23309=1,0 -23310=1,6 -23311=1,0
+Interp           /dafnet/Resize_14        1 1 /dafnet/Slice_78_output_0 /dafnet/Resize_14_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Crop             /dafnet/Slice_79         3 1 /dafnet/Softmax_11_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-67 /dafnet/Constant_1_output_0_splitncnn_-68 /dafnet/Slice_79_output_0 -23309=1,6 -23310=1,2147483647 -23311=1,0
+Interp           /dafnet/Resize_15        1 1 /dafnet/Slice_79_output_0 /dafnet/Resize_15_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+ExpandDims       /dafnet/Unsqueeze_86     2 1 /dafnet/Resize_15_output_0 /dafnet/Constant_24_output_0_splitncnn_5 /dafnet/Unsqueeze_86_output_0 -23303=0
+Tile             /dafnet/Tile_22          2 1 /dafnet/Unsqueeze_86_output_0 /dafnet/Constant_25_output_0_splitncnn_3 /dafnet/Tile_22_output_0
+Reshape          /dafnet/Reshape_52       1 1 /dafnet/Tile_22_output_0 /dafnet/Reshape_52_output_0 0=96 1=128 2=-1
+ExpandDims       /dafnet/Unsqueeze_87     2 1 /source_FPN/smooth.4/Conv_output_0 /dafnet/Constant_1_output_0_splitncnn_-69 /dafnet/Unsqueeze_87_output_0 -23303=0
+Tile             /dafnet/Tile_23          2 1 /dafnet/Unsqueeze_87_output_0 /dafnet/Constant_34_output_0_splitncnn_3 /dafnet/Tile_23_output_0
+Reshape          /dafnet/Reshape_53       1 1 /dafnet/Tile_23_output_0 /dafnet/Reshape_53_output_0 0=96 1=128 2=256
+Split            splitncnn_103            1 2 /dafnet/Reshape_53_output_0 /dafnet/Reshape_53_output_0_splitncnn_0 /dafnet/Reshape_53_output_0_splitncnn_1
+Permute          /dafnet/Transpose_14     1 1 /dafnet/Resize_12_output_0_splitncnn_1 /dafnet/Transpose_14_output_0 0=3
+GridSample       /dafnet/GridSample_28    2 1 /dafnet/Reshape_53_output_0_splitncnn_1 /dafnet/Transpose_14_output_0 /dafnet/GridSample_28_output_0
+Reshape          /dafnet/Reshape_54       1 1 /dafnet/GridSample_28_output_0 /dafnet/Reshape_54_output_0 0=96 1=128 2=-1
+BinaryOp         /dafnet/Mul_14           2 1 /dafnet/Reshape_54_output_0 /dafnet/Reshape_52_output_0 /dafnet/Mul_14_output_0 0=2
+Slice            /dafnet/Split_14         2 6 /dafnet/Mul_14_output_0 /dafnet/Constant_43_output_0_splitncnn_3 /dafnet/Split_14_output_0 /dafnet/Split_14_output_1 /dafnet/Split_14_output_2 /dafnet/Split_14_output_3 /dafnet/Split_14_output_4 /dafnet/Split_14_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_115          2 1 /dafnet/Split_14_output_0 /dafnet/Split_14_output_1 /dafnet/Add_115_output_0 0=0
+BinaryOp         /dafnet/Add_116          2 1 /dafnet/Add_115_output_0 /dafnet/Split_14_output_2 /dafnet/Add_116_output_0 0=0
+BinaryOp         /dafnet/Add_117          2 1 /dafnet/Add_116_output_0 /dafnet/Split_14_output_3 /dafnet/Add_117_output_0 0=0
+BinaryOp         /dafnet/Add_118          2 1 /dafnet/Add_117_output_0 /dafnet/Split_14_output_4 /dafnet/Add_118_output_0 0=0
+BinaryOp         /dafnet/Add_119          2 1 /dafnet/Add_118_output_0 /dafnet/Split_14_output_5 /dafnet/Add_119_output_0 0=0
+ExpandDims       /dafnet/Unsqueeze_88     2 1 /dafnet/Resize_14_output_0 /dafnet/Constant_24_output_0_splitncnn_4 /dafnet/Unsqueeze_88_output_0 -23303=0
+Tile             /dafnet/Tile_24          2 1 /dafnet/Unsqueeze_88_output_0 /dafnet/Constant_25_output_0_splitncnn_2 /dafnet/Tile_24_output_0
+Reshape          /dafnet/Reshape_55       1 1 /dafnet/Tile_24_output_0 /dafnet/Reshape_55_output_0 0=96 1=128 2=-1
+ExpandDims       /dafnet/Unsqueeze_89     2 1 /reference_FPN/smooth.4/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-70 /dafnet/Unsqueeze_89_output_0 -23303=0
+Tile             /dafnet/Tile_25          2 1 /dafnet/Unsqueeze_89_output_0 /dafnet/Constant_34_output_0_splitncnn_2 /dafnet/Tile_25_output_0
+Reshape          /dafnet/Reshape_56       1 1 /dafnet/Tile_25_output_0 /dafnet/Reshape_56_output_0 0=96 1=128 2=256
+Split            splitncnn_104            1 2 /dafnet/Reshape_56_output_0 /dafnet/Reshape_56_output_0_splitncnn_0 /dafnet/Reshape_56_output_0_splitncnn_1
+Permute          /dafnet/Transpose_15     1 1 /dafnet/Resize_13_output_0_splitncnn_1 /dafnet/Transpose_15_output_0 0=3
+GridSample       /dafnet/GridSample_29    2 1 /dafnet/Reshape_56_output_0_splitncnn_1 /dafnet/Transpose_15_output_0 /dafnet/GridSample_29_output_0
+Reshape          /dafnet/Reshape_57       1 1 /dafnet/GridSample_29_output_0 /dafnet/Reshape_57_output_0 0=96 1=128 2=-1
+BinaryOp         /dafnet/Mul_15           2 1 /dafnet/Reshape_57_output_0 /dafnet/Reshape_55_output_0 /dafnet/Mul_15_output_0 0=2
+Slice            /dafnet/Split_15         2 6 /dafnet/Mul_15_output_0 /dafnet/Constant_43_output_0_splitncnn_2 /dafnet/Split_15_output_0 /dafnet/Split_15_output_1 /dafnet/Split_15_output_2 /dafnet/Split_15_output_3 /dafnet/Split_15_output_4 /dafnet/Split_15_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_121          2 1 /dafnet/Split_15_output_0 /dafnet/Split_15_output_1 /dafnet/Add_121_output_0 0=0
+BinaryOp         /dafnet/Add_122          2 1 /dafnet/Add_121_output_0 /dafnet/Split_15_output_2 /dafnet/Add_122_output_0 0=0
+BinaryOp         /dafnet/Add_123          2 1 /dafnet/Add_122_output_0 /dafnet/Split_15_output_3 /dafnet/Add_123_output_0 0=0
+BinaryOp         /dafnet/Add_124          2 1 /dafnet/Add_123_output_0 /dafnet/Split_15_output_4 /dafnet/Add_124_output_0 0=0
+BinaryOp         /dafnet/Add_125          2 1 /dafnet/Add_124_output_0 /dafnet/Split_15_output_5 /dafnet/Add_125_output_0 0=0
+Concat           /dafnet/Concat_54        2 1 /dafnet/Add_119_output_0 /reference_FPN/smooth.4/Conv_output_0_splitncnn_0 /dafnet/Concat_54_output_0 0=0
+Convolution      /dafnet/Cross_MFEs.4/layers/layers.0/Conv 1 1 /dafnet/Concat_54_output_0 /dafnet/Cross_MFEs.4/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Cross_MFEs.4/layers/layers.1/LeakyRelu 1 1 /dafnet/Cross_MFEs.4/layers/layers.0/Conv_output_0 /dafnet/Cross_MFEs.4/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Cross_MFEs.4/layers/layers.2/Conv 1 1 /dafnet/Cross_MFEs.4/layers/layers.1/LeakyRelu_output_0 /dafnet/Cross_MFEs.4/layers/layers.2/Conv_output_0 0=18 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=5184
+Split            splitncnn_105            1 2 /dafnet/Cross_MFEs.4/layers/layers.2/Conv_output_0 /dafnet/Cross_MFEs.4/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Cross_MFEs.4/layers/layers.2/Conv_output_0_splitncnn_1
+Crop             /dafnet/Slice_88         3 1 /dafnet/Cross_MFEs.4/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-71 /dafnet/Constant_1_output_0_splitncnn_-72 /dafnet/Slice_88_output_0 -23309=1,12 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax_12       1 1 /dafnet/Slice_88_output_0 /dafnet/Softmax_12_output_0 0=0 1=1
+Crop             /dafnet/Slice_89         3 1 /dafnet/Cross_MFEs.4/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-73 /dafnet/Constant_1_output_0_splitncnn_-74 /dafnet/Slice_89_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape_58       1 1 /dafnet/Slice_89_output_0 /dafnet/Reshape_58_output_0 0=96 1=128 2=2
+Split            splitncnn_106            1 2 /dafnet/Reshape_58_output_0 /dafnet/Reshape_58_output_0_splitncnn_0 /dafnet/Reshape_58_output_0_splitncnn_1
+Crop             /dafnet/Gather_32        1 1 /dafnet/Reshape_58_output_0_splitncnn_1 /dafnet/Gather_32_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_126          2 1 /dafnet/Unsqueeze_90_output_0_splitncnn_3 /dafnet/Gather_32_output_0 /dafnet/Add_126_output_0 0=0
+Crop             /dafnet/Gather_33        1 1 /dafnet/Reshape_58_output_0_splitncnn_0 /dafnet/Gather_33_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_127          2 1 /dafnet/Unsqueeze_91_output_0_splitncnn_3 /dafnet/Gather_33_output_0 /dafnet/Add_127_output_0 0=0
+BinaryOp         /dafnet/Div_32           1 1 /dafnet/Add_126_output_0 /dafnet/Div_32_output_0 0=3 1=1 2=4.750000e+01
+BinaryOp         /dafnet/Sub_32           1 1 /dafnet/Div_32_output_0 /dafnet/Sub_32_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_33           1 1 /dafnet/Add_127_output_0 /dafnet/Div_33_output_0 0=3 1=1 2=6.350000e+01
+BinaryOp         /dafnet/Sub_33           1 1 /dafnet/Div_33_output_0 /dafnet/Sub_33_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_92     2 1 /dafnet/Sub_32_output_0 /dafnet/Constant_22_output_0_splitncnn_7 /dafnet/Unsqueeze_92_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_93     2 1 /dafnet/Sub_33_output_0 /dafnet/Constant_22_output_0_splitncnn_6 /dafnet/Unsqueeze_93_output_0 -23303=0
+Concat           /dafnet/Concat_55        2 1 /dafnet/Unsqueeze_92_output_0 /dafnet/Unsqueeze_93_output_0 /dafnet/Concat_55_output_0 0=-1
+GridSample       /dafnet/GridSample_30    2 1 /dafnet/Resize_12_output_0_splitncnn_0 /dafnet/Concat_55_output_0 /dafnet/GridSample_30_output_0
+Split            splitncnn_107            1 2 /dafnet/GridSample_30_output_0 /dafnet/GridSample_30_output_0_splitncnn_0 /dafnet/GridSample_30_output_0_splitncnn_1
+ExpandDims       /dafnet/Unsqueeze_94     2 1 /dafnet/Softmax_12_output_0 /dafnet/Constant_24_output_0_splitncnn_3 /dafnet/Unsqueeze_94_output_0 -23303=0
+Tile             /dafnet/Tile_26          2 1 /dafnet/Unsqueeze_94_output_0 /dafnet/Constant_25_output_0_splitncnn_1 /dafnet/Tile_26_output_0
+Reshape          /dafnet/Reshape_59       1 1 /dafnet/Tile_26_output_0 /dafnet/Reshape_59_output_0 0=96 1=128 2=-1
+Permute          /dafnet/Transpose_16     1 1 /dafnet/GridSample_30_output_0_splitncnn_1 /dafnet/Transpose_16_output_0 0=3
+GridSample       /dafnet/GridSample_31    2 1 /dafnet/Reshape_53_output_0_splitncnn_0 /dafnet/Transpose_16_output_0 /dafnet/GridSample_31_output_0
+Reshape          /dafnet/Reshape_60       1 1 /dafnet/GridSample_31_output_0 /dafnet/Reshape_60_output_0 0=96 1=128 2=-1
+BinaryOp         /dafnet/Mul_16           2 1 /dafnet/Reshape_60_output_0 /dafnet/Reshape_59_output_0 /dafnet/Mul_16_output_0 0=2
+Slice            /dafnet/Split_16         2 6 /dafnet/Mul_16_output_0 /dafnet/Constant_43_output_0_splitncnn_1 /dafnet/Split_16_output_0 /dafnet/Split_16_output_1 /dafnet/Split_16_output_2 /dafnet/Split_16_output_3 /dafnet/Split_16_output_4 /dafnet/Split_16_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_129          2 1 /dafnet/Split_16_output_0 /dafnet/Split_16_output_1 /dafnet/Add_129_output_0 0=0
+BinaryOp         /dafnet/Add_130          2 1 /dafnet/Add_129_output_0 /dafnet/Split_16_output_2 /dafnet/Add_130_output_0 0=0
+BinaryOp         /dafnet/Add_131          2 1 /dafnet/Add_130_output_0 /dafnet/Split_16_output_3 /dafnet/Add_131_output_0 0=0
+BinaryOp         /dafnet/Add_132          2 1 /dafnet/Add_131_output_0 /dafnet/Split_16_output_4 /dafnet/Add_132_output_0 0=0
+BinaryOp         /dafnet/Add_133          2 1 /dafnet/Add_132_output_0 /dafnet/Split_16_output_5 /dafnet/Add_133_output_0 0=0
+Split            splitncnn_108            1 2 /dafnet/Add_133_output_0 /dafnet/Add_133_output_0_splitncnn_0 /dafnet/Add_133_output_0_splitncnn_1
+Concat           /dafnet/Concat_57        2 1 /dafnet/Add_133_output_0_splitncnn_1 /dafnet/Add_125_output_0 /dafnet/Concat_57_output_0 0=0
+Convolution      /dafnet/Self_MFEs.4/layers/layers.0/Conv 1 1 /dafnet/Concat_57_output_0 /dafnet/Self_MFEs.4/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Self_MFEs.4/layers/layers.1/LeakyRelu 1 1 /dafnet/Self_MFEs.4/layers/layers.0/Conv_output_0 /dafnet/Self_MFEs.4/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Self_MFEs.4/layers/layers.2/Conv 1 1 /dafnet/Self_MFEs.4/layers/layers.1/LeakyRelu_output_0 /dafnet/Self_MFEs.4/layers/layers.2/Conv_output_0 0=18 1=7 11=7 2=1 12=1 3=1 13=1 4=3 14=3 15=3 16=3 5=1 6=28224
+Split            splitncnn_109            1 2 /dafnet/Self_MFEs.4/layers/layers.2/Conv_output_0 /dafnet/Self_MFEs.4/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Self_MFEs.4/layers/layers.2/Conv_output_0_splitncnn_1
+Crop             /dafnet/Slice_92         3 1 /dafnet/Self_MFEs.4/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-75 /dafnet/Constant_1_output_0_splitncnn_-76 /dafnet/Slice_92_output_0 -23309=1,12 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax_13       1 1 /dafnet/Slice_92_output_0 /dafnet/Softmax_13_output_0 0=0 1=1
+Crop             /dafnet/Slice_93         3 1 /dafnet/Self_MFEs.4/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-77 /dafnet/Constant_1_output_0_splitncnn_-78 /dafnet/Slice_93_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape_61       1 1 /dafnet/Slice_93_output_0 /dafnet/Reshape_61_output_0 0=96 1=128 2=2
+Split            splitncnn_110            1 2 /dafnet/Reshape_61_output_0 /dafnet/Reshape_61_output_0_splitncnn_0 /dafnet/Reshape_61_output_0_splitncnn_1
+Crop             /dafnet/Gather_34        1 1 /dafnet/Reshape_61_output_0_splitncnn_1 /dafnet/Gather_34_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_134          2 1 /dafnet/Unsqueeze_90_output_0_splitncnn_2 /dafnet/Gather_34_output_0 /dafnet/Add_134_output_0 0=0
+Crop             /dafnet/Gather_35        1 1 /dafnet/Reshape_61_output_0_splitncnn_0 /dafnet/Gather_35_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_135          2 1 /dafnet/Unsqueeze_91_output_0_splitncnn_2 /dafnet/Gather_35_output_0 /dafnet/Add_135_output_0 0=0
+BinaryOp         /dafnet/Div_34           1 1 /dafnet/Add_134_output_0 /dafnet/Div_34_output_0 0=3 1=1 2=4.750000e+01
+BinaryOp         /dafnet/Sub_34           1 1 /dafnet/Div_34_output_0 /dafnet/Sub_34_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_35           1 1 /dafnet/Add_135_output_0 /dafnet/Div_35_output_0 0=3 1=1 2=6.350000e+01
+BinaryOp         /dafnet/Sub_35           1 1 /dafnet/Div_35_output_0 /dafnet/Sub_35_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_97     2 1 /dafnet/Sub_34_output_0 /dafnet/Constant_22_output_0_splitncnn_5 /dafnet/Unsqueeze_97_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_98     2 1 /dafnet/Sub_35_output_0 /dafnet/Constant_22_output_0_splitncnn_4 /dafnet/Unsqueeze_98_output_0 -23303=0
+Concat           /dafnet/Concat_58        2 1 /dafnet/Unsqueeze_97_output_0 /dafnet/Unsqueeze_98_output_0 /dafnet/Concat_58_output_0 0=-1
+GridSample       /dafnet/GridSample_32    2 1 /dafnet/Resize_13_output_0_splitncnn_0 /dafnet/Concat_58_output_0 /dafnet/GridSample_32_output_0
+Split            splitncnn_111            1 2 /dafnet/GridSample_32_output_0 /dafnet/GridSample_32_output_0_splitncnn_0 /dafnet/GridSample_32_output_0_splitncnn_1
+ExpandDims       /dafnet/Unsqueeze_99     2 1 /dafnet/Softmax_13_output_0 /dafnet/Constant_24_output_0_splitncnn_2 /dafnet/Unsqueeze_99_output_0 -23303=0
+Tile             /dafnet/Tile_27          2 1 /dafnet/Unsqueeze_99_output_0 /dafnet/Constant_25_output_0_splitncnn_0 /dafnet/Tile_27_output_0
+Reshape          /dafnet/Reshape_62       1 1 /dafnet/Tile_27_output_0 /dafnet/Reshape_62_output_0 0=96 1=128 2=-1
+Permute          /dafnet/Transpose_17     1 1 /dafnet/GridSample_32_output_0_splitncnn_1 /dafnet/Transpose_17_output_0 0=3
+GridSample       /dafnet/GridSample_33    2 1 /dafnet/Reshape_56_output_0_splitncnn_0 /dafnet/Transpose_17_output_0 /dafnet/GridSample_33_output_0
+Reshape          /dafnet/Reshape_63       1 1 /dafnet/GridSample_33_output_0 /dafnet/Reshape_63_output_0 0=96 1=128 2=-1
+BinaryOp         /dafnet/Mul_17           2 1 /dafnet/Reshape_63_output_0 /dafnet/Reshape_62_output_0 /dafnet/Mul_17_output_0 0=2
+Slice            /dafnet/Split_17         2 6 /dafnet/Mul_17_output_0 /dafnet/Constant_43_output_0_splitncnn_0 /dafnet/Split_17_output_0 /dafnet/Split_17_output_1 /dafnet/Split_17_output_2 /dafnet/Split_17_output_3 /dafnet/Split_17_output_4 /dafnet/Split_17_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_137          2 1 /dafnet/Split_17_output_0 /dafnet/Split_17_output_1 /dafnet/Add_137_output_0 0=0
+BinaryOp         /dafnet/Add_138          2 1 /dafnet/Add_137_output_0 /dafnet/Split_17_output_2 /dafnet/Add_138_output_0 0=0
+BinaryOp         /dafnet/Add_139          2 1 /dafnet/Add_138_output_0 /dafnet/Split_17_output_3 /dafnet/Add_139_output_0 0=0
+BinaryOp         /dafnet/Add_140          2 1 /dafnet/Add_139_output_0 /dafnet/Split_17_output_4 /dafnet/Add_140_output_0 0=0
+BinaryOp         /dafnet/Add_141          2 1 /dafnet/Add_140_output_0 /dafnet/Split_17_output_5 /dafnet/Add_141_output_0 0=0
+Concat           /dafnet/Concat_60        2 1 /dafnet/Add_133_output_0_splitncnn_0 /dafnet/Add_141_output_0 /dafnet/Concat_60_output_0 0=0
+Convolution      /dafnet/Refine_MFEs.4/layers/layers.0/Conv 1 1 /dafnet/Concat_60_output_0 /dafnet/Refine_MFEs.4/layers/layers.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=147456
+ReLU             /dafnet/Refine_MFEs.4/layers/layers.1/LeakyRelu 1 1 /dafnet/Refine_MFEs.4/layers/layers.0/Conv_output_0 /dafnet/Refine_MFEs.4/layers/layers.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/Refine_MFEs.4/layers/layers.2/Conv 1 1 /dafnet/Refine_MFEs.4/layers/layers.1/LeakyRelu_output_0 /dafnet/Refine_MFEs.4/layers/layers.2/Conv_output_0 0=36 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=10368
+Split            splitncnn_112            1 3 /dafnet/Refine_MFEs.4/layers/layers.2/Conv_output_0 /dafnet/Refine_MFEs.4/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Refine_MFEs.4/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Refine_MFEs.4/layers/layers.2/Conv_output_0_splitncnn_2
+Crop             /dafnet/Slice_96         3 1 /dafnet/Refine_MFEs.4/layers/layers.2/Conv_output_0_splitncnn_2 /dafnet/Constant_1_output_0_splitncnn_-79 /dafnet/Constant_1_output_0_splitncnn_-80 /dafnet/Slice_96_output_0 -23309=1,24 -23310=1,2147483647 -23311=1,0
+Softmax          /dafnet/Softmax_14       1 1 /dafnet/Slice_96_output_0 /dafnet/Softmax_14_output_0 0=0 1=1
+Split            splitncnn_113            1 2 /dafnet/Softmax_14_output_0 /dafnet/Softmax_14_output_0_splitncnn_0 /dafnet/Softmax_14_output_0_splitncnn_1
+Crop             /dafnet/Slice_97         3 1 /dafnet/Refine_MFEs.4/layers/layers.2/Conv_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-81 /dafnet/Constant_1_output_0_splitncnn_-82 /dafnet/Slice_97_output_0 -23309=1,0 -23310=1,12 -23311=1,0
+Reshape          /dafnet/Reshape_64       1 1 /dafnet/Slice_97_output_0 /dafnet/Reshape_64_output_0 0=96 1=128 2=2
+Split            splitncnn_114            1 2 /dafnet/Reshape_64_output_0 /dafnet/Reshape_64_output_0_splitncnn_0 /dafnet/Reshape_64_output_0_splitncnn_1
+Crop             /dafnet/Gather_36        1 1 /dafnet/Reshape_64_output_0_splitncnn_1 /dafnet/Gather_36_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_142          2 1 /dafnet/Unsqueeze_90_output_0_splitncnn_1 /dafnet/Gather_36_output_0 /dafnet/Add_142_output_0 0=0
+Crop             /dafnet/Gather_37        1 1 /dafnet/Reshape_64_output_0_splitncnn_0 /dafnet/Gather_37_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_143          2 1 /dafnet/Unsqueeze_91_output_0_splitncnn_1 /dafnet/Gather_37_output_0 /dafnet/Add_143_output_0 0=0
+BinaryOp         /dafnet/Div_36           1 1 /dafnet/Add_142_output_0 /dafnet/Div_36_output_0 0=3 1=1 2=4.750000e+01
+BinaryOp         /dafnet/Sub_36           1 1 /dafnet/Div_36_output_0 /dafnet/Sub_36_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_37           1 1 /dafnet/Add_143_output_0 /dafnet/Div_37_output_0 0=3 1=1 2=6.350000e+01
+BinaryOp         /dafnet/Sub_37           1 1 /dafnet/Div_37_output_0 /dafnet/Sub_37_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_102    2 1 /dafnet/Sub_36_output_0 /dafnet/Constant_22_output_0_splitncnn_3 /dafnet/Unsqueeze_102_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_103    2 1 /dafnet/Sub_37_output_0 /dafnet/Constant_22_output_0_splitncnn_2 /dafnet/Unsqueeze_103_output_0 -23303=0
+Concat           /dafnet/Concat_61        2 1 /dafnet/Unsqueeze_102_output_0 /dafnet/Unsqueeze_103_output_0 /dafnet/Concat_61_output_0 0=-1
+Crop             /dafnet/Slice_98         3 1 /dafnet/Refine_MFEs.4/layers/layers.2/Conv_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-83 /dafnet/Constant_1_output_0_splitncnn_-84 /dafnet/Slice_98_output_0 -23309=1,12 -23310=1,24 -23311=1,0
+Reshape          /dafnet/Reshape_65       1 1 /dafnet/Slice_98_output_0 /dafnet/Reshape_65_output_0 0=96 1=128 2=2
+Split            splitncnn_115            1 2 /dafnet/Reshape_65_output_0 /dafnet/Reshape_65_output_0_splitncnn_0 /dafnet/Reshape_65_output_0_splitncnn_1
+Crop             /dafnet/Gather_38        1 1 /dafnet/Reshape_65_output_0_splitncnn_1 /dafnet/Gather_38_output_0 -23309=1,0 -23310=1,1 -23311=1,0
+BinaryOp         /dafnet/Add_144          2 1 /dafnet/Unsqueeze_90_output_0_splitncnn_0 /dafnet/Gather_38_output_0 /dafnet/Add_144_output_0 0=0
+Crop             /dafnet/Gather_39        1 1 /dafnet/Reshape_65_output_0_splitncnn_0 /dafnet/Gather_39_output_0 -23309=1,1 -23310=1,2 -23311=1,0
+BinaryOp         /dafnet/Add_145          2 1 /dafnet/Unsqueeze_91_output_0_splitncnn_0 /dafnet/Gather_39_output_0 /dafnet/Add_145_output_0 0=0
+BinaryOp         /dafnet/Div_38           1 1 /dafnet/Add_144_output_0 /dafnet/Div_38_output_0 0=3 1=1 2=4.750000e+01
+BinaryOp         /dafnet/Sub_38           1 1 /dafnet/Div_38_output_0 /dafnet/Sub_38_output_0 0=1 1=1 2=1.000000e+00
+BinaryOp         /dafnet/Div_39           1 1 /dafnet/Add_145_output_0 /dafnet/Div_39_output_0 0=3 1=1 2=6.350000e+01
+BinaryOp         /dafnet/Sub_39           1 1 /dafnet/Div_39_output_0 /dafnet/Sub_39_output_0 0=1 1=1 2=1.000000e+00
+ExpandDims       /dafnet/Unsqueeze_106    2 1 /dafnet/Sub_38_output_0 /dafnet/Constant_22_output_0_splitncnn_1 /dafnet/Unsqueeze_106_output_0 -23303=0
+ExpandDims       /dafnet/Unsqueeze_107    2 1 /dafnet/Sub_39_output_0 /dafnet/Constant_22_output_0_splitncnn_0 /dafnet/Unsqueeze_107_output_0 -23303=0
+Concat           /dafnet/Concat_62        2 1 /dafnet/Unsqueeze_106_output_0 /dafnet/Unsqueeze_107_output_0 /dafnet/Concat_62_output_0 0=-1
+GridSample       /dafnet/GridSample_34    2 1 /dafnet/GridSample_30_output_0_splitncnn_0 /dafnet/Concat_61_output_0 /dafnet/GridSample_34_output_0
+GridSample       /dafnet/GridSample_35    2 1 /dafnet/GridSample_32_output_0_splitncnn_0 /dafnet/Concat_62_output_0 /dafnet/GridSample_35_output_0
+Interp           /dafnet/Resize_16        1 1 /dafnet/GridSample_34_output_0 /dafnet/Resize_16_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Interp           /dafnet/Resize_17        1 1 /dafnet/GridSample_35_output_0 /dafnet/Resize_17_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Crop             /dafnet/Slice_99         3 1 /dafnet/Softmax_14_output_0_splitncnn_1 /dafnet/Constant_1_output_0_splitncnn_-85 /dafnet/Constant_1_output_0_splitncnn_-86 /dafnet/Slice_99_output_0 -23309=1,0 -23310=1,6 -23311=1,0
+Interp           /dafnet/Resize_18        1 1 /dafnet/Slice_99_output_0 /dafnet/Resize_18_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Crop             /dafnet/Slice_100        3 1 /dafnet/Softmax_14_output_0_splitncnn_0 /dafnet/Constant_1_output_0_splitncnn_-87 /dafnet/Constant_1_output_0_splitncnn_-88 /dafnet/Slice_100_output_0 -23309=1,6 -23310=1,2147483647 -23311=1,0
+Interp           /dafnet/Resize_19        1 1 /dafnet/Slice_100_output_0 /dafnet/Resize_19_output_0 0=2 1=2.000000e+00 2=2.000000e+00 3=0 4=0 6=0
+Interp           /dafnet/Resize_20        1 1 /dafnet/Resize_17_output_0 /dafnet/Resize_20_output_0 0=2 1=1.000000e+00 2=1.000000e+00 3=256 4=192 6=0
+Interp           /dafnet/Resize_21        -1 1 /dafnet/Resize_16_output_0 /dafnet/Resize_21_output_0 0=2 1=1.000000e+00 2=1.000000e+00 3=256 4=192 6=0
+Interp           /dafnet/Resize_22        -1 1 /dafnet/Resize_18_output_0 /dafnet/Resize_22_output_0 0=2 1=1.000000e+00 2=1.000000e+00 3=256 4=192 6=0
+Interp           /dafnet/Resize_23        -1 1 /dafnet/Resize_19_output_0 /dafnet/Resize_23_output_0 0=2 1=1.000000e+00 2=1.000000e+00 3=256 4=192 6=0
+Convolution      /dafnet/lights_encoder/lights_encoder.0/Conv 1 1 input_person_splitncnn_0 /dafnet/lights_encoder/lights_encoder.0/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=864
+ReLU             /dafnet/lights_encoder/lights_encoder.1/LeakyRelu 1 1 /dafnet/lights_encoder/lights_encoder.0/Conv_output_0 /dafnet/lights_encoder/lights_encoder.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/lights_encoder/lights_encoder.2/Conv 1 1 /dafnet/lights_encoder/lights_encoder.1/LeakyRelu_output_0 /dafnet/lights_encoder/lights_encoder.2/Conv_output_0 0=64 1=1 11=1 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=2048
+Convolution      /dafnet/lights_encoder/lights_encoder.0_1/Conv 1 1 input_clothes_splitncnn_0 /dafnet/lights_encoder/lights_encoder.0_1/Conv_output_0 0=32 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=864
+ReLU             /dafnet/lights_encoder/lights_encoder.1_1/LeakyRelu 1 1 /dafnet/lights_encoder/lights_encoder.0_1/Conv_output_0 /dafnet/lights_encoder/lights_encoder.1_1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/lights_encoder/lights_encoder.2_1/Conv 1 1 /dafnet/lights_encoder/lights_encoder.1_1/LeakyRelu_output_0 /dafnet/lights_encoder/lights_encoder.2_1/Conv_output_0 0=64 1=1 11=1 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=2048
+ExpandDims       /dafnet/Unsqueeze_108    2 1 /dafnet/Resize_23_output_0 /dafnet/Constant_24_output_0_splitncnn_1 /dafnet/Unsqueeze_108_output_0 -23303=0
+Tile             /dafnet/Tile_28          2 1 /dafnet/Unsqueeze_108_output_0 /dafnet/Constant_762_output_0_splitncnn_1 /dafnet/Tile_28_output_0
+Reshape          /dafnet/Reshape_66       1 1 /dafnet/Tile_28_output_0 /dafnet/Reshape_66_output_0 0=192 1=256 2=-1
+ExpandDims       /dafnet/Unsqueeze_109    2 1 /dafnet/lights_encoder/lights_encoder.2/Conv_output_0 /dafnet/Constant_1_output_0_splitncnn_-89 /dafnet/Unsqueeze_109_output_0 -23303=0
+Tile             /dafnet/Tile_29          2 1 /dafnet/Unsqueeze_109_output_0 /dafnet/Constant_34_output_0_splitncnn_1 /dafnet/Tile_29_output_0
+Reshape          /dafnet/Reshape_67       1 1 /dafnet/Tile_29_output_0 /dafnet/Reshape_67_output_0 0=192 1=256 2=64
+Permute          /dafnet/Transpose_18     1 1 /dafnet/Resize_21_output_0 /dafnet/Transpose_18_output_0 0=3
+GridSample       /dafnet/GridSample_36    2 1 /dafnet/Reshape_67_output_0 /dafnet/Transpose_18_output_0 /dafnet/GridSample_36_output_0
+Reshape          /dafnet/Reshape_68       1 1 /dafnet/GridSample_36_output_0 /dafnet/Reshape_68_output_0 0=192 1=256 2=-1
+BinaryOp         /dafnet/Mul_18           2 1 /dafnet/Reshape_68_output_0 /dafnet/Reshape_66_output_0 /dafnet/Mul_18_output_0 0=2
+Slice            /dafnet/Split_18         2 6 /dafnet/Mul_18_output_0 /dafnet/Constant_780_output_0_splitncnn_1 /dafnet/Split_18_output_0 /dafnet/Split_18_output_1 /dafnet/Split_18_output_2 /dafnet/Split_18_output_3 /dafnet/Split_18_output_4 /dafnet/Split_18_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_147          2 1 /dafnet/Split_18_output_0 /dafnet/Split_18_output_1 /dafnet/Add_147_output_0 0=0
+BinaryOp         /dafnet/Add_148          2 1 /dafnet/Add_147_output_0 /dafnet/Split_18_output_2 /dafnet/Add_148_output_0 0=0
+BinaryOp         /dafnet/Add_149          2 1 /dafnet/Add_148_output_0 /dafnet/Split_18_output_3 /dafnet/Add_149_output_0 0=0
+BinaryOp         /dafnet/Add_150          2 1 /dafnet/Add_149_output_0 /dafnet/Split_18_output_4 /dafnet/Add_150_output_0 0=0
+BinaryOp         /dafnet/Add_151          2 1 /dafnet/Add_150_output_0 /dafnet/Split_18_output_5 /dafnet/Add_151_output_0 0=0
+ExpandDims       /dafnet/Unsqueeze_110    2 1 /dafnet/Resize_22_output_0 /dafnet/Constant_24_output_0_splitncnn_0 /dafnet/Unsqueeze_110_output_0 -23303=0
+Tile             /dafnet/Tile_30          2 1 /dafnet/Unsqueeze_110_output_0 /dafnet/Constant_762_output_0_splitncnn_0 /dafnet/Tile_30_output_0
+Reshape          /dafnet/Reshape_69       1 1 /dafnet/Tile_30_output_0 /dafnet/Reshape_69_output_0 0=192 1=256 2=-1
+ExpandDims       /dafnet/Unsqueeze_111    2 1 /dafnet/lights_encoder/lights_encoder.2_1/Conv_output_0 /dafnet/Constant_1_output_0_splitncnn_-90 /dafnet/Unsqueeze_111_output_0 -23303=0
+Tile             /dafnet/Tile_31          2 1 /dafnet/Unsqueeze_111_output_0 /dafnet/Constant_34_output_0_splitncnn_0 /dafnet/Tile_31_output_0
+Reshape          /dafnet/Reshape_70       1 1 /dafnet/Tile_31_output_0 /dafnet/Reshape_70_output_0 0=192 1=256 2=64
+Permute          /dafnet/Transpose_19     1 1 /dafnet/Resize_20_output_0 /dafnet/Transpose_19_output_0 0=3
+GridSample       /dafnet/GridSample_37    2 1 /dafnet/Reshape_70_output_0 /dafnet/Transpose_19_output_0 /dafnet/GridSample_37_output_0
+Reshape          /dafnet/Reshape_71       1 1 /dafnet/GridSample_37_output_0 /dafnet/Reshape_71_output_0 0=192 1=256 2=-1
+BinaryOp         /dafnet/Mul_19           2 1 /dafnet/Reshape_71_output_0 /dafnet/Reshape_69_output_0 /dafnet/Mul_19_output_0 0=2
+Slice            /dafnet/Split_19         2 6 /dafnet/Mul_19_output_0 /dafnet/Constant_780_output_0_splitncnn_0 /dafnet/Split_19_output_0 /dafnet/Split_19_output_1 /dafnet/Split_19_output_2 /dafnet/Split_19_output_3 /dafnet/Split_19_output_4 /dafnet/Split_19_output_5 -23300=6,-233,-233,-233,-233,-233,-233 1=0
+BinaryOp         /dafnet/Add_153          2 1 /dafnet/Split_19_output_0 /dafnet/Split_19_output_1 /dafnet/Add_153_output_0 0=0
+BinaryOp         /dafnet/Add_154          2 1 /dafnet/Add_153_output_0 /dafnet/Split_19_output_2 /dafnet/Add_154_output_0 0=0
+BinaryOp         /dafnet/Add_155          2 1 /dafnet/Add_154_output_0 /dafnet/Split_19_output_3 /dafnet/Add_155_output_0 0=0
+BinaryOp         /dafnet/Add_156          2 1 /dafnet/Add_155_output_0 /dafnet/Split_19_output_4 /dafnet/Add_156_output_0 0=0
+BinaryOp         /dafnet/Add_157          2 1 /dafnet/Add_156_output_0 /dafnet/Split_19_output_5 /dafnet/Add_157_output_0 0=0
+BinaryOp         /dafnet/Add_158          2 1 /dafnet/Add_151_output_0 /dafnet/Add_157_output_0 /dafnet/Add_158_output_0 0=0
+Convolution      /dafnet/lights_decoder/lights_decoder.0/Conv 1 1 /dafnet/Add_158_output_0 /dafnet/lights_decoder/lights_decoder.0/Conv_output_0 0=32 1=1 11=1 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=2048
+ReLU             /dafnet/lights_decoder/lights_decoder.1/LeakyRelu 1 1 /dafnet/lights_decoder/lights_decoder.0/Conv_output_0 /dafnet/lights_decoder/lights_decoder.1/LeakyRelu_output_0 0=1.000000e-01
+Convolution      /dafnet/lights_decoder/lights_decoder.2/Conv 1 1 /dafnet/lights_decoder/lights_decoder.1/LeakyRelu_output_0 output 0=3 1=3 11=3 2=1 12=1 3=1 13=1 4=1 14=1 15=1 16=1 5=1 6=864

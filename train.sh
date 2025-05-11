@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python never_parse_ds_train_SDANet_viton.py -ft

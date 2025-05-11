@@ -32,9 +32,9 @@ def get_opt():
     parser.add_argument('--shuffle', action='store_true')
     parser.add_argument('--add_compare', type=int,default=0)
     # parser.add_argument('--dataset_dir', type=str, default='data')
-    parser.add_argument('--dataset_imgpath', type=str, default='data/VITON/VITON_test')
+    parser.add_argument('--dataset_imgpath', type=str, default='data/VITON/VITON/VITON_test')
     parser.add_argument('--dataset_list', type=str, default=r'data/VITON/test_any.txt')
-    parser.add_argument('--checkpoint_dir', type=str, default=r'checkpoint/original_model/original_model1.pt')
+    parser.add_argument('--checkpoint_dir', type=str, default=r'checkpoint/original_model/original_model.pt')
     parser.add_argument('--save_dir', type=str, default='./results/')
     parser.add_argument('--multi_flows', type=int, default=6)
     parser.add_argument('--display_freq', type=int, default=100)
@@ -47,11 +47,11 @@ def test(opt, net,save_dir='./results/'):
     with torch.no_grad():
         for i, inputs in enumerate(tqdm.tqdm(test_loader)):
             img_names = inputs['img_name']
-            cloth_names = inputs['c_name']['paired']
+            cloth_names = inputs['c_name']['unpaired']
             img = inputs['img'].cuda()
             img_agnostic = inputs['img_agnostic'].cuda() #Masked model image
             pose = inputs['pose'].cuda()
-            cloth_img = inputs['cloth']['paired'].cuda()
+            cloth_img = inputs['cloth']['unpaired'].cuda()
             img =  F.interpolate(img, size=(256, 192), mode='bilinear')
             cloth_img = F.interpolate(cloth_img, size=(256, 192), mode='bilinear')
             img_agnostic = F.interpolate(img_agnostic, size=(256, 192), mode='bilinear')
@@ -84,6 +84,7 @@ def main():
 
     # sdafnet = sdafnet.cuda()
     sdafnet.load_state_dict(torch.load(opt.checkpoint_dir),strict=False)
+
     # sdafnet.load_state_dict(torch.load(opt.checkpoint_dir)['state_dict'],strict=False)
     sdafnet.eval()
     test(opt, sdafnet)

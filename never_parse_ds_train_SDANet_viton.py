@@ -24,7 +24,7 @@ def get_opt():
     parser.add_argument('--name', type=str, default='VITON')
     parser.add_argument('-b', '--batch_size', type=int, default=2)
     parser.add_argument('--lr', type=float, default=0.00002)
-    parser.add_argument('--ratio', type=float, default=0.5)
+    parser.add_argument('--ratio', type=float, default=0.25)
     parser.add_argument('-j', '--workers', type=int, default=4)
     parser.add_argument('--load_height', type=int, default=256)
     parser.add_argument('--load_width', type=int, default=192)
@@ -43,7 +43,8 @@ def get_opt():
     parser.add_argument('--multi_flows', type=int, default=6)
     parser.add_argument('--alpha', type=float, default=0.3)
     parser.add_argument('--temperture', type=int, default=1)
-
+    parser.add_argument('-ft','--freeze_teacher', action='store_true',
+                        help='If set, freezes the teacher network parameters during training')
     opt = parser.parse_args()
     return opt
 
@@ -62,7 +63,7 @@ def train(opt,teacher_model ,student_model):
     epoches = 200
     iterations = 0
     # torch.save(net.state_dict(), "savemodel.pt")
-    parmcage = f'pf_b_{opt.batch_size}l{opt.lr}_0.5_'
+    parmcage = f'pf_b_{opt.batch_size}l{opt.lr}m_35'
     save_dir = f'results/{parmcage}'
     if not os.path.exists(save_dir):
         os.mkdir(save_dir)
@@ -186,16 +187,26 @@ def main():
         os.makedirs(os.path.join(opt.save_dir, opt.name))
         os.makedirs(os.path.join(opt.save_dir, opt.name,'log_sample'))
 
-    teacher_model = SDAFNet_Tryon(ref_in_channel=6)  # 网络
+    # 加载教师模型
+    teacher_model = SDAFNet_Tryon(ref_in_channel=6)
     teacher_model = teacher_model.cuda()
     teacher_model.load_state_dict(torch.load("./checkpoint/model.pt"))
 
+    # 根据选项决定是否固定教师网络的参数
+    if opt.freeze_teacher:
+        print("=========================固定教师网络参数===============================")
+        for param in teacher_model.parameters():
+            param.requires_grad = False
+    else:
+        print("=========================更新教师网络参数===============================")
+
+    # 初始化学生模型
     student_model = NPDNet()
     student_model = student_model.cuda()
     student_model.train()
 
-
-    train(opt, teacher_model,student_model)
+    # 开始训练
+    train(opt, teacher_model, student_model)
 
 
 
