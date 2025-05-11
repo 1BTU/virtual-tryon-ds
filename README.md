@@ -1,88 +1,54 @@
-# Single Stage Virtual Try-on via Deformable Attention Flows
-
-**Official code for ECCV2022 paper "[Single Stage Virtual Try-on via Deformable Attention Flows](https://arxiv.org/abs/2207.09161)"**
-
-<p align="center">
-    <br>
-    <img src="figs/fig1.jpg" width="800" />
-    <br>
-<p>
-
-We propose a single-stage try-on framework by developing a novel Deformable Attention Flow (DAFlow), which applies the deformable attention scheme to multi-flow estimation. With pose keypoints as the guidance only, the self- and cross-deformable attention flows are estimated for the reference person and the garment images, respectively. By sampling multiple flow fields, the feature-level and pixel-level information from different semantic areas are simultaneously extracted and merged through the attention mechanism. It enables clothes warping and body synthesizing at the same time which leads to photo-realistic results in an end-to-end manner.
+# 基于知识蒸馏的轻量化虚拟试衣研究与实现
 
 
-## Prepare
 
-- Datasets: [Train_data](https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/VITON_train.tar) [Test_data](https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/VITON_test.tar), put the folders into `data/VITON`
-- Checkpoints: [ckpt_viton.pt](https://ofa-beijing.oss-cn-beijing.aliyuncs.com/checkpoints/ckpt_viton.pt)
-- python 3.6
-- pytorch1.7
-- torchvision 0.8
+![输入图片说明](https://foruda.gitee.com/images/1726367703561225980/37e2049f_10916458.png "屏幕截图")
 
-The data process scripts in `data/data_process`, the original data is from [CPVTON-plus](https://github.com/minar09/cp-vton-plus/). Unzip the `viton_plus.zip` from CPVTON-plus.
+现有大部分虚拟试衣技术通常依赖人体解析，并且模型参数量较大，限制了其在实际应用中的效率和便利性。针对这些问题，本文提出了一种无解析器的轻量化虚拟试衣方法，为了降低对人体解析的依赖，采用"教师-导师-学生"知识蒸馏框架，其中SD-AFN充当教师网络。通过在线蒸馏技术替换传统的静态蒸馏方法，实现了对轻量化学生网络的同步训练，在保证试衣效果的同时减少了计算资源的消耗。
 
-Drawing img_agnostic: 
-`python get_img_agnostic.py --data_path img_path --data_txt data.txt`
+## 准备工作
 
-Drawing skeleton img (json file as the openpose format):
-`python draw_keypoints.py --json_path json_files_path --save_path save_path`
+- 数据集:[Train_data](https://pan.baidu.com/s/12To-zP4A0H7pGNOFRlDyaA?pwd=nbew ) [Test_data](https://pan.baidu.com/s/13Bom6LHcVoBAo3b5msBUKA?pwd=0pox), put the folders into `data/VITON`
+- 权重: [ckpt_viton.pt](https://pan.baidu.com/s/1x99f-sR62gGNGu7EHpcCzg?pwd=je5k),由于实验需要调整模型的大小，不同的模型需要不同的代码进行调整网络层，因此我将每个模型所需要的代码放入相关的checkpoint文件夹当中，在使用模型时需要将对应文件夹中的**never_parse_ds_studentmodel.py**文件拷贝到**models / never_parse_ds_studentmodel.py**中。
+- python 3.8.0
+- pytorch1.9
+- torchvision 0.10.0
 
-## Inference
+##  推理
 
-Paired setting: In the paired setting, we have ground truth images.
+在推理时，推荐使用**pf_b_2l2e-05m_35_freeze.pt**或者**pf_b_2l2e-05m_35.pt**
 
-`python -u test_SDAFNet_viton.py -b 8 --name TEST_PAIR --mode test --dataset_list VITON/test_pairs.txt`
-
-Unpaired setting: In the unpaired setting, we do not have ground truth images. The `test_unpairs.txt` is same with [CPVTON-plus](https://github.com/minar09/cp-vton-plus/blob/master/data/test_pairs.txt) and [PFAFN](https://github.com/geyuying/PF-AFN)
-
-`python -u test_SDAFNet_viton.py -b 8 --name TEST_UNPAIR --mode test --dataset_list VITON/test_unpairs.txt`
+```
+python never_parse_ds_test_SDAFNet_viton.py
+```
 
 ## Train
-`python  train_SDAFNet_viton.py -b 8 --name VITON`
 
-## Evaluation
+在训练时，需要下载[原始权重](https://pan.baidu.com/s/1x3WN_tB2yTdY4VcbeZ_IYQ?pwd=cpna )到**checkpoint/**路径中来指导学生网络训练。
+
+```
+python never_parse_ds_train_SDANet_viton.py -b 2 --lr 0.00002 --ratio 0.25 
+```
+
+
+
+## 结果
+
 - VITON dataset
 
-Download the [checkpoint](https://www.mde),  which gets higher scores than reported in paper.
+实验结果表明，该算法在无人体解析的条件下能够保持SDAFN模型精度，并将其参数量和计算量，分别降低了61.46%和75.92%。此外，在CPU上的推理速度提升了20%。
 
-Paired setting. SSIM: 0.8539 using the pytorch SSIM repo. https://github.com/Po-Hsun-Su/pytorch-ssim
+| **Model**      | **Flops** | **params** | **FID(↓)** | **SSIM(↑)** | **PSNR(↑)** | **IS(↑)** | **time** |
+| -------------- | --------- | ---------- | ---------- | ----------- | ----------- | --------- | -------- |
+| SD-AFN         | 24879.95M | 37.63M     | 7.729      | 0.839       | 23.487      | 2.755     | 1.51     |
+| HybridVTON     | 10887.92M | 15.84M     | 10         | 0.825       | 22.324      | 2.715     | 1.221    |
+| HybridVTON0.25 | 9588.73M  | 9.06M      | 10.221     | 0.823       | 22.217      | 2.724     | 1.193    |
+| HybridVTON0.5  | 9710.63M  | 10.34M     | 9.558      | 0.842       | 22.881      | 2.738     | 1.204    |
 
-UnPaired setting. FID: 10.55 using the implementation to evaluate. https://github.com/toshas/torch-fidelity
+---
 
-## Results
-- VITON dataset
+## **感谢**
 
-<p align="center">
-    <br>
-    <img src="figs/sota.jpg" width="800" />
-    <br>
-<p>
-
-- MPV dataset
-
-<p align="center">
-    <br>
-    <img src="figs/mpv.jpg" width="800" />
-    <br>
-<p>
-
-- FashionVideo
-
-<p align="center">
-    <br>
-    <img src="figs/fashion.gif" width="500" />
-    <br>
-<p>
-
-- ShapeNet
-
-<p align="center">
-    <br>
-    <img src="figs/shapenet.jpg" width="800" />
-    <br>
-<p>
-
-## Acknowledgement
-Our code references the implementation of [ClotFlow](https://openaccess.thecvf.com/content_ICCV_2019/papers/Han_ClothFlow_A_Flow-Based_Model_for_Clothed_Person_Generation_ICCV_2019_paper.pdf) and [PFAPN](https://github.com/geyuying/PF-AFN), including the feature extractors, feature pyramid networks (FPN) , and the design of the cascaded structure. Thanks for their awesome works.
+我们的代码参考了[DAFlow](https://github.com/OFA-Sys/DAFlow?tab=readme-ov-file)中的多级联网络和[PF-AFN](https://github.com/geyuying/PF-AFN)知识蒸馏技术。感谢他们的精彩工作。
 ## License
-The use of this code is RESTRICTED to non-commercial research and educational purposes.
+此代码的使用仅限于非商业研究和教育目的。
