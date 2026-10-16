@@ -8,7 +8,6 @@ import numpy as np
 import random
 
 
-from tensorboardX import SummaryWriter
 def apply_offset(offset):
     sizes = list(offset.size()[2:])
     grid_list = torch.meshgrid([torch.arange(size, device=offset.device) for size in sizes])
@@ -316,8 +315,6 @@ class NPDNet(nn.Module):
         result = self.dafnet(clothes_img, person_img, source_feats, reference_feats, use_light_en_de=use_light_en_de, return_all=return_all, warp_feature=warp_feature)
         return result
 
-from torchviz import make_dot
-import netron
 if __name__ == '__main__':
     # path = 'F:\学习\服创\pruning model\DAFlow\model.pt'
     # netron.start(path)

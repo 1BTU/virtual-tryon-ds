@@ -22,6 +22,37 @@
 python never_parse_ds_test_SDAFNet_viton.py
 ```
 
+### 批量推理优化
+
+推理入口支持 `--device auto|cpu|cuda`，默认自动选择设备，并在评估模式和
+`torch.no_grad()` 下运行。批量任务不再逐张弹窗，仅加载人物与目标服装，
+无需 `vis_pose`、`img_agnostic` 或配对服装图片；训练数据加载器保持原样。
+原有图像缩放、归一化与模型输入顺序保持兼容，模型输入固定为 256×192。
+
+```bash
+python never_parse_ds_test_SDAFNet_viton.py \
+  --device auto --batch_size 4 --workers 4 \
+  --dataset_imgpath data/VITON/VITON_test \
+  --dataset_list data/VITON/test_any.txt \
+  --checkpoint_dir checkpoint/pf_b_2l2e-05m_35/pf_b_2l2e-05m_35_data.pt
+```
+
+数据根目录应包含 `test_img/<人物文件名>` 和 `clothes/<服装文件名>`，
+配对列表每行是两个以空格分隔的文件名。CPU 或 Windows 调试时可使用
+`--device cpu --workers 0`。增大 batch_size 会增加内存/显存占用；同一批次的
+源图片应有一致宽高比。输出目录为 `results/TEST_PAIR/vis_viton_out`，
+`--add_compare` 可保存“人物、服装、试衣结果”的横向对比图。
+
+权重文件不会随仓库自动下载。此入口接收可信来源的完整 `nn.Module` 检查点，
+不直接接收 `state_dict`；仍需按前文说明使用与权重匹配的模型定义。
+此轮改动不包含重新训练，真实模型的速度、显存和图像指标需使用权重与数据集实测。
+
+安装匹配的 PyTorch/torchvision 后，可运行不需要真实权重或 VITON 数据的回归测试：
+
+```bash
+python -m unittest discover -s tests -v
+```
+
 ## Train
 
 在训练时，需要下载[原始权重](https://pan.baidu.com/s/1x3WN_tB2yTdY4VcbeZ_IYQ?pwd=cpna )到**checkpoint/**路径中来指导学生网络训练。
